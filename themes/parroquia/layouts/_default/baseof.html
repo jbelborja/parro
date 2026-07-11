@@ -1,3 +1,4 @@
+cat << 'EOF' > themes/parroquia/layouts/_default/baseof.html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -55,77 +56,74 @@
 </head>
 <body>
 
-    <!-- CABECERA CON LOGO Y MENÚ -->
-    <header class="site-header">
-        <a href="{{ "" | relURL }}" class="logo-container">
-            <img src="{{ "images/logo.png" | relURL }}" alt="Logo Parroquia" onError="this.style.display='none';">
-            <div class="logo-text">
-                <h1>{{ .Site.Title }}</h1>
-                <p>Comunidad Parroquial y Archidiócesis</p>
-            </div>
-        </a>
-        <nav>
+<!-- CABECERA CON LOGO Y MENÚ -->
+<header class="site-header">
+    <a href="{{ site.BaseURL }}" class="logo-container">
+        <img src="{{ "images/logo.png" | absURL }}" alt="Logo Parroquia" onError="this.style.display='none';">
+        <div class="logo-text">
+            <h1>{{ .Site.Title }}</h1>
+            <p>Comunidad Parroquial y Archidiócesis</p>
+        </div>
+    </a>
+    <nav>
+        <ul>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+            <a href="{{ .URL | absURL }}">{{ .Name }} ▾</a>
             <ul>
-                {{ $currentPage := . }}
-                {{ range .Site.Menus.main }}
-                    {{ if .HasChildren }}
-                        <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
-                            <a href="{{ .URL | relURL }}">{{ .Name }} ▾</a>
-                            <ul>
-                                {{ range .Children }}
-                                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                                {{ end }}
-                            </ul>
-                        </li>
-                    {{ else }}
-                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                            <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-                        </li>
-                    {{ end }}
+                {{ range .Children }}
+                <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
                 {{ end }}
             </ul>
-        </nav>
-    </header>
+            </li>
+            {{ else }}
+            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+    </nav>
+</header>
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main>
-        {{ block "main" . }}{{ end }}
-    </main>
+<!-- CONTENIDO PRINCIPAL -->
+<main>
+    {{ block "main" . }}{{ end }}
+</main>
 
-    <!-- PIE DE PÁGINA (MÓDULOS DEL FOOTER ORIGINAL) -->
-    <footer class="site-footer">
-        <div class="footer-grid">
-            <!-- Módulo 1: Contacto -->
-            <div class="footer-col">
-                <h4>Contacto</h4>
-                <p>📍 Dirección de la Parroquia</p>
-                <p>📞 Teléfono: 91X XX XX XX</p>
-                <p>✉️ Email: info@la-vid.org</p>
-                <p>⏰ Despacho: Lunes a Viernes de 18:00 a 20:00h</p>
-            </div>
-            
-            <!-- Módulo 2: Enlaces de Interés -->
-            <div class="footer-col">
-                <h4>Enlaces de Interés</h4>
-                <ul>
-                    <li><a href="https://www.vatican.va" target="_blank" rel="noopener">El Vaticano</a></li>
-                    <li><a href="https://www.archimadrid.org" target="_blank" rel="noopener">Archidiócesis</a></li>
-                    <li><a href="https://www.caritas.es" target="_blank" rel="noopener">Cáritas Española</a></li>
-                    <li><a href="#">Horario de Misas completas</a></li>
-                </ul>
-            </div>
-
-            <!-- Módulo 3: Información Legal / Notas -->
-            <div class="footer-col">
-                <h4>Parroquia de La Vid</h4>
-                <p>Bienvenido al portal web de nuestra comunidad. Un espacio para mantenerte informado sobre la vida parroquial, sacramentos, actividades y servicios pastorales.</p>
-            </div>
+<!-- PIE DE PÁGINA (MÓDULOS DEL FOOTER ORIGINAL) -->
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div class="footer-col">
+            <h4>Contacto</h4>
+            <p>📍 Dirección de la Parroquia</p>
+            <p>📞 Teléfono: 91X XX XX XX</p>
+            <p>✉️ Email: info@la-vid.org</p>
+            <p>⏰ Despacho: Lunes a Viernes de 18:00 a 20:00h</p>
         </div>
-        
-        <div class="footer-bottom">
-            <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. Todos los derechos reservados.</p>
+
+        <div class="footer-col">
+            <h4>Enlaces de Interés</h4>
+            <ul>
+                <li><a href="https://www.vatican.va" target="_blank" rel="noopener">El Vaticano</a></li>
+                <li><a href="https://www.archimadrid.org" target="_blank" rel="noopener">Archidiócesis</a></li>
+                <li><a href="https://www.caritas.es" target="_blank" rel="noopener">Cáritas Española</a></li>
+            </ul>
         </div>
-    </footer>
+
+        <div class="footer-col">
+            <h4>Parroquia de La Vid</h4>
+            <p>Bienvenido al portal web de nuestra comunidad. Un espacio para mantenerte informado sobre la vida parroquial, sacramentos, actividades y servicios pastorales.</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. Todos los derechos reservados.</p>
+    </div>
+</footer>
 
 </body>
 </html>
+EOF
