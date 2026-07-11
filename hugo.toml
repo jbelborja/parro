@@ -5,6 +5,11 @@ languageCode = 'es-es'
 title = 'Parroquia La Vid'
 theme = 'parroquia'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [[menu.main]]
   name = "🏠 Inicio"
   url = "/"
