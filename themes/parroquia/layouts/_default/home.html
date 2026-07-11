@@ -1,7 +1,9 @@
 {{ define "main" }}
 
 <!-- 1. RENDERIZAR CARRUSEL -->
-{{ with (.Site.GetPage "/home-modules").Resources.GetMatch "1-carrusel.md" }}
+{{ $carousel := (.Site.GetPage "/home-modules").Resources.GetMatch "*1-carrusel*" }}
+{{ if not $carousel }}{{ $carousel = .Site.GetPage "/home-modules/1-carrusel.md" }}{{ end }}
+{{ with $carousel }}
 <div class="carousel-container">
     <div class="carousel">
         {{ range $index, $slide := .Params.slides }}
