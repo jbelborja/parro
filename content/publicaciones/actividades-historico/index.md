@@ -1,0 +1,70 @@
+---
+title: "LaVid - HISTORICO"
+date: 2026-07-08T00:00:00Z
+draft: false
+---
+
+[![LaVid](logo.png)](/)
+
+__
+
+Cantidad a mostrar  5 10 15 20 25 30 50 100 Todos
+
+Tabla de artículos  Título  
+---  
+[ El Credo en el Arte ](/actividades/historico/125-el-credo-en-el-arte)  
+  
+  * __[916521335](tel:916521335)
+  *  __[628569997](tel:628569997)
+  *  __[parroquialavid@archimadrid.es](mailto:parroquialavid@archimadrid.es)
+
+© 2026 Your Company. All Rights Reserved. Designed By JoomShaper
+
+  * [ __](https://www.facebook.com/ParroquiaLaVid)
+  * [](https://twitter.com/LaVidSanse)
+
+
+
+__
+
+###### Menú Principal
+
+  * [ INICIO](/)
+  * [ LA PARROQUIA](/la-parroquia) ____
+    * [CONSEJO PASTORAL](/la-parroquia/consejo-pastoral)
+    * [ CARITAS](/la-parroquia/caritas)
+    * [ QUIENES SOMOS](/la-parroquia/quiens)
+    * [ IDEARIO](/la-parroquia/ideario)
+    * [ NECESITAMOS TU AYUDA](/la-parroquia/necesitamos-tu-ayuda)
+    * OTROS ENLACES ____
+      * [ CONFERENCIA EPISCOPAL ESPAÑOLA](https://www.conferenciaepiscopal.es/)
+      * [ ORDEN DE SAN AGUSTIN](HTTPS://AGUSTINOS.ES)
+      * [ ARCHIDIÓCESIS DE MADRID](https://www.archimadrid.org/index.php)
+      * [ VATICANO](https://www.vatican.va/content/vatican/es.html)
+    * [ EVANGELIOS](/la-parroquia/evangelios)
+  * NOTICIAS ____
+    * [TOMA Y LEE](/noticias/toma-y-lee)
+    * [ Actual](/noticias/actual)
+  * [ SACRAMENTOS](/sacramentos) ____
+    * [BAUTISMO](/sacramentos/bautismo)
+    * [ COMUNION](/sacramentos/comunion)
+    * [ CONFIRMACION](/sacramentos/confirmacion)
+    * [ MATRIMONIO](/sacramentos/matrimonio)
+    * [ RECONCILIACIÓN](/sacramentos/reconciliacion)
+    * [ UNCIÓN DE LOS ENFERMOS](/sacramentos/uncion-de-los-enfermos)
+  * [ ACTIVIDADES](/actividades) ____
+    * [TIEMPOS LITURGICOS](/actividades/tiempos-liturgicos) ____
+      * [NAVIDAD](/actividades/tiempos-liturgicos/navidad)
+      * [ ADVIENTO](/actividades/tiempos-liturgicos/adviento)
+      * [ CUARESMA](/actividades/tiempos-liturgicos/cuaresma)
+      * [ SEMANA SANTA Y PASCUA](/actividades/tiempos-liturgicos/semana-santa)
+    * [ CINEFORUM](/actividades/cineforum)
+    * [ HISTORICO](/actividades/historico) ____
+      * [CELEBRACION DE LOS 50 AÑOS DE LA IGLESIA](/actividades/historico/celebracion-de-los-50-anos-de-la-iglesia)
+      * [ PANTALLA DEL ATRIO](/actividades/historico/pantalla-del-atrio)
+    * [ JÓVENES](/actividades/jovenes)
+    * [ FAMILIAS JOVENES](/actividades/familias-jovenes)
+
+
+
+[ ](javascript:void\(0\))

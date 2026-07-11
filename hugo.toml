@@ -1,0 +1,135 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'es-es'
+title = 'Parroquia La Vid'
+theme = 'parroquia'
+
+[[menu.main]]
+  name = "🏠 Inicio"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Actividades"
+  identifier = "actividades"
+  url = "/actividades/"
+  weight = 2
+
+[[menu.main]]
+  name = "Cineforum"
+  parent = "actividades"
+  url = "/actividades/cineforum/"
+  weight = 1
+
+[[menu.main]]
+  name = "Familias jovenes"
+  parent = "actividades"
+  url = "/actividades/familias-jovenes/"
+  weight = 1
+
+[[menu.main]]
+  name = "Historico"
+  parent = "actividades"
+  url = "/actividades/historico/"
+  weight = 1
+
+[[menu.main]]
+  name = "Jovenes"
+  parent = "actividades"
+  url = "/actividades/jovenes/"
+  weight = 1
+
+[[menu.main]]
+  name = "Tiempos liturgicos"
+  parent = "actividades"
+  url = "/actividades/tiempos-liturgicos/"
+  weight = 1
+
+[[menu.main]]
+  name = "La parroquia"
+  identifier = "la-parroquia"
+  url = "/la-parroquia/"
+  weight = 3
+
+[[menu.main]]
+  name = "Caritas"
+  parent = "la-parroquia"
+  url = "/la-parroquia/caritas/"
+  weight = 1
+
+[[menu.main]]
+  name = "Consejo pastoral"
+  parent = "la-parroquia"
+  url = "/la-parroquia/consejo-pastoral/"
+  weight = 1
+
+[[menu.main]]
+  name = "Evangelios"
+  parent = "la-parroquia"
+  url = "/la-parroquia/evangelios/"
+  weight = 1
+
+[[menu.main]]
+  name = "Necesitamos tu ayuda"
+  parent = "la-parroquia"
+  url = "/la-parroquia/necesitamos-tu-ayuda/"
+  weight = 1
+
+[[menu.main]]
+  name = "Noticias"
+  identifier = "noticias"
+  url = "/noticias/"
+  weight = 4
+
+[[menu.main]]
+  name = "Actual"
+  parent = "noticias"
+  url = "/noticias/actual/"
+  weight = 1
+
+[[menu.main]]
+  name = "Toma y lee"
+  parent = "noticias"
+  url = "/noticias/toma-y-lee/"
+  weight = 1
+
+[[menu.main]]
+  name = "Sacramentos"
+  identifier = "sacramentos"
+  url = "/sacramentos/"
+  weight = 5
+
+[[menu.main]]
+  name = "Bautismo"
+  parent = "sacramentos"
+  url = "/sacramentos/bautismo/"
+  weight = 1
+
+[[menu.main]]
+  name = "Comunion"
+  parent = "sacramentos"
+  url = "/sacramentos/comunion/"
+  weight = 1
+
+[[menu.main]]
+  name = "Confirmacion"
+  parent = "sacramentos"
+  url = "/sacramentos/confirmacion/"
+  weight = 1
+
+[[menu.main]]
+  name = "Matrimonio"
+  parent = "sacramentos"
+  url = "/sacramentos/matrimonio/"
+  weight = 1
+
+[[menu.main]]
+  name = "Reconciliacion"
+  parent = "sacramentos"
+  url = "/sacramentos/reconciliacion/"
+  weight = 1
+
+[[menu.main]]
+  name = "Uncion de los enfermos"
+  parent = "sacramentos"
+  url = "/sacramentos/uncion-de-los-enfermos/"
+  weight = 1

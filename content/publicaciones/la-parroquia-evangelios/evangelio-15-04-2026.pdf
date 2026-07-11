@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-es" lang="es-es" dir="ltr">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>LaVid - INICIO - EVANGELIOS</title>
+	<link href="/templates/shaper_helix3/images/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+<link href="//fonts.googleapis.com/css?family=Orienta:regular&amp;amp;subset=latin" rel="stylesheet" />
+	<link href="/cache/com_templates/templates/shaper_helix3/dca567b70833f857064c7e77eb3fdb1d.css" rel="stylesheet" />
+	<link href="/media/com_phocamaps/css/phocamaps.css" rel="stylesheet" />
+	<link href="/media/plg_content_phocamaps/css/default.css" rel="stylesheet" />
+	<link href="/media/com_phocamaps/js/leaflet/leaflet.css" rel="stylesheet" />
+	<link href="/media/com_phocamaps/js/leaflet-awesome/leaflet.awesome-markers.css" rel="stylesheet" />
+	<link href="/media/com_phocamaps/js/leaflet-fullscreen/leaflet.fullscreen.css" rel="stylesheet" />
+	<link href="/media/com_phocamaps/js/leaflet-control-locate/L.Control.Locate.css" rel="stylesheet" />
+	<link href="/media/com_phocamaps/js/leaflet-control-locate/font-awesome.min.css" rel="stylesheet" />
+	<link href="/media/com_phocamaps/js/leaflet-search/leaflet-search.css" rel="stylesheet" />
+	<style>.simple_ical_block p[hidden]{display:none !important;}</style>
+	<style>body{font-family:Orienta, sans-serif; font-size:16px; font-weight:normal; }</style>
+	<style>h1{font-family:Orienta, sans-serif; font-size:24px; font-weight:normal; }</style>
+	<style>h2{font-family:Orienta, sans-serif; font-size:22px; font-weight:normal; }</style>
+	<style>h3{font-family:Orienta, sans-serif; font-size:20px; font-weight:normal; }</style>
+	<style>h4{font-family:Orienta, sans-serif; font-size:18px; font-weight:normal; }</style>
+	<style>h5{font-family:Orienta, sans-serif; font-size:15px; font-weight:normal; }</style>
+	<style>h6{font-family:Orienta, sans-serif; font-size:16px; font-weight:normal; }</style>
+	<style>@media (min-width: 1400px) {
+.container {
+max-width: 1140px;
+}
+}</style>
+	<style>#sp-top-bar{ background-color:#f5f5f5;color:#999999; }</style>
+	<style>#sp-bottom{ background-color:#f5f5f5;padding:100px 0px; }</style>
+<script type="application/json" class="joomla-script-options new">{"system.paths":{"root":"","rootFull":"https:\/\/la-vid.org\/","base":"","baseFull":"https:\/\/la-vid.org\/"},"csrf.token":"9bfb880feaf98b185cdc1b81b77863dc"}</script>
+	<script src="/media/system/js/core.min.js?37ffe4186289eba9c5df81bea44080aff77b9684"></script>
+	<script src="/media/vendor/bootstrap/js/bootstrap-es5.min.js?5.3.2" nomodule defer></script>
+	<script src="/media/vendor/bootstrap/js/modal.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/alert.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/button.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/carousel.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/collapse.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/dropdown.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/offcanvas.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/popover.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/scrollspy.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/tab.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/toast.min.js?5.3.2" type="module"></script>
+	<script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?647005fc12b79b3ca2bb30c059899d5994e3e34d"></script>
+	<script src="/cache/com_templates/templates/shaper_helix3/7805caef0f14f72610cc9a65ba66da2f.js"></script>
+	<script src="/media/com_phocamaps/js/leaflet/leaflet.js"></script>
+	<script src="/media/com_phocamaps/js/leaflet-awesome/leaflet.awesome-markers.js"></script>
+	<script src="/media/com_phocamaps/js/leaflet-fullscreen/Leaflet.fullscreen.js"></script>
+	<script src="/media/com_phocamaps/js/leaflet-control-locate/L.Control.Locate.min.js"></script>
+	<script src="/media/com_phocamaps/js/leaflet-omnivore/leaflet-omnivore.js"></script>
+	<script src="/media/com_phocamaps/js/leaflet-search/leaflet-search.min.js"></script>
+	<script src="/media/com_phocamaps/js/administrator/coordinates.js"></script>
+	<script>
+var sp_preloader = '0';
+</script>
+	<script>
+var sp_gotop = '1';
+</script>
+	<script>
+var sp_offanimation = 'fullScreen-top';
+</script>
+	<script>jQuery(document).ready(function() {
+var mapphocaMapPlgPM1 = L.map("phocaMapPlgPM1", {zoomControl: false,}).setView([40.5521481, -3.6360831713991675], 17);
+new L.Control.Zoom({ zoomInTitle: 'Zoom in', zoomOutTitle: 'Zoom out' }).addTo(mapphocaMapPlgPM1);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 18,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+}).addTo(mapphocaMapPlgPM1);
+var markerPlgPM1m1 = L.marker([40.55241570210229, -3.6360831713991675])
+.addTo(mapphocaMapPlgPM1);
+;
+markerPlgPM1m1.bindPopup('<div style="font-size:120%;margin: 5px 0px;font-weight:bold;">Localización de la Parroquia</div><div><p>Avenida de la Independencia 15, San Sebastián de los Reyes, Madrid </p></div>');
+var iconPlgPM1m1 = new L.AwesomeMarkers.icon({
+   icon: "circle",
+   markerColor: "blue",
+   iconColor: "#ffffff",
+   prefix: "fa",
+   spin: 0,
+   extraClasses: "",
+})
+ markerPlgPM1m1.setIcon(iconPlgPM1m1);
+mapphocaMapPlgPM1.addControl(
+	new L.Control.Fullscreen({
+		position: 'topright',
+		title: {
+			'false': 'View Fullscreen',
+			'true': 'Exit Fullscreen'
+		}
+	})
+)
+L.control.locate({
+	position: 'topright',
+	strings: {
+		'title': 'Current Position'
+	},
+	locateOptions: {
+		enableHighAccuracy: true,
+		watch: true,
+	},
+}).addTo(mapphocaMapPlgPM1);
+})</script>
+	<style type="text/css"> 
+ #sbox-window.phocadownloadplaywindow   {background-color:#fff;padding:2px} 
+ #sbox-overlay.phocadownloadplayoverlay  {background-color:#000;} 
+ </style>
+	<style type="text/css"> 
+ #sbox-window.phocadownloadpreviewwindow   {background-color:#fff;padding:2px} 
+ #sbox-overlay.phocadownloadpreviewoverlay  {background-color:#000;} 
+ </style>
+	</head>
+
+<body class="site com-phocadownload view-category no-layout no-task itemid-241 es-es ltr  layout-fluid off-canvas-menu-init">
+
+	<div class="body-wrapper">
+		<div class="body-innerwrapper">
+			<section id="sp-top-bar"><div class="container"><div class="row"><div id="sp-top1" class="col-lg-12 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+<div id="mod-custom128" class="mod-custom custom">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators"><button class="active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+<div class="carousel-inner">
+<div class="carousel-item active"><img class="d-block w-100" src="/images/imagen1.jpg" alt="Imagen 1" /></div>
+<div class="carousel-item"><img class="d-block w-100" src="/images/imagen4.jpg" alt="Imagen 4" width="1002" height="370" /></div>
+<div class="carousel-item"><img class="d-block w-100" src="/images/imagen5.jpg" alt="Imagen 5" width="1184" height="394" /></div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="visually-hidden">Anterior</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="visually-hidden">Siguiente</span> </button></div></div>
+</div></div></div></div></div></div></section><header id="sp-header"><div class="container"><div class="row"><div id="sp-logo" class="col-8 col-lg-3 "><div class="sp-column "><div class="logo"><a href="/"><img class="sp-default-logo" src="/images/headers/logo.png#joomlaImage://local-images/headers/logo.png?width=600&height=130" srcset="" alt="LaVid"></a></div></div></div><div id="sp-menu" class="col-4 col-lg-9 "><div class="sp-column ">			<a id="offcanvas-toggler" aria-label="HELIX_MENU" href="#"><i class="fa fa-bars" title="HELIX_MENU"></i></a>
+		</div></div></div></div></header><section id="sp-page-title"><div class="row"><div id="sp-title" class="col-lg-12 "><div class="sp-column "></div></div></div></section><section id="sp-main-body"><div class="container"><div class="row"><div id="sp-component" class="col-lg-12 "><div class="sp-column "><div id="system-message-container">
+			<div id="system-message">
+							<div class="alert alert-danger alert-dismissible fade show">
+										<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+
+											<h4 class="alert-heading">Error</h4>
+						<div>
+															<p>Error while downloading file File not found on server</p>
+													</div>
+									</div>
+					</div>
+	</div>
+<div id="phoca-dl-category-box" class="pd-category-view"><div class="pd-category"><div class="ph-top"><a class="btn btn-primary" title="PARROQUIA" href="/component/phocadownload/category/16-parroquia?Itemid=241" ><span class="icon-fw icon-arrow-left"></span> PARROQUIA</a></div><h3 class="ph-subheader pd-ctitle" >EVANGELIOS</h3><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio del 05.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=156:evangelio-del-05-04-2026&amp;Itemid=241" >evangelio-1.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=156:evangelio-del-05-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio del 05.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.99 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>09 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">evangelio del 8.4.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=157:evngelio-del-8-4-2026&amp;Itemid=241" >EVANGELIO-2.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=157:evngelio-del-8-4-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>evangelio del 8.4.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.48 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>09 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 13.04.2026 (Nicodemo)</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=159:evangelio-13-04-2026-nicodemo&amp;Itemid=241" >evangelio3.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=159:evangelio-13-04-2026-nicodemo&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 13.04.2026 (Nicodemo)</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>905.19 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>13 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio del 14.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=160:evangelio-del-14-04-2026&amp;Itemid=241" >p4.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=160:evangelio-del-14-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio del 14.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>914.08 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>15 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 15.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=161:evangelio-15-04-2026&amp;Itemid=241" >evangelio5.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=161:evangelio-15-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 15.04.2026</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>15 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 16.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=162:evangelio-16-04-2026&amp;Itemid=241" >evangelio6.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=162:evangelio-16-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 16.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1019.55 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>16 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 17.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=163:evangelio-17-04-2026&amp;Itemid=241" >evangelio7.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=163:evangelio-17-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 17.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.39 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>17 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio del 19.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=165:evangelio-del-19-04-2026&amp;Itemid=241" >evangelio8.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=165:evangelio-del-19-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio del 19.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.30 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>20 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 21.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=166:evangelio-21-04-2026&amp;Itemid=241" >evangelio9.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=166:evangelio-21-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 21.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>773.24 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>22 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 21.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=167:evangelio-21-04-2026&amp;Itemid=241" >evangelio9.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=167:evangelio-21-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 21.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>773.24 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>22 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 22.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=168:evangelio-22-04-2026&amp;Itemid=241" >evangelio10.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=168:evangelio-22-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 22.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>821.39 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>22 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">HECHOS DE LOS APÓSTOLES - 1</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=170:hechos-de-los-apostoles-1&amp;Itemid=241" >evangelio11.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=170:hechos-de-los-apostoles-1&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>HECHOS DE LOS APÓSTOLES - 1</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.05 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>23 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio del 24.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=171:evangelio-del-24-04-2026&amp;Itemid=241" >evangelio12.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=171:evangelio-del-24-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio del 24.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>592.91 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>24 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evamgelio del 25.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=173:evamgelio-del-25-04-2026&amp;Itemid=241" >evangelio13.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=173:evamgelio-del-25-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evamgelio del 25.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>357.01 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>25 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio14</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=174:evangelio14&amp;Itemid=241" >evangelio14.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=174:evangelio14&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio14</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>2.08 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>27 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio del 28.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=175:evangelio-del-28-04-2026&amp;Itemid=241" >evangelio15.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=175:evangelio-del-28-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio del 28.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>317.11 kB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>29 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 29.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=176:evangelio-29-04-2026&amp;Itemid=241" >evangelio16.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=176:evangelio-29-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 29.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.54 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>30 Abril 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 30.04.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=178:evangelio-30-04-2026&amp;Itemid=241" >evangelios17.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=178:evangelio-30-04-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 30.04.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.42 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>03 Mayo 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio 01.05.2026</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=179:evangelio-01-05-2026&amp;Itemid=241" >evangelio18.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=179:evangelio-01-05-2026&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio 01.05.2026</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>1.63 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>03 Mayo 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="row "><div class="col-sm-6 col-md-6"><div class="pd-filenamebox-bt"><div class="pd-title">Evangelio19</div><div class="pd-filename"><div class="pd-document16" style="background: url('https://la-vid.org/media/com_phocadownload/images/mime/16/icon-pdf.png') 0 center no-repeat;"><div class="pd-float"><a class="" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=180:evangelio19&amp;Itemid=241" >evangelio19.pdf</a></div></div></div></div>
+</div><div class="col-sm-6 col-md-6"><div class="pd-button-box-bt"><a class="btn btn-success" href="/component/phocadownload/category/16-parroquia/34-evangelios?download=180:evangelio19&amp;Itemid=241" >Download</a></div><div class="pd-button-box-bt"><a class="btn btn-info" title="<div class='pd-tooltip-box'><div class='pd-title pd-colfull'>Evangelio19</div><div class='pd-filesize-txt pd-col1'>File Size:</div><div class='pd-fl-m pd-col2'>2.05 MB</div><div class='pd-date-txt pd-col1'>Date:</div><div class='pd-fl-m pd-col2'>07 Mayo 2026</div></div>" data-bs-toggle="tooltip" data-bs-html="true">Details</a></div><div class="pd-button-box-bt"></div><div class="pd-button-box-bt"></div></div></div><div class="row pd-row2-bp"><div class="col-sm-6 col-md-6"><div class="pd-rating"></div></div><div class="col-sm-6 col-md-6"></div></div><div class="modal fade" id="pdCategoryModal" tabindex="-1" aria-labelledby="pdCategoryModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="pdCategoryModalLabel">Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe id="pdCategoryModalIframe" height="100%" frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ph-cb pd-csv-paginaton">&nbsp;</div></div><div id="phModalPlay" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="phModalPlayLabel">
+		  <div class="modal-dialog" role="document" id="phModalPlayDialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h3 class="modal-title" id="phModalPlayLabel">Play</h3>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body" id="phModalPlayBody" ></div>
+			  <div class="modal-footer"></div>
+			</div>
+		  </div>
+		</div><div id="phModalPreview" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="phModalPreviewLabel">
+		  <div class="modal-dialog" role="document" id="phModalPreviewDialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h3 class="modal-title" id="phModalPreviewLabel">Preview</h3>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body" id="phModalPreviewBody" ></div>
+			  <div class="modal-footer"></div>
+			</div>
+		  </div>
+		</div></div><div class="pd-cb">&nbsp;</div><div style="text-align:right;color:#ccc;display:block">Powered by <a href="https://www.phoca.cz/phocadownload">Phoca Download</a></div></div></div></div></div></section><section id="sp-bottom"><div class="container"><div class="row"><div id="sp-bottom1" class="col-md-6 col-lg-3 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Horario verano (desde 01-06-2026)</h3><div class="sp-module-content">
+<div id="mod-custom115" class="mod-custom custom">
+    <h5>Misas</h5>
+<h5><strong>Laborables y vísperas de festivo</strong></h5>
+<h5>9,00 20:00</h5>
+<h5><strong>Domingos y festivos</strong></h5>
+<h5>9:30, 11, 12:30, 13:30, 20:00</h5>
+<p>En julio y agosto se suprime</p>
+<p>la misa de 13.30</p>
+<h5><strong>Confesiones</strong></h5>
+<h5>Antes de cada misa o solicitar</h5>
+<h5>cuando se necesite</h5>
+<h5><strong>Despacho Parroquial</strong></h5>
+<h5>Martes a viernes a las 20:30 a 21:15</h5>
+<p> </p>
+<p> </p></div>
+</div></div></div></div><div id="sp-bottom2" class="col-md-6 col-lg-3 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Agenda</h3><div class="sp-module-content"><div id="simpleicalblock135" data-sib-id="135" class="simple_ical_block "><ul class="list-group simple-ical-widget"> <li class="list-group-item py-0"><span class="ical-date">Miércoles 8 de Julio</span><div class="ical_summary">9:00 </div><div class="ical_details" id="b135_3_6noda5rg42cmaitlm0rjd2ca8i"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><div class="ical_summary">20:00 Misa</div><div class="ical_details" id="b135_2_6g6potc964d38jp166mp8tduge"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><span class="ical-date">Jueves 9 de Julio</span><div class="ical_summary">9:00 </div><div class="ical_details" id="b135_4_6noda5rg42cmaitlm0rjd2ca8i"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><div class="ical_summary">20:00 Misa</div><div class="ical_details" id="b135_3_6g6potc964d38jp166mp8tduge"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><span class="ical-date">Viernes 10 de Julio</span><div class="ical_summary">9:00 </div><div class="ical_details" id="b135_5_6noda5rg42cmaitlm0rjd2ca8i"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><div class="ical_summary">20:00 Misa</div><div class="ical_details" id="b135_4_6g6potc964d38jp166mp8tduge"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><span class="ical-date">Sábado 11 de Julio</span><div class="ical_summary">9:00 Misa</div><div class="ical_details" id="b135_2_21jbk0hcku8v5a663da13roi8p"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><div class="ical_summary">20:00 Misa</div><div class="ical_details" id="b135_5_6g6potc964d38jp166mp8tduge"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><span class="ical-date">Domingo 12 de Julio</span><div class="ical_summary">9:30 Misa</div><div class="ical_details" id="b135_2_o2krmdcc5elq92td20oc9qatse"><span class="time"> </span><span class="time"> </span> </div></li><li class="list-group-item py-0"><div class="ical_summary">11:00 Misa (de niños)</div><div class="ical_details" id="b135_2_7iime6n5s5k1cd6itmv3unrd7p"><span class="time"> </span><span class="time"> </span> </div></li></ul><br class="clear v300" /></div></div></div></div></div><div id="sp-bottom3" class="col-md-6 col-lg-3 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Últimos Toma Y Lee</h3><div class="sp-module-content"><div class="latestnews">
+	<div itemscope itemtype="http://schema.org/Article">
+		<a href="/noticias/toma-y-lee/326-domingo-05-07-2026" itemprop="url">
+			<span itemprop="name">
+				Domingo 05.07.2026			</span>
+		</a>
+		<small>07 Julio 2026</small>
+	</div>
+	<div itemscope itemtype="http://schema.org/Article">
+		<a href="/noticias/toma-y-lee/324-domingo-28-06-2026" itemprop="url">
+			<span itemprop="name">
+				Domingo 28.06.2026			</span>
+		</a>
+		<small>07 Julio 2026</small>
+	</div>
+	<div itemscope itemtype="http://schema.org/Article">
+		<a href="/noticias/toma-y-lee/323-domingo-21-06-2026" itemprop="url">
+			<span itemprop="name">
+				Domingo 21.06.2026			</span>
+		</a>
+		<small>20 Junio 2026</small>
+	</div>
+	<div itemscope itemtype="http://schema.org/Article">
+		<a href="/noticias/toma-y-lee/320-domingo-14-06-2026" itemprop="url">
+			<span itemprop="name">
+				Domingo 14.06.2026			</span>
+		</a>
+		<small>14 Junio 2026</small>
+	</div>
+	<div itemscope itemtype="http://schema.org/Article">
+		<a href="/noticias/toma-y-lee/318-domingo-07-06-2026" itemprop="url">
+			<span itemprop="name">
+				Domingo 07.06.2026			</span>
+		</a>
+		<small>06 Junio 2026</small>
+	</div>
+</div>
+</div></div></div></div><div id="sp-bottom4" class="col-md-6 col-lg-3 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Dónde estamos</h3><div class="sp-module-content">
+<div id="mod-custom114" class="mod-custom custom">
+    <h5 style="text-align: left;"><span style="font-size: 1rem;">Avenida de la Independencia 15,</span><span style="font-size: 1rem;"> </span></h5>
+<h5 style="text-align: left;"><span style="font-size: 1rem;">San Sebastián de los Reyes, Madrid </span></h5>
+<h5 style="text-align: left;"><span style="font-size: 1rem;"><div class="phocamaps"><div class="phocamaps-box phocamaps-box-border-grey" align="center" style="margin:0;padding:0;margin-top:10px;"><div id="phocaMapPlgPM1" class="phocamaps-map" style="width:300px;height:300px"></div></div><div style="clear:both"></div></div></span></h5>
+<p> </p></div>
+</div></div></div></div></div></div></section><footer id="sp-footer"><div class="container"><div class="row"><div id="sp-footer1" class="col-lg-12 "><div class="sp-column "><ul class="sp-contact-info"><li class="sp-contact-phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:916521335">916521335</a></li><li class="sp-contact-mobile"><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:628569997">628569997</a></li><li class="sp-contact-email"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:parroquialavid@archimadrid.es">parroquialavid@archimadrid.es</a></li></ul><span class="sp-copyright">© 2026 Your Company. All Rights Reserved. Designed By JoomShaper</span><ul class="social-icons"><li><a target="_blank" href="https://www.facebook.com/ParroquiaLaVid" aria-label="facebook"><i class="fa fa-facebook"></i></a></li><li><a target="_blank" href="https://twitter.com/LaVidSanse" aria-label="twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" style="width: 13.56px;position: relative;top: -1.5px;"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a></li></ul></div></div></div></div></footer>		</div>
+	</div>
+
+	<!-- Off Canvas Menu -->
+	<div class="offcanvas-menu">
+		<a href="#" class="close-offcanvas" aria-label="Close"><i class="fa fa-remove" aria-hidden="true" title="Close"></i></a>
+		<div class="offcanvas-inner">
+							<div class="sp-module "><h6 class="sp-module-title">Menú Principal</h6><div class="sp-module-content"><ul class="nav menu">
+<li class="item-241  current"><a href="/" > INICIO</a></li><li class="item-196  active deeper parent"><a href="/la-parroquia" > LA PARROQUIA</a><span class="offcanvas-menu-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-menu-196"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-196"><li class="item-200"><a href="/la-parroquia/consejo-pastoral" > CONSEJO PASTORAL</a></li><li class="item-201"><a href="/la-parroquia/caritas" > CARITAS</a></li><li class="item-220"><a href="/la-parroquia/quiens" > QUIENES SOMOS</a></li><li class="item-221"><a href="/la-parroquia/ideario" > IDEARIO</a></li><li class="item-231"><a href="/la-parroquia/necesitamos-tu-ayuda" > NECESITAMOS TU AYUDA</a></li><li class="item-232  divider deeper parent"><a class="separator ">OTROS ENLACES</a>
+<span class="offcanvas-menu-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-menu-232"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-232"><li class="item-204">		<a  href="https://www.conferenciaepiscopal.es/"  > CONFERENCIA EPISCOPAL ESPAÑOLA</a></li><li class="item-205">		<a  href="HTTPS://AGUSTINOS.ES"  > ORDEN DE SAN AGUSTIN</a></li><li class="item-207">		<a  href="https://www.archimadrid.org/index.php"  > ARCHIDIÓCESIS DE MADRID</a></li><li class="item-206">		<a  href="https://www.vatican.va/content/vatican/es.html"  > VATICANO</a></li></ul></li><li class="item-322"><a href="/la-parroquia/evangelios" > EVANGELIOS</a></li></ul></li><li class="item-197  divider deeper parent"><a class="separator ">NOTICIAS</a>
+<span class="offcanvas-menu-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-menu-197"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-197"><li class="item-203"><a href="/noticias/toma-y-lee" > TOMA Y LEE</a></li><li class="item-315"><a href="/noticias/actual" > Actual</a></li></ul></li><li class="item-198  deeper parent"><a href="/sacramentos" > SACRAMENTOS</a><span class="offcanvas-menu-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-menu-198"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-198"><li class="item-208"><a href="/sacramentos/bautismo" > BAUTISMO</a></li><li class="item-210"><a href="/sacramentos/comunion" > COMUNION</a></li><li class="item-211"><a href="/sacramentos/confirmacion" > CONFIRMACION</a></li><li class="item-213"><a href="/sacramentos/matrimonio" > MATRIMONIO</a></li><li class="item-212"><a href="/sacramentos/reconciliacion" > RECONCILIACIÓN</a></li><li class="item-214"><a href="/sacramentos/uncion-de-los-enfermos" > UNCIÓN DE LOS ENFERMOS</a></li></ul></li><li class="item-199  deeper parent"><a href="/actividades" > ACTIVIDADES</a><span class="offcanvas-menu-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-menu-199"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-199"><li class="item-215  deeper parent"><a href="/actividades/tiempos-liturgicos" > TIEMPOS LITURGICOS</a><span class="offcanvas-menu-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-menu-215"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-215"><li class="item-316"><a href="/actividades/tiempos-liturgicos/navidad" > NAVIDAD</a></li><li class="item-317"><a href="/actividades/tiempos-liturgicos/adviento" > ADVIENTO</a></li><li class="item-318"><a href="/actividades/tiempos-liturgicos/cuaresma" > CUARESMA</a></li><li class="item-319"><a href="/actividades/tiempos-liturgicos/semana-santa" > SEMANA SANTA Y PASCUA</a></li></ul></li><li class="item-216"><a href="/actividades/cineforum" > CINEFORUM</a></li><li class="item-217  deeper parent"><a href="/actividades/historico" > HISTORICO</a><span class="offcanvas-menu-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapse-menu-217"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-217"><li class="item-320"><a href="/actividades/historico/celebracion-de-los-50-anos-de-la-iglesia" > CELEBRACION DE LOS 50 AÑOS DE LA IGLESIA</a></li><li class="item-321"><a href="/actividades/historico/pantalla-del-atrio" > PANTALLA DEL ATRIO</a></li></ul></li><li class="item-298"><a href="/actividades/jovenes" > JÓVENES</a></li><li class="item-299"><a href="/actividades/familias-jovenes" > FAMILIAS JOVENES</a></li></ul></li></ul>
+</div></div>
+					</div>
+	</div>
+
+	
+	
+	
+
+	<!-- Go to top -->
+			<a href="javascript:void(0)" class="scrollup" aria-label="Go To Top">&nbsp;</a>
+	</body>
+
+</html>
