@@ -1,33 +1,80 @@
+cat << 'EOF' > themes/parroquia/layouts/_default/home.html
 {{ define "main" }}
 
-    {{ with .Site.GetPage "/home-modules/1-carrusel.md" }}
-    <div class="carousel-container">
-        <div class="carousel">
-            {{ range $index, $slide := .Params.slides }}
-            <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-                <img src="{{ $slide.image }}" alt="{{ $slide.title }}">
-                <div class="carousel-caption">
-                    <h3>{{ $slide.title }}</h3>
-                    <p>{{ $slide.caption }}</p>
-                </div>
+<!-- 1. RENDERIZAR CARRUSEL MEJORADO -->
+{{ with .Site.GetPage "/home-modules/1-carrusel.md" }}
+<div class="carousel-container">
+    <div class="carousel">
+        {{ range $index, $slide := .Params.slides }}
+        <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+            <img src="{{ $slide.image }}" alt="{{ $slide.title }}">
+            <div class="carousel-caption">
+                <h3>{{ $slide.title }}</h3>
+                <p>{{ $slide.caption }}</p>
             </div>
-            {{ end }}
         </div>
-    </div>
-    {{ end }}
-
-    <div class="home-grid">
-        {{ $modules := (.Site.GetPage "/home-modules").Resources.Match "*.md" }}
-        {{ range sort $modules ".Params.weight" }}
-            {{ if ne .Name "1-carrusel.md" }}
-            <div class="module-card" style="background-color: {{ .Params.bg_color | default "#ffffff" }};">
-                <h2>{{ .Params.icon }} {{ .Title }}</h2>
-                <div class="module-content">
-                    {{ .Content }}
-                </div>
-            </div>
-            {{ end }}
         {{ end }}
     </div>
 
+    <!-- Flechas de navegación -->
+    <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+
+    <!-- Indicadores de puntos -->
+    <div class="carousel-indicators">
+        {{ range $index, $slide := .Params.slides }}
+        <span class="dot {{ if eq $index 0 }}active{{ end }}" onclick="currentSlide({{ $index }})"></span>
+        {{ end }}
+    </div>
+</div>
+
+<script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.carousel-item');
+    const dots = document.querySelectorAll('.dot');
+    let slideInterval = setInterval(() => moveSlide(1), 5000); // Cambio automático cada 5s
+
+    function showSlide(n) {
+        if (n >= slides.length) slideIndex = 0;
+        if (n < 0) slideIndex = slides.length - 1;
+
+        slides.forEach(slide => slide.classList.remove('active'));
+        dots.forEach(dot => dot.classList.remove('active'));
+
+        slides[slideIndex].classList.add('active');
+        dots[slideIndex].classList.add('active');
+    }
+
+    function moveSlide(n) {
+        clearInterval(slideInterval); // Resetear temporizador al interactuar
+        slideIndex += n;
+        showSlide(slideIndex);
+        slideInterval = setInterval(() => moveSlide(1), 5000);
+    }
+
+    function currentSlide(n) {
+        clearInterval(slideInterval);
+        slideIndex = n;
+        showSlide(slideIndex);
+        slideInterval = setInterval(() => moveSlide(1), 5000);
+    }
+</script>
 {{ end }}
+
+<!-- 2. RENDERIZAR MÓDULOS INFERIORES EN GRID -->
+<div class="home-grid">
+    {{ $modules := (.Site.GetPage "/home-modules").Resources.Match "*.md" }}
+    {{ range sort $modules ".Params.weight" }}
+    {{ if ne .Name "1-carrusel.md" }}
+    <div class="module-card" style="background-color: {{ .Params.bg_color | default "#ffffff" }};">
+    <h2>{{ .Params.icon }} {{ .Title }}</h2>
+    <div class="module-content">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}
+{{ end }}
+</div>
+
+{{ end }}
+EOF
