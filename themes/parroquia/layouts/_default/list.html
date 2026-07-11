@@ -1,12 +1,29 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-<ul>
-    {{ range .Pages }}
-    <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <span class="post-meta">({{ .Date.Format "02-01-2006" }})</span>
-    </li>
+<div class="content-wrapper">
+    <h1>{{ .Title }}</h1>
+    
+    {{ if .Content }}
+    <div class="page-content" style="margin-top: 20px;">
+        {{ .Content }}
+    </div>
     {{ end }}
-</ul>
+
+    {{ if .Pages }}
+    <div class="pages-list" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+        <h2>Artículos y Novedades</h2>
+        <ul style="list-style: none; padding: 0; margin-top: 20px;">
+            {{ range .Pages }}
+            <li style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--border-color);">
+                <a href="{{ .Permalink }}" style="font-size: 1.3rem; font-weight: 600; color: var(--primary); text-decoration: none;">{{ .Title }}</a>
+                {{ if not .Date.IsZero }}
+                <div class="post-meta" style="font-size: 0.9rem; color: var(--text-light); margin-top: 5px;">{{ .Date.Format "02-01-2006" }}</div>
+                {{ end }}
+                {{ if .Summary }}<p style="margin-top: 10px; color: var(--text-color);">{{ .Summary }}</p>{{ end }}
+                <a href="{{ .Permalink }}" style="display: inline-block; margin-top: 10px; color: var(--accent); font-weight: 500; text-decoration: none;">Leer más →</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</div>
 {{ end }}

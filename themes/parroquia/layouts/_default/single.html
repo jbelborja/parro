@@ -1,6 +1,15 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<div class="post-meta">Publicado el: {{ .Date.Format "02-01-2006" }}</div>
-<hr>
-{{ .Content }}
+<div class="content-wrapper">
+    <h1>{{ .Title }}</h1>
+    
+    {{ if not .Date.IsZero }}
+    <div class="post-meta" style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 20px;">
+        Publicado el: {{ .Date.Format "02-01-2006" }}
+    </div>
+    {{ end }}
+    
+    <div class="page-content" style="margin-top: 20px; line-height: 1.8;">
+        {{ .Content }}
+    </div>
+</div>
 {{ end }}
