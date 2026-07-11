@@ -1,4 +1,0 @@
----
-title: "Evangelios"
-draft: false
----
