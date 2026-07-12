@@ -16,10 +16,16 @@ theme = 'parroquia'
   weight = 1
 
 [[menu.main]]
+  name = "Toma y lee"
+  identifier = "toma-y-lee"
+  url = "/toma-y-lee/"
+  weight = 2
+
+[[menu.main]]
   name = "Actividades"
   identifier = "actividades"
   url = "/actividades/"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Cineforum"
@@ -55,7 +61,7 @@ theme = 'parroquia'
   name = "La parroquia"
   identifier = "la-parroquia"
   url = "/la-parroquia/"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Caritas"
@@ -85,7 +91,7 @@ theme = 'parroquia'
   name = "Noticias"
   identifier = "noticias"
   url = "/noticias/"
-  weight = 4
+  weight = 5
 
 [[menu.main]]
   name = "Actual"
@@ -103,7 +109,7 @@ theme = 'parroquia'
   name = "Sacramentos"
   identifier = "sacramentos"
   url = "/sacramentos/"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
   name = "Bautismo"
