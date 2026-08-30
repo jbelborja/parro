@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Dia de Navidad 25.12.2025"
-date: 2026-07-08T00:00:00Z
+date: 2025-12-25T00:00:00Z
 draft: false
 ---
 

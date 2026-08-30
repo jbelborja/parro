@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-11-09'
+date: 2025-11-09T00:00:00Z
 draft: false
 title: DOMINGO 09.11.2025
 ---

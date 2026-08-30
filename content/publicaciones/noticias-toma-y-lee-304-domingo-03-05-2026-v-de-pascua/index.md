@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 03.05.2026 V de Pascua"
-date: 2026-07-08T00:00:00Z
+date: 2026-05-03T00:00:00Z
 draft: false
 ---
 

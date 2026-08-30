@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-06-14'
+date: 2026-06-14T00:00:00Z
 draft: false
 title: Domingo 14.06.2026
 ---

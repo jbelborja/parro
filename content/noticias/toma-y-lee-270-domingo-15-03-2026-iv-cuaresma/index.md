@@ -1,6 +1,6 @@
 ---
 title: "Domingo 15.03.2026 IV Cuaresma"
-date: 2026-07-11T00:00:00Z
+date: 2026-03-15T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

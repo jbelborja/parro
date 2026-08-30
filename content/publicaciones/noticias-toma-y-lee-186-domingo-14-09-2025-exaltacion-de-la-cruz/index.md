@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 14.09.2025 Exaltación de la Cruz"
-date: 2026-07-08T00:00:00Z
+date: 2025-09-14T00:00:00Z
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-01-26'
+date: 2025-01-26T00:00:00Z
 draft: false
 title: Domingo 26.01.2025 III ordinario
 ---

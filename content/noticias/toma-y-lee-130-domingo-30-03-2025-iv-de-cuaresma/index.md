@@ -1,6 +1,6 @@
 ---
 title: "Domingo 30.03.2025 IV de Cuaresma"
-date: 2026-07-11T00:00:00Z
+date: 2025-03-30T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

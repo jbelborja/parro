@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 01.03.2026 II de Cuaresma"
-date: 2026-07-08T00:00:00Z
+date: 2026-03-01T00:00:00Z
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Domingo 05.04.2026 PASCUA DE RESURRECCIÓN"
-date: 2026-07-11T00:00:00Z
+date: 2026-04-05T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

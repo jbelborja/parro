@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-01-19'
+date: 2025-01-19T00:00:00Z
 draft: false
 title: Domingo 19.01.2025 II ordinario
 ---

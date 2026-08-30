@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-04-13'
+date: 2025-04-13T00:00:00Z
 draft: false
 title: DOMINGO 13.04.2025 DOMINGO DE RAMOS
 ---

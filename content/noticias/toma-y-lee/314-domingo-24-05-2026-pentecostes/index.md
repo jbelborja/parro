@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-05-23'
+date: 2026-05-24T00:00:00Z
 draft: false
 title: Domingo 24.05.2026 Pentecostes
 ---

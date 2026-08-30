@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2024-12-08'
+date: 2024-12-08T00:00:00Z
 draft: false
 title: Domingo 08.12.2024 La Inmaculada
 ---

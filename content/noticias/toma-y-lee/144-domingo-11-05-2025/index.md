@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-05-11'
+date: 2025-05-11T00:00:00Z
 draft: false
 title: Domingo 11.05.2025 IV de Pascua
 ---

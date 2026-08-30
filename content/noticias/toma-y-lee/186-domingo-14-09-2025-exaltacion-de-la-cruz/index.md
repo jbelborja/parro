@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-09-14'
+date: 2025-09-14T00:00:00Z
 draft: false
 title: Domingo 14.09.2025 Exaltación de la Cruz
 ---

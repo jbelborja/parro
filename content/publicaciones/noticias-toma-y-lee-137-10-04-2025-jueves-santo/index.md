@@ -1,6 +1,6 @@
 ---
 title: "LaVid - 17.04.2025 JUEVES SANTO"
-date: 2026-07-08T00:00:00Z
+date: 2025-04-17T00:00:00Z
 draft: false
 ---
 

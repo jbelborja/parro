@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-05-18'
+date: 2025-05-18T00:00:00Z
 draft: false
 title: Domingo 18.05.2025 V de PASCUA
 ---

@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-04-27'
+date: 2025-04-27T00:00:00Z
 draft: false
 title: Domingo 27.04.2025 II Pascua
 ---

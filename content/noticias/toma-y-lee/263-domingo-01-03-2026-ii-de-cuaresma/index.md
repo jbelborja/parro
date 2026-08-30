@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-02-28'
+date: 2026-03-01T00:00:00Z
 draft: false
 title: Domingo 01.03.2026 II de Cuaresma
 ---

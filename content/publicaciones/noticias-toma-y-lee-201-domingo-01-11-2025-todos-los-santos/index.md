@@ -1,6 +1,6 @@
 ---
 title: "LaVid - SABADO 01.11.2025 TODOS LOS SANTOS"
-date: 2026-07-08T00:00:00Z
+date: 2025-11-01T00:00:00Z
 draft: false
 ---
 

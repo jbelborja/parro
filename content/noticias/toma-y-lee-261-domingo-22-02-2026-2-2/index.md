@@ -1,6 +1,6 @@
 ---
 title: "Domingo 22.02.2026 (2-2)"
-date: 2026-07-11T00:00:00Z
+date: 2026-02-22T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

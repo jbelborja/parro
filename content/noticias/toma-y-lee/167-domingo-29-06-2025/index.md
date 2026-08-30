@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-06-29'
+date: 2025-06-29T00:00:00Z
 draft: false
 title: Domingo 29.06.2025
 ---

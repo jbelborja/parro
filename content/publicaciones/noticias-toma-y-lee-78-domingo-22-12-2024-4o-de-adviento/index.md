@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 22.12.2024 4º de Adviento"
-date: 2026-07-08T00:00:00Z
+date: 2024-12-22T00:00:00Z
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "DOMINGO 26.10.2025 XXX T.O. - C"
-date: 2026-07-11T00:00:00Z
+date: 2025-10-26T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

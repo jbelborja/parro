@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-12-07'
+date: 2025-12-07T00:00:00Z
 draft: false
 title: Domingo 07.12.2025 Ciclo A
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Domingo 12.04.2026 II de Pascua"
-date: 2026-07-11T00:00:00Z
+date: 2026-04-12T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

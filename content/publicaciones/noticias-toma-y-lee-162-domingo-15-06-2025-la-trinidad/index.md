@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 15.06.2025 La Trinidad"
-date: 2026-07-08T00:00:00Z
+date: 2025-06-15T00:00:00Z
 draft: false
 ---
 

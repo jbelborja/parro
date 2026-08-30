@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-01-01'
+date: 2025-01-01T00:00:00Z
 draft: false
 title: Primero de Año 01.01.2025
 ---

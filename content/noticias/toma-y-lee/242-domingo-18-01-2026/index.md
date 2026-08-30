@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-01-17'
+date: 2026-01-18T00:00:00Z
 draft: false
 title: Domingo 18.01.2026
 ---

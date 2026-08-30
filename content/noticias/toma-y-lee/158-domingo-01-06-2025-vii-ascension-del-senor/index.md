@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-06-01'
+date: 2025-06-01T00:00:00Z
 draft: false
 title: Domingo 01.06.2025 VII Ascensión del Señor
 ---

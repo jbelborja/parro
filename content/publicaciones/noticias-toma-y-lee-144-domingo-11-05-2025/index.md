@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 11.05.2025 IV de Pascua"
-date: 2026-07-08T00:00:00Z
+date: 2025-05-11T00:00:00Z
 draft: false
 ---
 

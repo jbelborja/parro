@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-03-14'
+date: 2026-03-15T00:00:00Z
 draft: false
 title: Domingo 15.03.2026 IV Cuaresma
 ---

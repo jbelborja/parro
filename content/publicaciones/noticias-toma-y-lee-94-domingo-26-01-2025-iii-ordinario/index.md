@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 26.01.2025 III ordinario"
-date: 2026-07-08T00:00:00Z
+date: 2025-01-26T00:00:00Z
 draft: false
 ---
 

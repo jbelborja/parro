@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-05-25'
+date: 2025-05-25T00:00:00Z
 draft: false
 title: Domingo 25.05.2025 VI de Pascua
 ---

@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-01-05'
+date: 2025-01-06T00:00:00Z
 draft: false
 title: Domingo 06.01.2025 II de Navidad y Epifania
 ---

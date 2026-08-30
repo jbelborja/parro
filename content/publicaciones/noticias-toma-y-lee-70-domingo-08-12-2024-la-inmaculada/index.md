@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 08.12.2024 La Inmaculada"
-date: 2026-07-08T00:00:00Z
+date: 2024-12-08T00:00:00Z
 draft: false
 ---
 

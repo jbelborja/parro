@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-03-30'
+date: 2025-03-30T00:00:00Z
 draft: false
 title: Domingo 30.03.2025 IV de Cuaresma
 ---

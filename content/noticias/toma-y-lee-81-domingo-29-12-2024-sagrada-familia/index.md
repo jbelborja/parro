@@ -1,6 +1,6 @@
 ---
 title: "Domingo 29.12.2024 SAGRADA FAMILIA"
-date: 2026-07-11T00:00:00Z
+date: 2024-12-29T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

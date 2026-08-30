@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-06-15'
+date: 2025-06-15T00:00:00Z
 draft: false
 title: Domingo 15.06.2025 La Trinidad
 ---

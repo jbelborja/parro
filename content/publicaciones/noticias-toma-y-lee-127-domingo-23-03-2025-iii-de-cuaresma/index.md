@@ -1,6 +1,6 @@
 ---
 title: "LaVid - DOMINGO 23.03.2025 III de Cuaresma"
-date: 2026-07-08T00:00:00Z
+date: 2025-03-23T00:00:00Z
 draft: false
 ---
 

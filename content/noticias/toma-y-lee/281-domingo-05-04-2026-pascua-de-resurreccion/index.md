@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-04-04'
+date: 2026-04-05T00:00:00Z
 draft: false
 title: Domingo 05.04.2026 PASCUA DE RESURRECCIÓN
 ---

@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-08-31'
+date: 2025-08-31T00:00:00Z
 draft: false
 title: Domingo 31.08.2025
 ---

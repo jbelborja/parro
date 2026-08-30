@@ -1,6 +1,6 @@
 ---
 title: "25-12-08 TL- A Fiesta de la Inmaculada"
-date: 2026-07-11T00:00:00Z
+date: 2008-12-25T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---
