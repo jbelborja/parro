@@ -1,8 +1,9 @@
 ---
-title: "Domingo 02.02.2025 VIII ordinario C"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-03-02'
 draft: false
+title: Domingo 02.02.2025 VIII ordinario C
 ---
 
 ##  Domingo 02.02.2025 VIII ordinario C 

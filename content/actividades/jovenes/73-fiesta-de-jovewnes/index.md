@@ -1,8 +1,9 @@
 ---
-title: "Fiesta de jóvenes"
-date: 2026-07-11T00:00:00Z
-categories: ["jovenes"]
+categories:
+- jovenes
+date: '2024-12-14'
 draft: false
+title: Fiesta de jóvenes
 ---
 
 ##  Fiesta de jóvenes 

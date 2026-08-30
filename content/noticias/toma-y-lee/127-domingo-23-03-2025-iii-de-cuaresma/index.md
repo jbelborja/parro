@@ -1,8 +1,9 @@
 ---
-title: "DOMINGO 23.03.2025 III de Cuaresma"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-03-23'
 draft: false
+title: DOMINGO 23.03.2025 III de Cuaresma
 ---
 
 ##  DOMINGO 23.03.2025 III de Cuaresma 

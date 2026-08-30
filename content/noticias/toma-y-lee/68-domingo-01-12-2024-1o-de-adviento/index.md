@@ -1,8 +1,9 @@
 ---
-title: "Domingo 01.12.2024 1º de Adviento"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2024-12-02'
 draft: false
+title: Domingo 01.12.2024 1º de Adviento
 ---
 
 ##  Domingo 01.12.2024 1º de Adviento 

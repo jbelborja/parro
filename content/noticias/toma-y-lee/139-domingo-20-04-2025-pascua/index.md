@@ -1,8 +1,9 @@
 ---
-title: "Domingo 20.04.2025 PASCUA"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-04-20'
 draft: false
+title: Domingo 20.04.2025 PASCUA
 ---
 
 ##  Domingo 20.04.2025 PASCUA 
@@ -10,7 +11,3 @@ draft: false
 Tenía que resucitar de entre los muertos Jn 20,9
 
 [Laudes del Jueves Santo 2025](laudes-del-jueves-santo-2025.pdf)
-
-  
-  
-

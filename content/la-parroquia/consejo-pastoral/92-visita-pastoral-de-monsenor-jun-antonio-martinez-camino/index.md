@@ -1,8 +1,9 @@
 ---
-title: "Visita Pastoral de Monseñor Jun Antonio Martinez Camino"
-date: 2026-07-11T00:00:00Z
-categories: ["consejo-pastoral"]
+categories:
+- consejo-pastoral
+date: '2025-01-23'
 draft: false
+title: Visita Pastoral de Monseñor Jun Antonio Martinez Camino
 ---
 
 ##  Visita Pastoral de Monseñor Jun Antonio Martinez Camino 

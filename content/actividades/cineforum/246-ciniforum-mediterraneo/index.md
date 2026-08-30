@@ -1,8 +1,9 @@
 ---
-title: "LaVid - Cineforum MEDITERRANEO"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2026-01-21'
 draft: false
+title: LaVid - Cineforum MEDITERRANEO
 ---
 
 ![](imagen_incrustada_1.png)

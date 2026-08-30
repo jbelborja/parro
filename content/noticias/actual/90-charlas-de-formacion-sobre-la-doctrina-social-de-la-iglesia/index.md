@@ -1,8 +1,9 @@
 ---
-title: "Charlas de formación sobre la Doctrina Social de la Iglesia"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-01-19'
 draft: false
+title: Charlas de formación sobre la Doctrina Social de la Iglesia
 ---
 
 ##  Charlas de formación sobre la Doctrina Social de la Iglesia 

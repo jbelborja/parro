@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Resultado concurso cristmas"
-date: 2026-07-08T00:00:00Z
+date: '2024-12-18'
 draft: false
+title: LaVid - Resultado concurso cristmas
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/77-resultado-concurso-cristmas&text=Resultado%20concurso%20cristmas)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/77-resultado-concurso-cristmas "Share On Linkedin")
-
-
-

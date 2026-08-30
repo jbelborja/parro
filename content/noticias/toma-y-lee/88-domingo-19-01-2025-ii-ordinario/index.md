@@ -1,8 +1,9 @@
 ---
-title: "Domingo 19.01.2025 II ordinario"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-01-19'
 draft: false
+title: Domingo 19.01.2025 II ordinario
 ---
 
 ##  Domingo 19.01.2025 II ordinario 

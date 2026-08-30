@@ -1,8 +1,9 @@
 ---
-title: "Domingo 14.09.2025 Exaltación de la Cruz"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-09-14'
 draft: false
+title: Domingo 14.09.2025 Exaltación de la Cruz
 ---
 
 ##  Domingo 14.09.2025 Exaltación de la Cruz 

@@ -1,8 +1,9 @@
 ---
-title: "REUNIÓN DEL 18 DE SEPTIEMBRE DEL 2025"
-date: 2026-07-11T00:00:00Z
-categories: ["familias-jovenes"]
+categories:
+- familias-jovenes
+date: '2025-10-07'
 draft: false
+title: REUNIÓN DEL 18 DE SEPTIEMBRE DEL 2025
 ---
 
 ##  REUNIÓN DEL 18 DE SEPTIEMBRE DEL 2025 

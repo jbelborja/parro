@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Jornadas para aprender a usar el movil"
-date: 2026-07-08T00:00:00Z
+date: '2026-02-16'
 draft: false
+title: LaVid - Jornadas para aprender a usar el movil
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/257-jornadas-para-aprender-a-usar-el-movil&text=Jornadas%20para%20aprender%20a%20usar%20el%20movil)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/257-jornadas-para-aprender-a-usar-el-movil "Share On Linkedin")
-
-
-

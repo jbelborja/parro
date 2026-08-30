@@ -1,8 +1,9 @@
 ---
-title: "Domingo 11.05.2025 IV de Pascua"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-05-11'
 draft: false
+title: Domingo 11.05.2025 IV de Pascua
 ---
 
 ##  Domingo 11.05.2025 IV de Pascua 

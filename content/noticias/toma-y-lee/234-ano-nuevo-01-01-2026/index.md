@@ -1,8 +1,9 @@
 ---
-title: "Año Nuevo 01.01.2026"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-01-01'
 draft: false
+title: Año Nuevo 01.01.2026
 ---
 
 ##  Año Nuevo 01.01.2026 

@@ -7,4 +7,5 @@ draft: false
 
 Prueba de contenido
 
+<!--more-->
 [Toma y lee](toma%20y%20lee.pdf)

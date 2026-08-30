@@ -1,8 +1,9 @@
 ---
-title: "Resultado concurso cristmas"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2024-12-18'
 draft: false
+title: Resultado concurso cristmas
 ---
 
 ##  Resultado concurso cristmas 

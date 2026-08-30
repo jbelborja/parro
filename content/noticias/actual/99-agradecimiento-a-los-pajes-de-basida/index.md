@@ -1,8 +1,9 @@
 ---
-title: "Agradecimiento a los \"PAJES DE BASIDA\"."
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-02-09'
 draft: false
+title: Agradecimiento a los "PAJES DE BASIDA".
 ---
 
 ##  Agradecimiento a los "PAJES DE BASIDA". 

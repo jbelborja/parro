@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Poesia Marcha Mariana"
-date: 2026-07-08T00:00:00Z
+date: '2025-05-16'
 draft: false
+title: LaVid - Poesia Marcha Mariana
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/146-poesia-marcha-mariana&text=Poesia%20Marcha%20Mariana)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/146-poesia-marcha-mariana "Share On Linkedin")
-
-
-

@@ -1,8 +1,9 @@
 ---
-title: "DOMINGO 09.11.2025"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-11-09'
 draft: false
+title: DOMINGO 09.11.2025
 ---
 
 ##  DOMINGO 09.11.2025 

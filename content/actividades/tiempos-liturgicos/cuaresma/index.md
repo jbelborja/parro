@@ -1,8 +1,9 @@
 ---
-title: "CELEBRACION COMUNITARIA DE LA RECONCILIACION"
-date: 2026-07-11T00:00:00Z
-categories: ["tiempos-liturgicos"]
+categories:
+- tiempos-liturgicos
+date: '2026-03-22'
 draft: false
+title: CELEBRACION COMUNITARIA DE LA RECONCILIACION
 ---
 
 ##  [ CELEBRACION COMUNITARIA DE LA RECONCILIACION](/actividades/tiempos-liturgicos/cuaresma/274-celebracion-comunitaria-de-la-reconciliacion)

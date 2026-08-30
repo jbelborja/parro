@@ -1,8 +1,9 @@
 ---
-title: "REUNIÓN DEL CONSEJO PASTORAL DEL 10.09.2024"
-date: 2026-07-11T00:00:00Z
-categories: ["consejo-pastoral"]
+categories:
+- consejo-pastoral
+date: '2024-09-12'
 draft: false
+title: REUNIÓN DEL CONSEJO PASTORAL DEL 10.09.2024
 ---
 
 ##  REUNIÓN DEL CONSEJO PASTORAL DEL 10.09.2024 

@@ -1,8 +1,9 @@
 ---
-title: "LaVid - CINEFORUM - Un monstruo viene a verme"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2025-12-20'
 draft: false
+title: LaVid - CINEFORUM - Un monstruo viene a verme
 ---
 
 ![](imagen_incrustada_1.jpeg)

@@ -1,8 +1,9 @@
 ---
-title: "ADORACIÓN INTERPARROQUIAL"
-date: 2026-07-11T00:00:00Z
-categories: ["jovenes"]
+categories:
+- jovenes
+date: '2025-05-18'
 draft: false
+title: ADORACIÓN INTERPARROQUIAL
 ---
 
 ##  ADORACIÓN INTERPARROQUIAL 

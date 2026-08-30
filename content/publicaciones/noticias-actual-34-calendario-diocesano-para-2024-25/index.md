@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Calendario Diocesano para 2025"
-date: 2026-07-08T00:00:00Z
+date: '2024-09-14'
 draft: false
+title: LaVid - Calendario Diocesano para 2025
 ---
 
 __
@@ -17,6 +17,3 @@ Es el calendario de los actos en la Catedral para todo el curso.
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/34-calendario-diocesano-para-2024-25&text=Calendario%20Diocesano%20para%202025)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/34-calendario-diocesano-para-2024-25 "Share On Linkedin")
-
-
-

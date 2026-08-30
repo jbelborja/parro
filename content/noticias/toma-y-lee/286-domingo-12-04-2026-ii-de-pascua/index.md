@@ -1,8 +1,9 @@
 ---
-title: "Domingo 12.04.2026 II de Pascua"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-04-12'
 draft: false
+title: Domingo 12.04.2026 II de Pascua
 ---
 
 ##  Domingo 12.04.2026 II de Pascua 

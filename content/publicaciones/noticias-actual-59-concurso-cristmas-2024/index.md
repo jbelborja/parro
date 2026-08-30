@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Concurso Cristmas 2024"
-date: 2026-07-08T00:00:00Z
+date: '2024-11-14'
 draft: false
+title: LaVid - Concurso Cristmas 2024
 ---
 
 __
@@ -21,6 +21,3 @@ Estas son las condiciones de participación, y las categorias.
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/59-concurso-cristmas-2024&text=Concurso%20Cristmas%202024)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/59-concurso-cristmas-2024 "Share On Linkedin")
-
-
-

@@ -1,8 +1,9 @@
 ---
-title: "Catastrofe en Venezuela"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-06-27'
 draft: false
+title: Catastrofe en Venezuela
 ---
 
 ##  Catastrofe en Venezuela 

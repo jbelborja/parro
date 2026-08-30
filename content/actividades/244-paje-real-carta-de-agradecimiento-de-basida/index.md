@@ -1,8 +1,9 @@
 ---
-title: "LaVid - Paje Real. Carta de agradecimiento de BASIDA"
-date: 2026-07-11T00:00:00Z
-categories: ["actividades"]
+categories:
+- actividades
+date: '2026-01-20'
 draft: false
+title: LaVid - Paje Real. Carta de agradecimiento de BASIDA
 ---
 
 ![](imagen_incrustada_1.png)

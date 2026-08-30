@@ -1,8 +1,9 @@
 ---
-title: "REUNION DEL 17 DE DICIEMBRE DEL 2025"
-date: 2026-07-11T00:00:00Z
-categories: ["familias-jovenes"]
+categories:
+- familias-jovenes
+date: '2026-02-20'
 draft: false
+title: REUNION DEL 17 DE DICIEMBRE DEL 2025
 ---
 
 ##  REUNION DEL 17 DE DICIEMBRE DEL 2025 
@@ -11,4 +12,3 @@ El pasado jueves tuvimos la reunion, SOLO las tres parejas "menos jóvenes"... V
 
 Adjuntamos el video que habiamos preparado:
 
-<https://youtu.be/axdYH9BSYs8?si=CFi97HS5ucr3aK8c>

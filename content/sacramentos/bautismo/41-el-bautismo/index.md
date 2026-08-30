@@ -1,8 +1,9 @@
 ---
-title: "Quiénes pueden recibir el bautismo?"
-date: 2026-07-11T00:00:00Z
-categories: ["bautismo"]
+categories:
+- bautismo
+date: '2024-11-03'
 draft: false
+title: Quiénes pueden recibir el bautismo?
 ---
 
 El bautismo es el primer sacramento de iniciación cristiana en la Iglesia Católica y es considerado fundamental porque marca el comienzo de la vida espiritual y la pertenencia a la comunidad cristiana. A través del bautismo, la persona es liberada del pecado original, recibe la gracia santificante y se convierte en miembro de la Iglesia.

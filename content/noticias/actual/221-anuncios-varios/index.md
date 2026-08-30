@@ -1,8 +1,9 @@
 ---
-title: "Anuncios Varios"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-12-02'
 draft: false
+title: Anuncios Varios
 ---
 
 ##  Anuncios Varios 

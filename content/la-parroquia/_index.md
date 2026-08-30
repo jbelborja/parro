@@ -1,5 +1,5 @@
 ---
-title: "La-parroquia"
+title: "La parroquia"
 draft: false
 ---
-Artículos y publicaciones de la sección la-parroquia.
+Artículos y publicaciones de la sección la parroquia.

@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Charla Cuaresmal"
-date: 2026-07-08T00:00:00Z
+date: '2026-03-03'
 draft: false
+title: LaVid - Charla Cuaresmal
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/265-charla-cuaresmal&text=Charla%20Cuaresmal)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/265-charla-cuaresmal "Share On Linkedin")
-
-
-

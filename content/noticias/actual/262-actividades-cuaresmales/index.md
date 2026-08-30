@@ -1,8 +1,9 @@
 ---
-title: "Actividades Cuaresmales"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-02-24'
 draft: false
+title: Actividades Cuaresmales
 ---
 
 ##  Actividades Cuaresmales 

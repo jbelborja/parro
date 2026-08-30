@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Reuniones de este trimestre en el arciprestazgo"
-date: 2026-07-08T00:00:00Z
+date: '2025-01-23'
 draft: false
+title: LaVid - Reuniones de este trimestre en el arciprestazgo
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/93-reuniones-de-este-trimestre-en-el-arciprestazgo&text=Reuniones%20de%20este%20trimestre%20en%20el%20arciprestazgo)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/93-reuniones-de-este-trimestre-en-el-arciprestazgo "Share On Linkedin")
-
-
-

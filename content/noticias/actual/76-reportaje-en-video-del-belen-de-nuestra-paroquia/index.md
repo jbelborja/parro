@@ -1,8 +1,9 @@
 ---
-title: "Reportaje en video del Belen de nuestra Paroquia"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2024-12-17'
 draft: false
+title: Reportaje en video del Belen de nuestra Paroquia
 ---
 
 ##  Reportaje en video del Belen de nuestra Paroquia 
@@ -11,4 +12,3 @@ draft: false
 
 En este enlace podemos acceder al video del belén.
 
-<https://youtu.be/AEmq0Nt43Ak>

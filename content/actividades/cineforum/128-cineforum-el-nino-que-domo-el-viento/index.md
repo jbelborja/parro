@@ -1,8 +1,9 @@
 ---
-title: "LaVid - CINEFORUM - El niño que domó el viento"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2025-03-27'
 draft: false
+title: LaVid - CINEFORUM - El niño que domó el viento
 ---
 
 ![](imagen_incrustada_1.jpeg)

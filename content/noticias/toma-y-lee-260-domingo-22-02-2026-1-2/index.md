@@ -9,4 +9,5 @@ draft: false
 
 La Cuaresma como tiempo de conversion.
 
+<!--more-->
 [26-02-18 Especial Cuaresma- A (1-2)](26-02-18-especial-cuaresma-a-1-2.pdf)

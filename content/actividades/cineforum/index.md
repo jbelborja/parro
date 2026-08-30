@@ -1,8 +1,9 @@
 ---
-title: "LaVid - CINEFORUM"
-date: 2026-07-11T00:00:00Z
-categories: ["actividades"]
+categories:
+- actividades
+date: '2026-05-20'
 draft: false
+title: LaVid - CINEFORUM
 ---
 
 ![](imagen_incrustada_1.png)

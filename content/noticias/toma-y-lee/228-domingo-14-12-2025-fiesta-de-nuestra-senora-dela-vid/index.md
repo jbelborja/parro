@@ -1,8 +1,9 @@
 ---
-title: "Domingo 14.12.2025 Fiesta de Nuestra Señora dela VId"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-12-14'
 draft: false
+title: Domingo 14.12.2025 Fiesta de Nuestra Señora dela VId
 ---
 
 ##  Domingo 14.12.2025 Fiesta de Nuestra Señora dela VId 

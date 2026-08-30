@@ -1,8 +1,9 @@
 ---
-title: "Jornadas para aprender a usar el movil"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-02-16'
 draft: false
+title: Jornadas para aprender a usar el movil
 ---
 
 ##  Jornadas para aprender a usar el movil 

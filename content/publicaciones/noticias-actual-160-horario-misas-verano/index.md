@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Horario misas verano"
-date: 2026-07-08T00:00:00Z
+date: '2025-06-07'
 draft: false
+title: LaVid - Horario misas verano
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/160-horario-misas-verano&text=Horario%20misas%20verano)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/160-horario-misas-verano "Share On Linkedin")
-
-
-

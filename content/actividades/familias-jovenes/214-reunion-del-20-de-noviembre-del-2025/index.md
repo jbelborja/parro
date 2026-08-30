@@ -1,8 +1,9 @@
 ---
-title: "REUNION DEL 20 DE NOVIEMBRE DEL 2025"
-date: 2026-07-11T00:00:00Z
-categories: ["familias-jovenes"]
+categories:
+- familias-jovenes
+date: '2025-11-23'
 draft: false
+title: REUNION DEL 20 DE NOVIEMBRE DEL 2025
 ---
 
 ##  REUNION DEL 20 DE NOVIEMBRE DEL 2025 
@@ -25,4 +26,3 @@ En el nombre de Jesús, Amén.
 [Familia](https://youtu.be/k0J4ixIj518?si=CpqaFH0y0OXm7QPj "Las reglas del juego")
 
   
-Este es el video que vimos

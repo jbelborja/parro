@@ -1,8 +1,9 @@
 ---
-title: "JUBILEO DE JÓVENES PARROQUIA NTA SRA DE LA VID"
-date: 2026-07-11T00:00:00Z
-categories: ["jovenes"]
+categories:
+- jovenes
+date: '2025-09-21'
 draft: false
+title: JUBILEO DE JÓVENES PARROQUIA NTA SRA DE LA VID
 ---
 
 ##  JUBILEO DE JÓVENES PARROQUIA NTA SRA DE LA VID 

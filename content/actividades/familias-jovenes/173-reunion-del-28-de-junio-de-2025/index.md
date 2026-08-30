@@ -1,8 +1,9 @@
 ---
-title: "Reunión del 28 de junio de 2025"
-date: 2026-07-11T00:00:00Z
-categories: ["familias-jovenes"]
+categories:
+- familias-jovenes
+date: '2025-08-01'
 draft: false
+title: Reunión del 28 de junio de 2025
 ---
 
 ##  Reunión del 28 de junio de 2025 

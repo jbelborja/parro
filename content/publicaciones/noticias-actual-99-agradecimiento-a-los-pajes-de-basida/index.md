@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Agradecimiento a los \"PAJES DE BASIDA\"."
-date: 2026-07-08T00:00:00Z
+date: '2025-02-09'
 draft: false
+title: LaVid - Agradecimiento a los "PAJES DE BASIDA".
 ---
 
 __
@@ -40,6 +40,3 @@ La familia Basida
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/99-agradecimiento-a-los-pajes-de-basida&text=Agradecimiento%20a%20los%20)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/99-agradecimiento-a-los-pajes-de-basida "Share On Linkedin")
-
-
-

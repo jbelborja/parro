@@ -1,8 +1,9 @@
 ---
-title: "LaVid - FRANCISCO. El juglar de Dios"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2024-12-15'
 draft: false
+title: LaVid - FRANCISCO. El juglar de Dios
 ---
 
 **C****I****N****E****F****O****R****U****M**

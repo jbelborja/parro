@@ -1,8 +1,9 @@
 ---
-title: "CARTA PASTORAL DE NUESTRO OBISPO SOBRE LA CUARESMA"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-03-16'
 draft: false
+title: CARTA PASTORAL DE NUESTRO OBISPO SOBRE LA CUARESMA
 ---
 
 ##  CARTA PASTORAL DE NUESTRO OBISPO SOBRE LA CUARESMA 

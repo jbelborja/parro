@@ -1,8 +1,9 @@
 ---
-title: "LaVid - CUARESMA"
-date: 2026-07-11T00:00:00Z
-categories: ["tiempos-liturgicos"]
+categories:
+- tiempos-liturgicos
+date: '2025-04-05'
 draft: false
+title: LaVid - CUARESMA
 ---
 
 [Via Crucis Grupo Juan XXIII 2025](via-crucis-grupo-juan-xxiii.pdf)

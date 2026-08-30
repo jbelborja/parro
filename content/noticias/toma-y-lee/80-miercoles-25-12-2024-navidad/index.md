@@ -1,8 +1,9 @@
 ---
-title: "Miércoles 25.12.2024 NAVIDAD"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2024-12-25'
 draft: false
+title: Miércoles 25.12.2024 NAVIDAD
 ---
 
 ##  Miércoles 25.12.2024 NAVIDAD 

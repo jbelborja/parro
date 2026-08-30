@@ -1,8 +1,9 @@
 ---
-title: "LA DESPEDIDA"
-date: 2026-07-11T00:00:00Z
-categories: ["sacramentos"]
+categories:
+- sacramentos
+date: '2024-09-08'
 draft: false
+title: LA DESPEDIDA
 ---
 
 ##  [ LA DESPEDIDA](/sacramentos/uncion-de-los-enfermos/31-la-despedida)

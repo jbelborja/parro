@@ -1,8 +1,9 @@
 ---
-title: "LaVid - Cineforum - Camino a la escuela"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2024-10-23'
 draft: false
+title: LaVid - Cineforum - Camino a la escuela
 ---
 
 Es la historia de unos padres que conocian el valor de la educacuión para sus hijos.

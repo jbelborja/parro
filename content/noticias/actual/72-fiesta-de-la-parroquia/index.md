@@ -1,8 +1,9 @@
 ---
-title: "Fiesta de la Parroquia"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2024-12-08'
 draft: false
+title: Fiesta de la Parroquia
 ---
 
 ##  Fiesta de la Parroquia 

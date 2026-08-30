@@ -1,8 +1,9 @@
 ---
-title: "Domingo 06.04.2025 V de Cuaresma"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-04-06'
 draft: false
+title: Domingo 06.04.2025 V de Cuaresma
 ---
 
 ##  Domingo 06.04.2025 V de Cuaresma 

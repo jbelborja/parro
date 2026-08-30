@@ -1,8 +1,9 @@
 ---
-title: "Horario misas verano"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-06-07'
 draft: false
+title: Horario misas verano
 ---
 
 ##  Horario misas verano 

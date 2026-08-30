@@ -9,4 +9,4 @@ draft: false
 
 Este es el Mensaje del papa para explicar el sentido de la Navidad.
 
-<https://youtube.com/shorts/oFDd6BpMaIE?feature=shared>
+{{< youtube oFDd6BpMaIE >}}

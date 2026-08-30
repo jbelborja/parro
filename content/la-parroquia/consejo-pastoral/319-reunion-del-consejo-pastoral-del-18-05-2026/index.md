@@ -1,8 +1,9 @@
 ---
-title: "Reunión del Consejo Pastoral del 18.05.2026"
-date: 2026-07-11T00:00:00Z
-categories: ["consejo-pastoral"]
+categories:
+- consejo-pastoral
+date: '2026-06-06'
 draft: false
+title: Reunión del Consejo Pastoral del 18.05.2026
 ---
 
 ##  Reunión del Consejo Pastoral del 18.05.2026 

@@ -1,8 +1,9 @@
 ---
-title: "HECHOS DE LOS APÓSTOLOES - 1"
-date: 2026-07-11T00:00:00Z
-categories: ["evangelios"]
+categories:
+- evangelios
+date: '2026-04-23'
 draft: false
+title: HECHOS DE LOS APÓSTOLOES - 1
 ---
 
 ##  HECHOS DE LOS APÓSTOLOES - 1 

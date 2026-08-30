@@ -1,8 +1,9 @@
 ---
-title: "Los pajes de Basida"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2024-11-24'
 draft: false
+title: Los pajes de Basida
 ---
 
 ##  Los pajes de Basida 

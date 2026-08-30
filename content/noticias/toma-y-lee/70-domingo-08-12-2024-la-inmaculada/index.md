@@ -1,8 +1,9 @@
 ---
-title: "Domingo 08.12.2024 La Inmaculada"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2024-12-08'
 draft: false
+title: Domingo 08.12.2024 La Inmaculada
 ---
 
 ##  Domingo 08.12.2024 La Inmaculada 

@@ -1,8 +1,9 @@
 ---
-title: "VIAJE DE LOS JÓVENES A ROMA PARA EL JUBILEO."
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-11-30'
 draft: false
+title: VIAJE DE LOS JÓVENES A ROMA PARA EL JUBILEO.
 ---
 
 ##  VIAJE DE LOS JÓVENES A ROMA PARA EL JUBILEO. 

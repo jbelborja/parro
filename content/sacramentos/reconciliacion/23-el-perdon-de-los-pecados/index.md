@@ -1,8 +1,9 @@
 ---
-title: "LaVid - EL PERDÓN DE LOS PECADOS"
-date: 2026-07-11T00:00:00Z
-categories: ["reconciliacion"]
+categories:
+- reconciliacion
+date: '2024-09-05'
 draft: false
+title: LaVid - EL PERDÓN DE LOS PECADOS
 ---
 
 La Reconciliación, también llamada Confesión o Penitencia, es uno de los sacramentos de curación de la Iglesia Católica. A través de este sacramento, los creyentes reciben el perdón de los pecados cometidos después del bautismo y se reconcilian con Dios y la Iglesia. Es un sacramento esencial para restaurar la relación con Dios cuando se ha roto a causa del pecado.

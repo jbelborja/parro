@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Anuncios Varios"
-date: 2026-07-08T00:00:00Z
+date: '2025-12-02'
 draft: false
+title: LaVid - Anuncios Varios
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/221-anuncios-varios&text=Anuncios%20Varios)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/221-anuncios-varios "Share On Linkedin")
-
-
-

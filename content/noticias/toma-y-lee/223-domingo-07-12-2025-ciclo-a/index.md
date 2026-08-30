@@ -1,8 +1,9 @@
 ---
-title: "Domingo 07.12.2025 Ciclo A"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-12-07'
 draft: false
+title: Domingo 07.12.2025 Ciclo A
 ---
 
 ##  Domingo 07.12.2025 Ciclo A 

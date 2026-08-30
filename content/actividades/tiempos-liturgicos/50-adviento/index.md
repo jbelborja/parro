@@ -1,8 +1,9 @@
 ---
-title: "LaVid - ADVIENTO"
-date: 2026-07-11T00:00:00Z
-categories: ["tiempos-liturgicos"]
+categories:
+- tiempos-liturgicos
+date: '2024-12-08'
 draft: false
+title: LaVid - ADVIENTO
 ---
 
 ![](imagen_incrustada_1.png)

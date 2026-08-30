@@ -1,8 +1,9 @@
 ---
-title: "Domingo 16.03.2025 II de Cuaresma"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-03-16'
 draft: false
+title: Domingo 16.03.2025 II de Cuaresma
 ---
 
 ##  Domingo 16.03.2025 II de Cuaresma 

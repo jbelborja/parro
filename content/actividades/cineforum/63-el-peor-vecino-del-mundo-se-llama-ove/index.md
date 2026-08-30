@@ -1,8 +1,9 @@
 ---
-title: "LaVid - El peor vecino del mundo se llama Ove"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2024-11-21'
 draft: false
+title: LaVid - El peor vecino del mundo se llama Ove
 ---
 
 ![](imagen_incrustada_1.png)

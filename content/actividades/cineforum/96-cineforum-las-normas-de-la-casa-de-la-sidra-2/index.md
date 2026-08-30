@@ -1,8 +1,9 @@
 ---
-title: "LaVid - Cineforum - Las normas de la casa de la sidra"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2025-01-26'
 draft: false
+title: LaVid - Cineforum - Las normas de la casa de la sidra
 ---
 
 ![](imagen_incrustada_1.png)
