@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 10.05.2026 VI de Pascua"
-date: 2026-07-08T00:00:00Z
+date: 2026-05-10T00:00:00Z
 draft: false
 ---
 

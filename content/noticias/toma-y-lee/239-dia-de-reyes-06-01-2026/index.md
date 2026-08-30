@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-01-06'
+date: 2026-01-06T00:00:00Z
 draft: false
 title: DIA DE REYES 06.01.2026
 ---

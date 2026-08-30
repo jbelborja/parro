@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2024-12-02'
+date: 2024-12-01T00:00:00Z
 draft: false
 title: Domingo 01.12.2024 1º de Adviento
 ---

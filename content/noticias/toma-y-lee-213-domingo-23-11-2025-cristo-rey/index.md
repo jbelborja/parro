@@ -1,6 +1,6 @@
 ---
 title: "Domingo 23.11.2025 Cristo Rey"
-date: 2026-07-11T00:00:00Z
+date: 2025-11-23T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

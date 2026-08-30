@@ -1,6 +1,6 @@
 ---
 title: "Domiongo 08.03.2026 III Cuaresma"
-date: 2026-07-11T00:00:00Z
+date: 2026-03-08T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

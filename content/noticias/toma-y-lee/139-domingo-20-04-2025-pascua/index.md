@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-04-20'
+date: 2025-04-20T00:00:00Z
 draft: false
 title: Domingo 20.04.2025 PASCUA
 ---

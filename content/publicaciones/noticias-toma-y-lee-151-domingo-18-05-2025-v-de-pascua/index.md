@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 18.05.2025 V de PASCUA"
-date: 2026-07-08T00:00:00Z
+date: 2025-05-18T00:00:00Z
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-05-04'
+date: 2025-05-04T00:00:00Z
 draft: false
 title: DOMINGO 04.05.2025 III Pascua
 ---

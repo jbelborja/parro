@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 22.02.2026 (1-2)"
-date: 2026-07-08T00:00:00Z
+date: 2026-02-22T00:00:00Z
 draft: false
 ---
 

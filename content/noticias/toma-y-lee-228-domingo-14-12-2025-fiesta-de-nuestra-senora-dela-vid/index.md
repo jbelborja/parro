@@ -1,6 +1,6 @@
 ---
 title: "Domingo 14.12.2025 Fiesta de Nuestra Señora dela VId"
-date: 2026-07-11T00:00:00Z
+date: 2025-12-14T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

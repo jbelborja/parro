@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-03-02'
+date: 2025-02-02T00:00:00Z
 draft: false
 title: Domingo 02.02.2025 VIII ordinario C
 ---

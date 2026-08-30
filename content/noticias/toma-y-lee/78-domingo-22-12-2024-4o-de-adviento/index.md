@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2024-12-22'
+date: 2024-12-22T00:00:00Z
 draft: false
 title: Domingo 22.12.2024 4º de Adviento
 ---

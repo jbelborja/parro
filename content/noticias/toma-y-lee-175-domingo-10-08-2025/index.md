@@ -1,6 +1,6 @@
 ---
 title: "Domingo 10.08.2025"
-date: 2026-07-11T00:00:00Z
+date: 2025-08-10T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

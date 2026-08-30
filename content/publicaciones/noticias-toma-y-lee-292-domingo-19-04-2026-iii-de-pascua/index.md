@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 19.04.2026 III de PASCUA"
-date: 2026-07-08T00:00:00Z
+date: 2026-04-19T00:00:00Z
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 29.06.2025"
-date: 2026-07-08T00:00:00Z
+date: 2025-06-29T00:00:00Z
 draft: false
 ---
 

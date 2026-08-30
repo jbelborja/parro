@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-09-28'
+date: 2025-09-28T00:00:00Z
 draft: false
 title: DOMINGO 28.09.2025
 ---

@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2024-09-06'
+date: 2024-09-01T00:00:00Z
 draft: false
 title: Domingo 01.09.2024
 ---

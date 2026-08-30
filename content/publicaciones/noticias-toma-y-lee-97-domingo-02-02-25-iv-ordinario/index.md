@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 02.02.25 IV ordinario"
-date: 2026-07-08T00:00:00Z
+date: 2025-02-02T00:00:00Z
 draft: false
 ---
 

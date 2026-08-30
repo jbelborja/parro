@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-11-01'
+date: 2025-11-01T00:00:00Z
 draft: false
 title: SABADO 01.11.2025 TODOS LOS SANTOS
 ---

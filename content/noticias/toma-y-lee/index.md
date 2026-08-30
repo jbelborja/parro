@@ -1,7 +1,7 @@
 ---
 categories:
 - noticias
-date: '2026-07-18'
+date: 2024-11-10T00:00:00Z
 draft: false
 title: Domingo 10.11.2024
 ---

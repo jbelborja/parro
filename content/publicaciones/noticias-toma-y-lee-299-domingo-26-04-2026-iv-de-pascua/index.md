@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 26.04.2026 IV de Pascua"
-date: 2026-07-08T00:00:00Z
+date: 2026-04-26T00:00:00Z
 draft: false
 ---
 

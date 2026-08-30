@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 19.01.2025 II ordinario"
-date: 2026-07-08T00:00:00Z
+date: 2025-01-19T00:00:00Z
 draft: false
 ---
 

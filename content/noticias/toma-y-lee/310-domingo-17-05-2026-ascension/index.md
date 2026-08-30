@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-05-16'
+date: 2026-05-17T00:00:00Z
 draft: false
 title: Domingo 17.05.2026 Ascensión
 ---

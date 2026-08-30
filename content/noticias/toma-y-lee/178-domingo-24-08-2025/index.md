@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-08-24'
+date: 2025-08-24T00:00:00Z
 draft: false
 title: Domingo 24.08.2025
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Domingo 08.06.2025 PENTECOSTES - C"
-date: 2026-07-11T00:00:00Z
+date: 2025-06-08T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

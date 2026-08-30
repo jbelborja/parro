@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 06.04.2025 V de Cuaresma"
-date: 2026-07-08T00:00:00Z
+date: 2025-04-06T00:00:00Z
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "17.04.2025 JUEVES SANTO"
-date: 2026-07-11T00:00:00Z
+date: 2025-04-17T00:00:00Z
 categories: ["noticias"]
 draft: false
 ---

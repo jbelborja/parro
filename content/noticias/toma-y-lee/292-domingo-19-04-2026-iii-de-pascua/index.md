@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-04-18'
+date: 2026-04-19T00:00:00Z
 draft: false
 title: Domingo 19.04.2026 III de PASCUA
 ---

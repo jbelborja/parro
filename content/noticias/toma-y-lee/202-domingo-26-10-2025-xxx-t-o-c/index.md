@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-11-01'
+date: 2025-10-26T00:00:00Z
 draft: false
 title: DOMINGO 26.10.2025 XXX T.O. - C
 ---

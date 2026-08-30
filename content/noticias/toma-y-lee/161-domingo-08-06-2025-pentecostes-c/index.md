@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-06-08'
+date: 2025-06-08T00:00:00Z
 draft: false
 title: Domingo 08.06.2025 PENTECOSTES - C
 ---

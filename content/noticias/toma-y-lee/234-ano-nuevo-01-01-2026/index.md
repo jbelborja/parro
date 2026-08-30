@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-01-01'
+date: 2026-01-01T00:00:00Z
 draft: false
 title: Año Nuevo 01.01.2026
 ---

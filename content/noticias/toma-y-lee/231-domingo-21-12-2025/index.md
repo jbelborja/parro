@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-12-21'
+date: 2025-12-21T00:00:00Z
 draft: false
 title: Domingo 21.12.2025
 ---

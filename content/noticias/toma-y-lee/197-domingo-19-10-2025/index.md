@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-10-19'
+date: 2025-10-19T00:00:00Z
 draft: false
 title: Domingo 19.10.2025
 ---

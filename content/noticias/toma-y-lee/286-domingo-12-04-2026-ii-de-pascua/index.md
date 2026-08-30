@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-04-12'
+date: 2026-04-12T00:00:00Z
 draft: false
 title: Domingo 12.04.2026 II de Pascua
 ---

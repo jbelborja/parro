@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2025-03-23'
+date: 2025-03-23T00:00:00Z
 draft: false
 title: DOMINGO 23.03.2025 III de Cuaresma
 ---

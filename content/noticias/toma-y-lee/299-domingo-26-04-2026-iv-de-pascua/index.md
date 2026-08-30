@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-04-25'
+date: 2026-04-26T00:00:00Z
 draft: false
 title: Domingo 26.04.2026 IV de Pascua
 ---

@@ -1,7 +1,7 @@
 ---
 categories:
 - toma-y-lee
-date: '2026-05-09'
+date: 2026-05-10T00:00:00Z
 draft: false
 title: Domingo 10.05.2026 VI de Pascua
 ---

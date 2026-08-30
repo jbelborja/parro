@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 12.10.2025 Virgen del Pilar"
-date: 2026-07-08T00:00:00Z
+date: 2025-10-12T00:00:00Z
 draft: false
 ---
 

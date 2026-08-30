@@ -1,6 +1,6 @@
 ---
 title: "LaVid - Domingo 24.05.2026 Pentecostes"
-date: 2026-07-08T00:00:00Z
+date: 2026-05-24T00:00:00Z
 draft: false
 ---
 
