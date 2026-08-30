@@ -1,0 +1,21 @@
+<div class="social-share" style="margin: 40px 0; padding: 20px 0; border-top: 1px solid var(--border-color); text-align: center;">
+    <h4 style="margin-bottom: 15px; color: var(--primary);">Compartir este artículo:</h4>
+    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Page.Permalink }}" target="_blank" rel="noopener noreferrer" style="background: #1877F2; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-weight: 500; font-size: 0.9rem;">
+            Facebook
+        </a>
+        <!-- X (Twitter) -->
+        <a href="https://twitter.com/intent/tweet?url={{ .Page.Permalink }}&text={{ .Page.Title }}" target="_blank" rel="noopener noreferrer" style="background: #000000; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-weight: 500; font-size: 0.9rem;">
+            X (Twitter)
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Page.Permalink }}&title={{ .Page.Title }}" target="_blank" rel="noopener noreferrer" style="background: #0A66C2; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-weight: 500; font-size: 0.9rem;">
+            LinkedIn
+        </a>
+        <!-- WhatsApp -->
+        <a href="https://api.whatsapp.com/send?text={{ .Page.Title }}%20{{ .Page.Permalink }}" target="_blank" rel="noopener noreferrer" style="background: #25D366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-weight: 500; font-size: 0.9rem;">
+            WhatsApp
+        </a>
+    </div>
+</div>
