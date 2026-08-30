@@ -6,8 +6,6 @@ draft: false
 title: Visita Pastoral de Monseñor Jun Antonio Martinez Camino
 ---
 
-##  [ Visita Pastoral de Monseñor Jun Antonio Martinez Camino](/la-parroquia/consejo-pastoral/92-visita-pastoral-de-monsenor-jun-antonio-martinez-camino)
-
 El pasado día 21 de enero tuvimos una reunión del Consejo Pastoral a la que asistió Monseñor Juan Antonio Martínez Camino, obispo auxiliar de nuestra diócesis, de visita pastoral en nuestra parroquia. tenía mucho interés en asistir a nuestra reunión y conocer nuestra actividad. Nos comento que era sacerdote jesuita desde hace 50 años y obispo desde hace 17l. Desde entonces ha visitado mas de 300 parroquias de las 480 que hay en Madrid.
 
 Uno por uno nos fue preguntando por nuestras actividades en el Consejo y en la parroquia y se las fuimos explicando. 

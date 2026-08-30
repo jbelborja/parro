@@ -39,12 +39,3 @@ El bautismo es el primer sacramento de iniciación cristiana en la Iglesia Cató
 **Adultos:** Aquellos que no han sido bautizados de niños pueden recibir el sacramento como adultos a través del Rito de Iniciación Cristiana para Adultos (RICA).
 
 El bautismo es visto como un sacramento único e irrepetible, ya que deja una marca espiritual indeleble en el alma del creyente. Es el primer paso hacia la vida cristiana y la base de los demás sacramentos
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/sacramentos/bautismo/41-el-bautismo)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/sacramentos/bautismo/41-el-bautismo&text=EL%20BAUTISMO)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/sacramentos/bautismo/41-el-bautismo "Share On Linkedin")
-
-
-

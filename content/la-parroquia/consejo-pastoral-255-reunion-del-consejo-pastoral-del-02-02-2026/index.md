@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Reunión del Consejo Pastoral del 02.02.2026 
-
 El pasado 2 de febrero tuvo lugar la reunión del Consejo Pastoral de la parroquia. Básicamente se decidió sobre la celebraciones de la próxima Cuaresma y de la Semana Santa. El de febrero con el miércoles de ceniza empieza la Cuaresma. Se va a impartir en las misas y una celebración especial a las 5 y media de la tarde para los niños de comunión y sus familias. Los viacrucis van a ser los viernes de cuaresma y el Viernes Santo, si se celebrara un viacrucis especial, en la calle y preparado por algún grupo. 
 
 Las charlas cuaresmales, serán dos y serán a cargo del P. Pablo Rojas y de Jesús Soriguren. 

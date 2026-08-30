@@ -6,15 +6,4 @@ draft: false
 
 __
 
-##  Evangelio 06.05.2026 
-
 [Evangelio19](evangelio19.pdf)
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/la-parroquia/evangelios/307-evangelio-06-05-2026)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/la-parroquia/evangelios/307-evangelio-06-05-2026&text=Evangelio%2006.05.2026)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/la-parroquia/evangelios/307-evangelio-06-05-2026 "Share On Linkedin")
-
-
-

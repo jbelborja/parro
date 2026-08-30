@@ -6,8 +6,6 @@ draft: false
 title: VIAJE DE LOS JÓVENES A ROMA PARA EL JUBILEO.
 ---
 
-##  VIAJE DE LOS JÓVENES A ROMA PARA EL JUBILEO. 
-
 ![](imagen_incrustada_1.png)
 
 Resumén del viaje a Roma de los jóvenes de nuestra parroquia para conseguir el jubileo.

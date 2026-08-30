@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  HECHOS DE LOS APÓSTOLOES - 1 
-
 Hechos
 
 [HECHOS DE LOS APÓSTOLES - 1](hechos-de-los-apostoles-1.pdf)

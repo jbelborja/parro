@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Laudes Jueves Santo 2021 
-
 [Laudes Jueves santo 2021](laudes-jueves-santo-2021.pdf)

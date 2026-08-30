@@ -6,8 +6,6 @@ draft: false
 title: Domingo 01.09.2024
 ---
 
-##  Domingo 01.09.2024 
-
 Hoy toca abrazarnos, a mí me gustaría abrazar a cada uno de vosotros en este momento, en el que después de un tiempo, corto o a veces largo, toca emprender nuevos caminos, acoger nuevas tareas.
 
 José Luis

@@ -5,8 +5,6 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  HISTORIAS DE 50 AÑOS 
-
 ![](imagen_incrustada_1.png)
 
 ÍNDICE  

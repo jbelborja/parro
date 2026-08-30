@@ -6,6 +6,4 @@ draft: false
 title: Misa de los domingos a las 19.(junio/agosto a las 20)
 ---
 
-##  Misa de los domingos a las 19.(junio/agosto a las 20) 
-
 ![](misa19.png)

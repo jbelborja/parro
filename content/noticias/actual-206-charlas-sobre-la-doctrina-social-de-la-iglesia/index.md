@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Charlas sobre la Doctrina Social de la Iglesia 
-
 ![](imagen_incrustada_1.jpeg)
 
 ![](imagen_incrustada_2.jpeg)

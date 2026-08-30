@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Semana de oración por la unidad en Cristo (del 18 al 26 de enero) 
-
 ![](imagen_incrustada_1.jpeg)

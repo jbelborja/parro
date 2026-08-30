@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Felicitación de Navidad de la Parroquia 
-
 ![](imagen_incrustada_1.jpeg)

@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  LA PARROQUIA 
-
 ![](imagen_incrustada_1.png)
 
   

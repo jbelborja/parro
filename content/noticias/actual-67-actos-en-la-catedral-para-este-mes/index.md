@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Actos en la Catedral para este mes 
-
 ![](imagen_incrustada_1.png)

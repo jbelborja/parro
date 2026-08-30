@@ -42,12 +42,3 @@ La Comunión Católica, también llamada Eucaristía, es uno de los sacramentos 
 **\- Fortaleza espiritual:** La Eucaristía da al creyente la gracia necesaria para vivir una vida cristiana más fuerte y fiel.
 
 En resumen, la Comunión es el sacramento por el cual los católicos recibimos a Cristo mismo en el pan y el vino consagrados, fortaleciéndonos espiritualmente y uniéndonos más profundamente con Él y con la Iglesia.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/sacramentos/comunion/42-comunion)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/sacramentos/comunion/42-comunion&text=COMUNION)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/sacramentos/comunion/42-comunion "Share On Linkedin")
-
-
-

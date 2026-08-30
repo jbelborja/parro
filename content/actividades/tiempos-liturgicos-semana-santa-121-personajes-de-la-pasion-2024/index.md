@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  PErsonajes de la Pasión 2024 
-
 [Personajes de la Pasión 2024](personajes-de-la-pasion-2024.pdf)

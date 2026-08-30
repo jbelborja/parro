@@ -5,6 +5,4 @@ categories: ["tiempos-liturgicos"]
 draft: false
 ---
 
-##  Laudes Sabado Santo 2024 
-
 [Laudes Sabado Santo 2024](laudes-sabado-santo-2024.pdf)

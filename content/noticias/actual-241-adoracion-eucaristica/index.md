@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Adoracion Eucarística 
-
 ![](imagen_incrustada_1.jpeg)

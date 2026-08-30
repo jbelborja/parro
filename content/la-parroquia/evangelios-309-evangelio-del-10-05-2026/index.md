@@ -5,6 +5,4 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Evangelio del 10.05.2026 
-
 [p20](p20.pdf)

@@ -6,6 +6,4 @@ draft: false
 title: REUNIÓN DEL GRUPO FAMILIAS JÓVENES
 ---
 
-##  REUNIÓN DEL GRUPO FAMILIAS JÓVENES 
-
 ![](imagen_incrustada_1.jpeg)

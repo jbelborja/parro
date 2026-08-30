@@ -6,8 +6,6 @@ draft: false
 title: Agradecimiento a los "PAJES DE BASIDA".
 ---
 
-##  Agradecimiento a los "PAJES DE BASIDA". 
-
 Proyecto pajes de los Reyes 2025»  
 Gracias a la colaboración de muchos voluntarios anónimos, este año se han repartido 115 regalos  
 de Reyes personalizados para los hogares de Basida.

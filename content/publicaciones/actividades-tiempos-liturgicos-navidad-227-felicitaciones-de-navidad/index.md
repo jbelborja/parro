@@ -6,8 +6,6 @@ draft: false
 
 __
 
-##  Felicitaciones de Navidad 
-
 ![](imagen_incrustada_1.png)
 
 **FELICITACIONES DE NAVIDAD**
@@ -30,12 +28,3 @@ Esta dirección de correo electrónico está siendo protegida contra los robots 
   
 ¡¡VAMOS A FELICITARNOS CON LA ALEGRÍA DE LA NAVIDAD!!  
 También se pueden hacer de forma familiar, o en grupos...
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/tiempos-liturgicos/navidad/227-felicitaciones-de-navidad)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/tiempos-liturgicos/navidad/227-felicitaciones-de-navidad&text=Felicitaciones%20de%20Navidad)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/tiempos-liturgicos/navidad/227-felicitaciones-de-navidad "Share On Linkedin")
-
-
-

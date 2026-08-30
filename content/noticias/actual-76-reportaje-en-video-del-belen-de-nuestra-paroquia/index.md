@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Reportaje en video del Belen de nuestra Paroquia 
-
 **![](imagen_incrustada_1.jpeg)**
 
 En este enlace podemos acceder al video del belén.

@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Resultado concurso cristmas 
-
 ![](imagen_incrustada_1.jpeg)

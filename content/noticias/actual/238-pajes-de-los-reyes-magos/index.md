@@ -6,6 +6,4 @@ draft: false
 title: Pajes de los Reyes Magos
 ---
 
-##  Pajes de los Reyes Magos 
-
 ![](imagen_incrustada_1.png)

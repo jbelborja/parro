@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Poesia Marcha Mariana 
-
 ![](imagen_incrustada_1.jpeg)

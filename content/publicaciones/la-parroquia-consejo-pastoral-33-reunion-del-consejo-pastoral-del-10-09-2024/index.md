@@ -6,8 +6,6 @@ draft: false
 
 __
 
-##  REUNIÓN DEL CONSEJO PASTORAL DEL 10.09.2024 
-
 El pasado martes diez de septiembre tuvimos la primera reunión del Consejo con un nuevo equipo sacerdotal el padre Javier Antolín, que presidirá el Consejo, el padre Cedric estará más implicado con el grupo de jóvenes, y el padre Ramón queda con la catequesis de comunión.
 
   
@@ -36,12 +34,3 @@ Jana es responsable de los grupos de jóvenes en estos momentos hay funcionando 
 
   
 Comentamos también que ante la cantidad de actividades que se desarrollan, muchas veces hay problemas con las aulas y que hay que buscar una organización más racional que satisfaga a todos.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/la-parroquia/consejo-pastoral/33-reunion-del-consejo-pastoral-del-10-09-2024)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/la-parroquia/consejo-pastoral/33-reunion-del-consejo-pastoral-del-10-09-2024&text=REUNIÓN%20DEL%20CONSEJO%20PASTORAL%20DEL%2010.09.2024)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/la-parroquia/consejo-pastoral/33-reunion-del-consejo-pastoral-del-10-09-2024 "Share On Linkedin")
-
-
-

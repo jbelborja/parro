@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  REUNIÓN DEL GRUPO FAMILIAS JÓVENES 
-
 ![](imagen_incrustada_1.jpeg)

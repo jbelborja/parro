@@ -9,12 +9,3 @@ draft: false
 * * *
 
 [Mediterraneo](mediterraneo.pdf)
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/cineforum/246-ciniforum-mediterraneo)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/cineforum/246-ciniforum-mediterraneo&text=Cineforum%20MEDITERRANEO)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/cineforum/246-ciniforum-mediterraneo "Share On Linkedin")
-
-
-

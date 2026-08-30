@@ -6,6 +6,4 @@ draft: false
 title: Actividades Cuaresmales
 ---
 
-##  Actividades Cuaresmales 
-
 ![](imagen_incrustada_1.png)

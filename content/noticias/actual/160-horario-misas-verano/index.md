@@ -6,6 +6,4 @@ draft: false
 title: Horario misas verano
 ---
 
-##  Horario misas verano 
-
 ![](imagen_incrustada_1.png)

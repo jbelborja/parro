@@ -94,12 +94,3 @@ draft: false
 **  
   
 **
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/cineforum/75-francisco-el-juglar-de-dios)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/cineforum/75-francisco-el-juglar-de-dios&text=FRANCISCO.%20El%20juglar%20de%20Dios)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/cineforum/75-francisco-el-juglar-de-dios "Share On Linkedin")
-
-
-

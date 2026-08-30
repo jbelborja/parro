@@ -6,6 +6,4 @@ draft: false
 title: JORNADA DE CATEQUISTAS
 ---
 
-##  JORNADA DE CATEQUISTAS 
-
 ![](imagen_incrustada_1.jpeg)

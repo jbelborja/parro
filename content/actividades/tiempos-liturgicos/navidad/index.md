@@ -6,8 +6,6 @@ draft: false
 title: Felicitaciones de Navidad
 ---
 
-##  [ Felicitaciones de Navidad](/actividades/tiempos-liturgicos/navidad/227-felicitaciones-de-navidad)
-
 ![](imagen_incrustada_1.png)
 
 **FELICITACIONES DE NAVIDAD**

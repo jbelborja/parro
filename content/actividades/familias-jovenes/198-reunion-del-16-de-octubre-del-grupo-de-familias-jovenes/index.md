@@ -6,8 +6,6 @@ draft: false
 title: REUNION DEL 16 DE OCTUBRE DEL GRUPO DE FAMILIAS JOVENES
 ---
 
-##  REUNION DEL 16 DE OCTUBRE DEL GRUPO DE FAMILIAS JOVENES 
-
 Ayer tuvimos la tercera reunión de nuestro grupo, la participación podría haber sido mejor, pero en cambio resultó muy productiva. Vimos el video del enlace que os adjuntamos. Los comentarios fueron situaciones personales vividas por los unos y los otros, no teorías o sermones y ahora, antes de ponerme a escribir el resumen, he releído el capitulo 4 de la A.L.y he visto que lo que hablamos ayer esta reflejado, casi al pié de la letra en ella. 
 
 El amor necesita paciencia, y por paciencia no entendemos tragar lo que sea. Pero existe un riesgo en el matrimonio de esperar relaciones perfectas y nadie es perfecto, por eso caemos una y otra vez en los mismos fallos y el único camino es el perdón. La persona amada tiene derecho a vivir siendo como es y asi la quiere Jesús. ¿Como no la voy a querer yo? La paciencia no es una postura pasiva, sino que tiene que estar acompañada por una actividad. En el amor son mas importantes las obras que las palabras.
@@ -21,4 +19,3 @@ Cuando discutimos con nuestra pareja, lo hacemos por UNA COSA y porque queremos 
 Evidentemente no es una tarea fácil, y menos cuando nuestro entorno no participa de estas ideas. Por eso es muy importante tener un grupo de referencia con el q.ue poder compartir y comentar como lo vamos consiguiendo y las dificultades que encontramos y esta claro que esto exige sacrificios y renuncias, en el fondo tiempo, pero vale la pena
 
 {{< youtube ZfWz0X_GfIk >}}
-

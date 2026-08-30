@@ -6,15 +6,4 @@ draft: false
 
 __
 
-##  Evangelio 30.04.2026 
-
 [Evangelio 30.04.2026](evangelio-30-04-2026.pdf)
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/la-parroquia/evangelios/305-evangelio-30-04-2026)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/la-parroquia/evangelios/305-evangelio-30-04-2026&text=Evangelio%2030.04.2026)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/la-parroquia/evangelios/305-evangelio-30-04-2026 "Share On Linkedin")
-
-
-

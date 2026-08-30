@@ -6,6 +6,4 @@ draft: false
 title: Evangelio del 25.04.2026
 ---
 
-##  Evangelio del 25.04.2026 
-
 [Evamgelio del 25.04.2026](evamgelio-del-25-04-2026.pdf)

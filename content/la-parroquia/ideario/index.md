@@ -6,8 +6,6 @@ draft: false
 title: IDEARIO
 ---
 
-##  IDEARIO 
-
 IDEARIO
 
 La parroquia Nuestra Señora de la VId, integrada en la Archidiócesis de Madrid, es una comunidad de fieles cristianos que se reúne, ora y celebra los sacramentos. Encomendada a los padres agustinos hace suyas las características de la orden agustiniana: búsqueda de la verdad, profundidad espiritual (interioridad), comunión y fidelidad a la Iglesia.

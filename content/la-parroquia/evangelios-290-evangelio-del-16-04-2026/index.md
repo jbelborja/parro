@@ -5,6 +5,4 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Evangelio del 16,04.2026 
-
 [Evangelio 16.04.2026](evangelio-16-04-2026.pdf)

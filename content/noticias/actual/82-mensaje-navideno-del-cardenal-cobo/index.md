@@ -6,7 +6,4 @@ draft: false
 title: Mensaje navideño del Cardenal Cobo
 ---
 
-##  Mensaje navideño del Cardenal Cobo 
-
 ![](imagen_incrustada_1.png)
-

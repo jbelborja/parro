@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  REUNION DEL CONSEJO PASTORAL DEL 18.11.2024 
-
 Tuvimos la reunión del consejo a la que asistió el P. Domingo Amigo, Provincial de la provincia de San Juan de Sahagún que cuida de nuestra parroquia. Habíamos solicitado su presencia para que nos comentara las razones del traslado del P. José Luis. Nos dijo que después de su capítulo, que acabo el 12 de julio, hay muy poco tiempo para organizar todos los traslados que tienen que estar cerrados el 31 de julio. Que ha ido a una parroquia muy grande y con mucha responsabilidad. Que incluye también el centro teológico de la provincia con unos 15 seminaristas y una veintena de sacerdotes y que el P. José Luis va de prior de la comunidad.
 
 El curso 24/25 ha empezado sin grandes novedades ni contratiempos.

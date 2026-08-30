@@ -6,6 +6,4 @@ draft: false
 title: Anuncios Varios
 ---
 
-##  Anuncios Varios 
-
 ![](imagen_incrustada_1.png)

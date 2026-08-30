@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  CATEQUESIS DE COMUNION 
-
 [![](imagen_incrustada_1.png)](/sacramentos/comunion "Formulario")
 
 ### _**[Formulario](/sacramentos/comunion "Formulario")**_

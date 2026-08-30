@@ -5,8 +5,6 @@ categories: ["tiempos-liturgicos"]
 draft: false
 ---
 
-##  Mensaje del PAPA para la Navidad 
-
 Este es el Mensaje del papa para explicar el sentido de la Navidad.
 
 {{< youtube oFDd6BpMaIE >}}

@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Mensaje navideño del Cardenal Cobo 
-
 ![](imagen_incrustada_1.png)
 
 {{< youtube NXr36mZ_Ohs >}}

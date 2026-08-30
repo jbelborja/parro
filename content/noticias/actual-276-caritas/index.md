@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  CARITAS 
-
 ### **DURANTE LA SEMANA SANTA EL DESPACHO DE CÁRITAS PERMANECERÁ CERRADO.**

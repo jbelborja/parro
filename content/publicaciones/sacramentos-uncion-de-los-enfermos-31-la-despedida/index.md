@@ -66,12 +66,3 @@ La Unción de los Enfermos es uno de los sacramentos de curación en la Iglesia 
 La Unción de los Enfermos es un sacramento que expresa el amor de Dios por aquellos que sufren o enfrentan situaciones de vulnerabilidad. En un mundo lleno de dolor y enfermedad, este sacramento trae consuelo y esperanza a los creyentes, recordándoles que Cristo está presente con ellos, incluso en los momentos más difíciles. Es un acto de fe en la misericordia y la gracia sanadora de Dios.
 
 En resumen, la Unción de los Enfermos es un sacramento que ofrece al creyente fortaleza, paz, y si es la voluntad de Dios, sanación física, en momentos de enfermedad grave o peligro de muerte. A través de este sacramento, el enfermo recibe la gracia de Dios para afrontar con valor las dificultades y prepararse, si es necesario, para el paso a la vida eterna.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/sacramentos/uncion-de-los-enfermos/31-la-despedida)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/sacramentos/uncion-de-los-enfermos/31-la-despedida&text=LA%20DESPEDIDA)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/sacramentos/uncion-de-los-enfermos/31-la-despedida "Share On Linkedin")
-
-
-

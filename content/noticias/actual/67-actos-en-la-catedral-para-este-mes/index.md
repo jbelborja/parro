@@ -6,6 +6,4 @@ draft: false
 title: Actos en la Catedral para este mes
 ---
 
-##  Actos en la Catedral para este mes 
-
 ![](imagen_incrustada_1.png)

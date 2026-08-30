@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Anuncios Varios 
-
 ![](imagen_incrustada_1.png)

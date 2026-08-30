@@ -5,6 +5,4 @@ categories: ["historico"]
 draft: false
 ---
 
-##  Video de la pantalla del atrio del mes de mayo 
-
 [Video de mayo 2025](https://youtu.be/iSimMCeBu-o)

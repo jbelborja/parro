@@ -6,6 +6,4 @@ draft: false
 title: Reuniones de este trimestre en el arciprestazgo
 ---
 
-##  Reuniones de este trimestre en el arciprestazgo 
-
 ![](imagen_incrustada_1.png)

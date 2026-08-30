@@ -30,7 +30,6 @@ ESQUEMA DEL CURSO:
 • ¿Cómo es, y describiríais, vuestra fe en esta etapa de vuestra vida?  
   
 
-
 El curso se estructura en cinco bloques:
 
 -Proyecto de vida en común

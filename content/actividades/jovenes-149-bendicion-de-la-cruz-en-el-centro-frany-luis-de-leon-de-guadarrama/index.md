@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  BENDICION DE LA CRUZ EN EL CENTRO FRANY LUIS DE LEON DE GUADARRAMA 
-
 ![](imagen_incrustada_1.jpeg)

@@ -6,6 +6,4 @@ draft: false
 title: Ultimas propuestas...
 ---
 
-##  Ultimas propuestas... 
-
 ![](imagen_incrustada_1.jpeg)

@@ -6,6 +6,4 @@ draft: false
 title: ADORACIÓN INTERPARROQUIAL
 ---
 
-##  ADORACIÓN INTERPARROQUIAL 
-
 ![](imagen_incrustada_1.png)

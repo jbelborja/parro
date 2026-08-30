@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  FINANCIACION 
-
 ...y para que podamos seguir con nuestra misión, que es de todos, necesitamos medios, necesitamos dinero.
 
 ![](Captura%20de%20pantalla%20de%202024-09-22%2011-44-29.jpg)

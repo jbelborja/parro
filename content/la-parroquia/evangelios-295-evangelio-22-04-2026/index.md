@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Evangelio 22.04.2026 
-
 Evangelio del 22,04,2026
 
 [Evangelio 21.04.2026](evangelio-21-04-2026.pdf)

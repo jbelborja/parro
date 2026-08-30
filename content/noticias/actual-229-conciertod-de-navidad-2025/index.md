@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Conciertod de Navidad 2025 
-
 ![](imagen_incrustada_1.jpeg)

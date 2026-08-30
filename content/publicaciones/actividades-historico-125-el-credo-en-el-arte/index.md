@@ -15,12 +15,3 @@ La Fe Cristiana amplía nuestra visión al contemplar una obra de arte, es como 
 El Patrimonio cultural de la Iglesia (arquitectura, pintura y escultura) tiene como último fin su dimensión evangelizadora. Evangelizar es mostrar el camino: enseñar el arte de vivir. 
 
 [El Credo en el Arte](el-credo-en-el-arte.pdf)
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/historico/125-el-credo-en-el-arte)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/historico/125-el-credo-en-el-arte&text=El%20Credo%20en%20el%20Arte)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/historico/125-el-credo-en-el-arte "Share On Linkedin")
-
-
-

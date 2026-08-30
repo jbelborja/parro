@@ -6,8 +6,6 @@ draft: false
 title: Domingo 20.10.2024
 ---
 
-##  Domingo 20.10.2024 
-
 La carta de nuestro arzobispo de Madrid para el presente curso pastoral dice: _El reto es “poner nuestra_  
  _Iglesia diocesana en estado permanente de misión”,_
 

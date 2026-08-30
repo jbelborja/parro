@@ -25,12 +25,3 @@ Desde 1971 han formado parte de nuestra Comunidad Parroquial un grupo nutrido de
 Carlos Ganuza (Párroco 1971-73), Jesús María del Río, Agustín N. García (Párroco 1973-87), Paulino Abajo, José Furones, Luis Marín de San Martín, José Luis del Castillo (Párroco 1987-1995), Antonio Matellanes Gallego, Epifanio Gallego Fernández, José Izquierdo Mucientes, Jesús Baños, Tomás Ricardo Ibáñez Cubillo, Adelino Martín Bravo, Servando García Cruzado, Abraham López Bravo, José Ignacio Alonso Martínez, José Luis Gómez Gude (Párroco 1995-1999), Miguel Ángel Álvarez Miñambres, Matías Pérez López, José Salvador Roldán Sanabria (Párroco 1999-2002), Alfonso Álvarez Turienzo; César Navazo Aguilera, José Izquierdo Mucientes ( Párroco 2002-2006); Santiago Sierra Rubio; José Luis del Castillo; Pablo Rojas; Jesús López Gracia (Párroco 2006-2008), Isidoro Calvo Martín, Jesús Baños Rodríguez (Párroco 2008-2010); Aldo Marcelo Cáceres; Daniel García Movellán; José Luis Eugercios y José Luis del Castillo (Párroco 2010).
 
 No obstante lo importante en la historia de la Parroquia han sido las vidas de todos los que por ella han pasado a celebrar su fe. Éstas en su plenitud o a grandes rasgos son imposibles de describir y tan siquiera anunciar… pero todos y cada uno de ellos saben que ésta es su parroquia, su casa de fe y todos los que en ella ahora nos encontramos les agradecemos su legado y les recordamos que estén donde estén son nuestra historia verdadera y viva.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/la-parroquia/quiens)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/la-parroquia/quiens&text=QUIENES%20SOMOS)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/la-parroquia/quiens "Share On Linkedin")
-
-
-
