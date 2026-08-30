@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  ADORACIÓN INTERPARROQUIAL 
-
 ![](imagen_incrustada_1.png)

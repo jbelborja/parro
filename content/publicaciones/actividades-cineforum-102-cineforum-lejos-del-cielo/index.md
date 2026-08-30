@@ -53,12 +53,3 @@ draft: false
 * * *
 
 [Cinefurm - Lejos del cielo](cinefurm-lejos-del-cielo.pdf)
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/cineforum/102-cineforum-lejos-del-cielo)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/cineforum/102-cineforum-lejos-del-cielo&text=Cineforum%20-%20Lejos%20del%20cielo)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/cineforum/102-cineforum-lejos-del-cielo "Share On Linkedin")
-
-
-

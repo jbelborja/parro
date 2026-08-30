@@ -6,6 +6,4 @@ draft: false
 title: Visita Pastoral de Monseñor Martinez Camino
 ---
 
-##  Visita Pastoral de Monseñor Martinez Camino 
-
 ![](imagen_incrustada_1.png)

@@ -49,12 +49,3 @@ La Confirmación es uno de los sacramentos de iniciación cristiana en la Iglesi
 Al igual que en el Bautismo, en la Confirmación se elige un padrino o madrina. Este debe ser un católico practicante que ya haya recibido la Confirmación y que sirva como guía espiritual para el confirmando, ayudándole a vivir una vida cristiana comprometida.
 
 En resumen, la Confirmación es el sacramento que perfecciona la gracia del Bautismo, fortaleciendo al creyente con los dones del Espíritu Santo y haciéndolo un miembro más comprometido y activo de la Iglesia Católica.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/sacramentos/confirmacion/43-confirmacion)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/sacramentos/confirmacion/43-confirmacion&text=CONFIRMACION)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/sacramentos/confirmacion/43-confirmacion "Share On Linkedin")
-
-
-

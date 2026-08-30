@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Fiesta de jóvenes 
-
 ![](imagen_incrustada_1.jpeg)

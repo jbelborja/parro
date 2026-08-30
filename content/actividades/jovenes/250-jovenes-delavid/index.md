@@ -6,6 +6,4 @@ draft: false
 title: '@JOVENES_DELAVID'
 ---
 
-##  @JOVENES_DELAVID 
-
 ![](imagen_incrustada_1.png)

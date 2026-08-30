@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Fiesta de la Parroquia 
-
 ![](imagen_incrustada_1.png)

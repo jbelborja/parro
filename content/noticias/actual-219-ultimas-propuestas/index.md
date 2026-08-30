@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Ultimas propuestas... 
-
 ![](imagen_incrustada_1.jpeg)

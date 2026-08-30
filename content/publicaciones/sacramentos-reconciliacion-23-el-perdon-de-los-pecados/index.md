@@ -57,12 +57,3 @@ La Reconciliación, también llamada Confesión o Penitencia, es uno de los sacr
 La Reconciliación es un sacramento esencial para el crecimiento espiritual de los católicos, ya que permite al creyente examinar su vida, reconocer sus faltas y experimentar el perdón y la misericordia de Dios. A través de este sacramento, los cristianos son restaurados en su camino de santidad y se les ofrece una nueva oportunidad de vivir una vida de gracia y fidelidad a Cristo.
 
 En resumen, la Reconciliación es el sacramento mediante el cual los católicos confiesan sus pecados a Dios, reciben el perdón y son restaurados a la gracia divina. Es un acto de humildad y confianza en la misericordia de Dios, que permite la sanación espiritual y el crecimiento en la vida cristiana.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/sacramentos/reconciliacion/23-el-perdon-de-los-pecados)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/sacramentos/reconciliacion/23-el-perdon-de-los-pecados&text=EL%20PERDÓN%20DE%20LOS%20PECADOS)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/sacramentos/reconciliacion/23-el-perdon-de-los-pecados "Share On Linkedin")
-
-
-

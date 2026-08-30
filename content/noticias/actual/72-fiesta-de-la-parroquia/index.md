@@ -6,6 +6,4 @@ draft: false
 title: Fiesta de la Parroquia
 ---
 
-##  Fiesta de la Parroquia 
-
 ![](imagen_incrustada_1.png)

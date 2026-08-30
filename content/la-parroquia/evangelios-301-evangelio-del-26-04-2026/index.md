@@ -5,6 +5,4 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Evangelio del 26.04.2026 
-
 [Evangelio14](evangelio14.pdf)

@@ -6,8 +6,6 @@ draft: false
 title: Domingo 06.10.2024
 ---
 
-##  Domingo 06.10.2024 
-
 ## El Papa Francisco recuerda a menudo las tres “palabras mágicas” del diccionario de la vida matrimonial:  
 por favor, gracias, perdona.
 

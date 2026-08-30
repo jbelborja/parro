@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Hora Santa 2019 
-
 [Hora Santa 2019](hora-santa-2019.pdf)

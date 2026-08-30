@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Domingo 21.12.2025 
-
 Un ángel del Señor se le apareció en sueños MT 1.20
 
 [25-12-14 TL- A](25-12-14-tl-a.pdf)

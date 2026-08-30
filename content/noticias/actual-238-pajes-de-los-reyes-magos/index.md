@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Pajes de los Reyes Magos 
-
 ![](imagen_incrustada_1.png)

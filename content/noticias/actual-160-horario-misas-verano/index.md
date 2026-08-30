@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Horario misas verano 
-
 ![](imagen_incrustada_1.png)

@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Visita del Papa 
-
 ![](papa2.png)

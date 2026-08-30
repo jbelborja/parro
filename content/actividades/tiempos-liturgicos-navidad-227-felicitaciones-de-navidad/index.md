@@ -5,8 +5,6 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Felicitaciones de Navidad 
-
 ![](imagen_incrustada_1.png)
 
 **FELICITACIONES DE NAVIDAD**

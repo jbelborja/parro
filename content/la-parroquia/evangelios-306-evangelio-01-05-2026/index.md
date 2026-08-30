@@ -5,6 +5,4 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Evangelio 01.05.2026 
-
 [Evangelio 01.05.2026](evangelio-01-05-2026.pdf)

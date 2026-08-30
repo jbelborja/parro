@@ -5,8 +5,6 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Pantalla del Atrio - Enero 2025 
-
 Es el contenido de la pantalla del atri del mes de enero 2025
 
 [Enero 2025](https://youtu.be/NTcV78EHJ84 "Pantalla del atrio")

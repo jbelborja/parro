@@ -6,8 +6,6 @@ draft: false
 
 __
 
-##  REUNION DEL 20 DE NOVIEMBRE DEL 2025 
-
 [17:16, 21/11/2025] Juan Bel Aragones: Ayer tuvimos la reunion. De nuevo no fué muy concurrida, pero si resultó intensa. Hablamos de la familia, de los diferentes tipos de familia que tenemos a nuestro alrededor. Diferentes circunstancias pueden hacer que una familia tenga multitud de formas y, en todas pueden caber cosas buenas que dependerán de cada familia en concreto, sin generalizaciones. Lo que queriamos discernir es como queremos que sea nuestra familia a la luz de la Amoris Laeticia. Es evidente que la familia tradicional “Padre y madre casados por la Iglesia” es la que tiene mas posibilidades de ser una buena familia, pero durante muchos años, este modelo de familia ha escondido un sinfín de barbaridades. En España vivimos un tiempo de fuerte choque cultural con multitud de nuevos españoles venidos de otras culturas. Esto produce un proceso de integración que todos tenemos que tratar que sea lo mas fácil posible y en el que salgan fortalecidos los valores esenciales de todos. 
 
 ORACIÓN:
@@ -27,12 +25,3 @@ En el nombre de Jesús, Amén.
 
   
 Este es el video que vimos
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/familias-jovenes/214-reunion-del-20-de-noviembre-del-2025)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/familias-jovenes/214-reunion-del-20-de-noviembre-del-2025&text=REUNION%20DEL%2020%20DE%20NOVIEMBRE%20DEL%202025)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/familias-jovenes/214-reunion-del-20-de-noviembre-del-2025 "Share On Linkedin")
-
-
-

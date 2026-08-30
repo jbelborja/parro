@@ -6,6 +6,4 @@ draft: false
 title: Visita del Papa
 ---
 
-##  Visita del Papa 
-
 ![](papa2.png)

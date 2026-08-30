@@ -6,8 +6,6 @@ draft: false
 title: Domingo 29.09.2024
 ---
 
-##  Domingo 29.09.2024 
-
 No me llames extranjero porque haya nacido lejos  
 o porque tenga otro nombre la tierra de donde vengo.  
 No me llames extranjero porque fue distinto el seno  

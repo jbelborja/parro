@@ -22,17 +22,11 @@ Página 2 de 2
   *   * 2
   *   *   *   * 
 
-
   * __[916521335](tel:916521335)
   *  __[628569997](tel:628569997)
   *  __[parroquialavid@archimadrid.es](mailto:parroquialavid@archimadrid.es)
 
 © 2026 Your Company. All Rights Reserved. Designed By JoomShaper
-
-  * [ __](https://www.facebook.com/ParroquiaLaVid)
-  * [](https://twitter.com/LaVidSanse)
-
-
 
 __
 
@@ -73,7 +67,5 @@ __
       * [ PANTALLA DEL ATRIO](/actividades/historico/pantalla-del-atrio)
     * [ JÓVENES](/actividades/jovenes)
     * [ FAMILIAS JOVENES](/actividades/familias-jovenes)
-
-
 
 [ ](javascript:void\(0\))

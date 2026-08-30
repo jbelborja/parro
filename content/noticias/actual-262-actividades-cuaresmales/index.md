@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Actividades Cuaresmales 
-
 ![](imagen_incrustada_1.png)

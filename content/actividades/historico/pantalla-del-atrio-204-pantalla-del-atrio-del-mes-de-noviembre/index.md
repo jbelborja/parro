@@ -5,8 +5,6 @@ categories: ["historico"]
 draft: false
 ---
 
-##  Pantalla del atrio del mes de noviembre 
-
 Pantalla del atrio noviembre
 
 [Pulsar para ver el video](https://youtu.be/6xEAxpM5Sf0 "Pantalla de noviembre 2025")

@@ -6,6 +6,4 @@ draft: false
 title: Jornadas para aprender a usar el movil
 ---
 
-##  Jornadas para aprender a usar el movil 
-
 ![](imagen_incrustada_1.png)

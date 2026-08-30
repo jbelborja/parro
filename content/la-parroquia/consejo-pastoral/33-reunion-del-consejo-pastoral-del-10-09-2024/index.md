@@ -6,8 +6,6 @@ draft: false
 title: REUNIÓN DEL CONSEJO PASTORAL DEL 10.09.2024
 ---
 
-##  REUNIÓN DEL CONSEJO PASTORAL DEL 10.09.2024 
-
 El pasado martes diez de septiembre tuvimos la primera reunión del Consejo con un nuevo equipo sacerdotal el padre Javier Antolín, que presidirá el Consejo, el padre Cedric estará más implicado con el grupo de jóvenes, y el padre Ramón queda con la catequesis de comunión.
 
   

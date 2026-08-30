@@ -5,8 +5,6 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Reunión del 28 de junio de 2025 
-
 Tuvimos la reunión, con poco quorum, pero otra vez seremos mas…
 
 La idea era establecer las lineas generales del próximo curso y eso hicimos…

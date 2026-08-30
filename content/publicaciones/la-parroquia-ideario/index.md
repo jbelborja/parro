@@ -6,8 +6,6 @@ draft: false
 
 __
 
-##  IDEARIO 
-
 IDEARIO
 
 La parroquia Nuestra Señora de la VId, integrada en la Archidiócesis de Madrid, es una comunidad de fieles cristianos que se reúne, ora y celebra los sacramentos. Encomendada a los padres agustinos hace suyas las características de la orden agustiniana: búsqueda de la verdad, profundidad espiritual (interioridad), comunión y fidelidad a la Iglesia.
@@ -89,12 +87,3 @@ Conclusión
 
   
 Presentada nuestra carta de Identidad, Misión y Valores esperamos sea de ayuda para comprender mejor nuestra realidad y aspiraciones. Nos comprometemos a ponerla en práctica y rogamos ayuda y el impulso crítico para conseguirlo
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/la-parroquia/ideario)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/la-parroquia/ideario&text=IDEARIO)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/la-parroquia/ideario "Share On Linkedin")
-
-
-

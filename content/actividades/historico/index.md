@@ -52,5 +52,3 @@ __
       * [ PANTALLA DEL ATRIO](/actividades/historico/pantalla-del-atrio)
     * [ JÓVENES](/actividades/jovenes)
     * [ FAMILIAS JOVENES](/actividades/familias-jovenes)
-
-

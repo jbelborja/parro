@@ -54,12 +54,3 @@ La Iglesia Católica no acepta el divorcio, ya que considera que el vínculo mat
 El matrimonio católico es visto como una vocación y un camino hacia la santificación. A través de los desafíos y alegrías de la vida conyugal, los esposos crecen en el amor a Dios y al prójimo. El sacramento les proporciona la gracia necesaria para vivir su compromiso de amor y fidelidad y enfrentar juntos los desafíos de la vida.
 
 En resumen, el matrimonio católico es una unión sagrada entre un hombre y una mujer basada en el amor, la fidelidad, la apertura a la vida y la entrega mutua, con el fin de caminar juntos hacia la santidad y formar una familia según el plan de Dios.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/sacramentos/matrimonio/86-matrimonio-1)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/sacramentos/matrimonio/86-matrimonio-1&text=MATRIMONIO)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/sacramentos/matrimonio/86-matrimonio-1 "Share On Linkedin")
-
-
-

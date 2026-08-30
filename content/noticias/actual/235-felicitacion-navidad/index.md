@@ -6,6 +6,4 @@ draft: false
 title: Felicitacion Navidad
 ---
 
-##  Felicitacion Navidad 
-
 ![](imagen_incrustada_1.png)

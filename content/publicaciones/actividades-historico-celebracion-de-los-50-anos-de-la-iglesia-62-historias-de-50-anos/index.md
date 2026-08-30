@@ -6,8 +6,6 @@ draft: false
 
 __
 
-##  HISTORIAS DE 50 AÑOS 
-
 ![](imagen_incrustada_1.png)
 
 ÍNDICE  
@@ -44,12 +42,3 @@ __
 _***Pulsando el enlace sigiente se puede descargar el libro._
 
 [50 años](50-anos.pdf)
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/historico/celebracion-de-los-50-anos-de-la-iglesia/62-historias-de-50-anos)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/historico/celebracion-de-los-50-anos-de-la-iglesia/62-historias-de-50-anos&text=HISTORIAS%20DE%2050%20AÑOS)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/historico/celebracion-de-los-50-anos-de-la-iglesia/62-historias-de-50-anos "Share On Linkedin")
-
-
-

@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Reuniones de este trimestre en el arciprestazgo 
-
 ![](imagen_incrustada_1.png)

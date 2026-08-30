@@ -6,8 +6,6 @@ draft: false
 title: Reunión del Consejo Pastoral del 18.05.2026
 ---
 
-##  Reunión del Consejo Pastoral del 18.05.2026 
-
 Evaluamos la Semana Santa. Todos de acuerdo en que los ViaCrucis fueran en viernes pero la impresión general fue que eran mas participativos cuando se preparaban por grupos y con algún tema que les diera unidad, por lo que la recomendación fue volver al sistema antiguo para los próximos años. Por lo que respecta al Vía Crucis por la calle del Viernes Santo, resultó bien y parece oportuno repetirlo.
 
 Los días de la visita del Papa, en la parroquia se mantendrán los horarios habituales, sobre todo el día del Corpus.

@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Video del Belen de la Parroquia 
-
 {{< youtube WB0-85FXbNQ >}}

@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  JORNADA DE CATEQUISTAS 
-
 ![](imagen_incrustada_1.jpeg)

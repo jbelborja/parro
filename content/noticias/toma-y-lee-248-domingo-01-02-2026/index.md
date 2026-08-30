@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Domingo 01.02.2026 
-
 Lesenseñaba diciendo... Bienaventurados... MT 5,2
 
 [26-02-01 TL- A](26-02-01-tl-a.pdf)

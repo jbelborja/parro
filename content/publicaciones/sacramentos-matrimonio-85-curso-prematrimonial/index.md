@@ -29,7 +29,6 @@ ESQUEMA DEL CURSO:
 • ¿Cómo es, y describiríais, vuestra fe en esta etapa de vuestra vida?  
   
 
-
 El curso se estructura en cinco bloques:
 
 -Proyecto de vida en común
@@ -45,12 +44,3 @@ El curso se estructura en cinco bloques:
 A lo largo del año tenemos dos convocatorias, una en enero que se concentra en dos días, el sábado u la mañana del domingo y otra en mayo, que dura toda la semana
 
 de lunes a viernes de 21 h. a 22,30.
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/sacramentos/matrimonio/85-curso-prematrimonial)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/sacramentos/matrimonio/85-curso-prematrimonial&text=CURSO%20PREMATRIMONIAL)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/sacramentos/matrimonio/85-curso-prematrimonial "Share On Linkedin")
-
-
-

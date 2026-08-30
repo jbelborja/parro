@@ -5,8 +5,6 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Hora Santa 2022 
-
 Videos de la presentacion:
 
 <https://youtu.be/PYf8GuFzs80>

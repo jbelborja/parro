@@ -20,11 +20,6 @@ Tabla de artículos  Título
 
 © 2026 Your Company. All Rights Reserved. Designed By JoomShaper
 
-  * [ __](https://www.facebook.com/ParroquiaLaVid)
-  * [](https://twitter.com/LaVidSanse)
-
-
-
 __
 
 ###### Menú Principal
@@ -64,7 +59,5 @@ __
       * [ PANTALLA DEL ATRIO](/actividades/historico/pantalla-del-atrio)
     * [ JÓVENES](/actividades/jovenes)
     * [ FAMILIAS JOVENES](/actividades/familias-jovenes)
-
-
 
 [ ](javascript:void\(0\))

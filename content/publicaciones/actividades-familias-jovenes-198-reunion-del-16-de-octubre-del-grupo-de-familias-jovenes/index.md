@@ -6,8 +6,6 @@ draft: false
 
 __
 
-##  REUNION DEL 16 DE OCTUBRE DEL GRUPO DE FAMILIAS JOVENES 
-
 Ayer tuvimos la tercera reunión de nuestro grupo, la participación podría haber sido mejor, pero en cambio resultó muy productiva. Vimos el video del enlace que os adjuntamos. Los comentarios fueron situaciones personales vividas por los unos y los otros, no teorías o sermones y ahora, antes de ponerme a escribir el resumen, he releído el capitulo 4 de la A.L.y he visto que lo que hablamos ayer esta reflejado, casi al pié de la letra en ella. 
 
 El amor necesita paciencia, y por paciencia no entendemos tragar lo que sea. Pero existe un riesgo en el matrimonio de esperar relaciones perfectas y nadie es perfecto, por eso caemos una y otra vez en los mismos fallos y el único camino es el perdón. La persona amada tiene derecho a vivir siendo como es y asi la quiere Jesús. ¿Como no la voy a querer yo? La paciencia no es una postura pasiva, sino que tiene que estar acompañada por una actividad. En el amor son mas importantes las obras que las palabras.
@@ -23,12 +21,3 @@ Evidentemente no es una tarea fácil, y menos cuando nuestro entorno no particip
 {{< youtube ZfWz0X_GfIk >}}
 
 ![](imagen_incrustada_1.png)
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/familias-jovenes/198-reunion-del-16-de-octubre-del-grupo-de-familias-jovenes)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/familias-jovenes/198-reunion-del-16-de-octubre-del-grupo-de-familias-jovenes&text=REUNION%20DEL%2016%20DE%20OCTUBRE%20DEL%20GRUPO%20DE%20FAMILIAS%20JOVENES)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/familias-jovenes/198-reunion-del-16-de-octubre-del-grupo-de-familias-jovenes "Share On Linkedin")
-
-
-

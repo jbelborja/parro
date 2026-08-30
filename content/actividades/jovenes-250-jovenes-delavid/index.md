@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  @JOVENES_DELAVID 
-
 ![](imagen_incrustada_1.png)

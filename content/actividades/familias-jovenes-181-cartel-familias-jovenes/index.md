@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Cartel Familias Jóvenes 
-
 ![](imagen_incrustada_1.jpeg)

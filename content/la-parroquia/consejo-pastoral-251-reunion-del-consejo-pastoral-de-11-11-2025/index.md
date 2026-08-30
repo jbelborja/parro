@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Reunión del Consejo Pastoral de 11.11.2025 
-
 El P. Javier nos informa de que ya está colocada en Guadarrama la cruz que habían hecho los jóvenes y que nos acompañó en la pasada Semana Santa. También nos dice que han retirado ya el contenedor de ropa que había en el atrio y que solo daba problemas. En los próximamente se instalará un nuevo contenedor de Cáritas.
 
 Con respecto a la carta del Cardenal, nos comentó que insiste especialmente en la formación a todos los niveles, tanto de laicos como de sacerdotes. Se va a establecer un nuevo protocolo para las personas adultas que quieren bautizarse, con un catecumenado de dos años y marcando y celebrando las diferentes etapas del mismo. 
@@ -23,4 +21,4 @@ Preparamos la celebración de la Fiesta de la Parroquia, el 14 de diciembre. Ten
 
 Los dias 10 y 11 de Enero y 4-8 de Mayo. Tendremos Cursos prematrimoniales.
 
-Los diferentes grupos de catequesis informan de como ha ido el inicio del curso. 
+Los diferentes grupos de catequesis informan de como ha ido el inicio del curso.

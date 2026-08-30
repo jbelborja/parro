@@ -5,6 +5,4 @@ categories: ["tiempos-liturgicos"]
 draft: false
 ---
 
-##  Hora Santa 2024 - Resumén 
-
 [hora santa 2024 - Resumén](hora-santa-2024-resumen.pdf)

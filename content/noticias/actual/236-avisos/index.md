@@ -6,7 +6,4 @@ draft: false
 title: Avisos
 ---
 
-##  Avisos 
-
-  
 ![](imagen_incrustada_1.png)![](imagen_incrustada_2.jpeg)

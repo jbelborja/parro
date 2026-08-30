@@ -5,6 +5,4 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  Evangelio del 28.04.2026 
-
 [Evangelio del 28.04.2026](evangelio-del-28-04-2026.pdf)

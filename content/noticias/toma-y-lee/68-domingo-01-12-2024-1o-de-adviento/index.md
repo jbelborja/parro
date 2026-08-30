@@ -6,8 +6,6 @@ draft: false
 title: Domingo 01.12.2024 1º de Adviento
 ---
 
-##  Domingo 01.12.2024 1º de Adviento 
-
 La Iglesia nos invita a vivir despiertos, con los ojos abiertos para reconocer al bebé  
 que espera María.
 

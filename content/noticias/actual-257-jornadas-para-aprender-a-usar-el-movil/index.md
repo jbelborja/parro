@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Jornadas para aprender a usar el movil 
-
 ![](imagen_incrustada_1.png)

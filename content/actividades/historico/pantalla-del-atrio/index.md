@@ -21,7 +21,6 @@ Página 2 de 2
   *   * 2
   *   *   *   * 
 
-
 __
 
 ###### Menú Principal
@@ -61,5 +60,3 @@ __
       * [ PANTALLA DEL ATRIO](/actividades/historico/pantalla-del-atrio)
     * [ JÓVENES](/actividades/jovenes)
     * [ FAMILIAS JOVENES](/actividades/familias-jovenes)
-
-

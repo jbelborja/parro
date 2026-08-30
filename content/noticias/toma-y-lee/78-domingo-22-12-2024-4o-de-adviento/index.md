@@ -6,8 +6,6 @@ draft: false
 title: Domingo 22.12.2024 4º de Adviento
 ---
 
-##  Domingo 22.12.2024 4º de Adviento 
-
 "... porque ella estaba segura de que los planes de Dios eran el mejor proyecto  
 para su vida”.
 

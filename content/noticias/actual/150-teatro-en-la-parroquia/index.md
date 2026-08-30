@@ -6,6 +6,4 @@ draft: false
 title: TEATRO EN LA PARROQUIA
 ---
 
-##  TEATRO EN LA PARROQUIA 
-
 ![](imagen_incrustada_1.jpeg)

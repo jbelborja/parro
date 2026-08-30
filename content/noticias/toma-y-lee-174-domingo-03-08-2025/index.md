@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Domingo 03.08.2025 
-
 Guardáos de toda clase de codicia. Luc12,15
 
 [25-08-03 TL Domingo XVIII - C](25-08-03-tl-domingo-xviii-c.pdf)

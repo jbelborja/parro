@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Domingo 28.12.2025 
-
 Un pueblo llamado Nazaret... Mt 2,23
 
 [25-12-28 TL- A](25-12-28-tl-a.pdf)

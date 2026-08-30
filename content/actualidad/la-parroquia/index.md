@@ -5,8 +5,6 @@ categories: ["actualidad"]
 draft: false
 ---
 
-##  LA PARROQUIA 
-
 ![](imagen_incrustada_1.png)
 
   

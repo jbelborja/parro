@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Domingo 15.12.2024 
-
 “¿Por qué das voces si nadie te escucha?”. Y el profeta  
 respondió: “Si me callo, ellos me habrían cambiado a mí”.
 

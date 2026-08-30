@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Felicitacion Navidad 
-
 ![](imagen_incrustada_1.png)

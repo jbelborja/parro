@@ -6,6 +6,4 @@ draft: false
 title: Cartel Familias Jóvenes
 ---
 
-##  Cartel Familias Jóvenes 
-
 ![](imagen_incrustada_1.jpeg)

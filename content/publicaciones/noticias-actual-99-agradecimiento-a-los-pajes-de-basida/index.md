@@ -6,8 +6,6 @@ title: LaVid - Agradecimiento a los "PAJES DE BASIDA".
 
 __
 
-##  Agradecimiento a los "PAJES DE BASIDA". 
-
 Proyecto pajes de los Reyes 2025»  
 Gracias a la colaboración de muchos voluntarios anónimos, este año se han repartido 115 regalos  
 de Reyes personalizados para los hogares de Basida.
@@ -34,9 +32,3 @@ hacéis real cada año...Muchas gracias y muchas bendiciones para vosotros y cad
 La familia Basida
 
 19 enero 2025
-
-  * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/noticias/actual/99-agradecimiento-a-los-pajes-de-basida)
-
-  * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/99-agradecimiento-a-los-pajes-de-basida&text=Agradecimiento%20a%20los%20)
-
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/99-agradecimiento-a-los-pajes-de-basida "Share On Linkedin")

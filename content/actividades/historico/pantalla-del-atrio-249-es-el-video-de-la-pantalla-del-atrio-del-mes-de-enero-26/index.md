@@ -5,6 +5,4 @@ categories: ["historico"]
 draft: false
 ---
 
-##  PANTALLA DEL ATRIO - Enero-26 
-
 [Pantalla atrio enero-26](https://youtu.be/4827nIP6Aiw "pantalla enero-26")

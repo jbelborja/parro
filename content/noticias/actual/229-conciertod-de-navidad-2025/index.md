@@ -6,6 +6,4 @@ draft: false
 title: Conciertod de Navidad 2025
 ---
 
-##  Conciertod de Navidad 2025 
-
 ![](imagen_incrustada_1.jpeg)

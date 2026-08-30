@@ -5,8 +5,6 @@ categories: ["la-parroquia"]
 draft: false
 ---
 
-##  CARITAS 
-
 Cáritas es una organización internacional de ayuda y desarrollo social que trabaja en todo el mundo para combatir la pobreza y la exclusión social. Fundada en 1897 en Alemania y con una red que abarca más de 160 países, Cáritas actúa principalmente a través de Caritas Internationalis, una confederación de organizaciones nacionales que operan bajo los principios de la Iglesia Católica
 
 ![](Captura%20de%20pantalla%20de%202024-09-22%2010-13-54.jpg)

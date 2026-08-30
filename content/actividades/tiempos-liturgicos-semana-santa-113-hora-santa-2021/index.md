@@ -5,6 +5,4 @@ categories: ["actividades"]
 draft: false
 ---
 
-##  Hora Santa 2021 
-
 [Hora Santa 2021](hora-santa-2021.pdf)

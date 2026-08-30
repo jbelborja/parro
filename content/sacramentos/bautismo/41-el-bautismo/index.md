@@ -33,8 +33,6 @@ El bautismo es el primer sacramento de iniciación cristiana en la Iglesia Cató
 **\- Vela:** Se enciende una vela del Cirio Pascual, que representa a Cristo como la luz del mundo, para simbolizar que el bautizado debe caminar en la luz de Cristo.  
 -**Ropa blanca:** El bautizado suele vestir una prenda blanca, símbolo de pureza y nueva vida.
 
-## Quiénes pueden recibir el bautismo?
-
 **Niños:** Es común que los niños sean bautizados poco después de nacer, como una expresión del deseo de los padres de que entren en la vida cristiana desde el principio. Se eligen padrinos, quienes asumen el compromiso de guiar al niño en su vida de fe.
 
   

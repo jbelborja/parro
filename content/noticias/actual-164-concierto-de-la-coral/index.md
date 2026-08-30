@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Concierto de la Coral 
-
 ![](imagen_incrustada_1.png)

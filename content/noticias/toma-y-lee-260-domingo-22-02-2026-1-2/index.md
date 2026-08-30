@@ -5,8 +5,6 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  Domingo 22.02.2026 (1-2) 
-
 La Cuaresma como tiempo de conversion.
 
 <!--more-->

@@ -5,6 +5,4 @@ categories: ["noticias"]
 draft: false
 ---
 
-##  TEATRO EN LA PARROQUIA 
-
 ![](imagen_incrustada_1.jpeg)
