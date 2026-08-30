@@ -1,8 +1,9 @@
 ---
-title: "Reunión del Consejo Pastoral de 11.11.2025"
-date: 2026-07-11T00:00:00Z
-categories: ["consejo-pastoral"]
+categories:
+- consejo-pastoral
+date: '2026-02-01'
 draft: false
+title: Reunión del Consejo Pastoral de 11.11.2025
 ---
 
 ##  Reunión del Consejo Pastoral de 11.11.2025 
@@ -23,4 +24,4 @@ Preparamos la celebración de la Fiesta de la Parroquia, el 14 de diciembre. Ten
 
 Los dias 10 y 11 de Enero y 4-8 de Mayo. Tendremos Cursos prematrimoniales.
 
-Los diferentes grupos de catequesis informan de como ha ido el inicio del curso. 
+Los diferentes grupos de catequesis informan de como ha ido el inicio del curso.

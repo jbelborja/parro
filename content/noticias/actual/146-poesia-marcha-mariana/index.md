@@ -1,8 +1,9 @@
 ---
-title: "Poesia Marcha Mariana"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-05-16'
 draft: false
+title: Poesia Marcha Mariana
 ---
 
 ##  Poesia Marcha Mariana 

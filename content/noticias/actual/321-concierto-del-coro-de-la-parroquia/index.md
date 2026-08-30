@@ -1,8 +1,9 @@
 ---
-title: "Concierto del coro de la parroquia"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-06-14'
 draft: false
+title: Concierto del coro de la parroquia
 ---
 
 ##  Concierto del coro de la parroquia 

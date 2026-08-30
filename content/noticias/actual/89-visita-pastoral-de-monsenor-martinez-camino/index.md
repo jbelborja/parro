@@ -1,8 +1,9 @@
 ---
-title: "Visita Pastoral de Monseñor Martinez Camino"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-01-19'
 draft: false
+title: Visita Pastoral de Monseñor Martinez Camino
 ---
 
 ##  Visita Pastoral de Monseñor Martinez Camino 

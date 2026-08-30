@@ -1,8 +1,9 @@
 ---
-title: "Domingo 26.01.2025 III ordinario"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-01-26'
 draft: false
+title: Domingo 26.01.2025 III ordinario
 ---
 
 ##  Domingo 26.01.2025 III ordinario 

@@ -1,8 +1,9 @@
 ---
-title: "REUNION DEL 28.03.2026 DEL GRUPO FAMILIAS JÓVENES"
-date: 2026-07-11T00:00:00Z
-categories: ["familias-jovenes"]
+categories:
+- familias-jovenes
+date: '2026-03-28'
 draft: false
+title: REUNION DEL 28.03.2026 DEL GRUPO FAMILIAS JÓVENES
 ---
 
 ##  REUNION DEL 28.03.2026 DEL GRUPO FAMILIAS JÓVENES 
@@ -29,4 +30,3 @@ No quiero tener excusas para seguir en este empeño. Se que mi oración me permi
 
 Enlace del video:
 
-<https://www.youtube.com/watch?v=H-H0xdZDsdo>

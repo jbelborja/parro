@@ -1,8 +1,9 @@
 ---
-title: "IDEARIO"
-date: 2026-07-11T00:00:00Z
-categories: ["la-parroquia"]
+categories:
+- la-parroquia
+date: '2024-09-07'
 draft: false
+title: IDEARIO
 ---
 
 ##  IDEARIO 

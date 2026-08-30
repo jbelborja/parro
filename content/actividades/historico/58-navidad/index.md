@@ -1,8 +1,9 @@
 ---
-title: "LaVid - NAVIDAD"
-date: 2026-07-11T00:00:00Z
-categories: ["historico"]
+categories:
+- historico
+date: '2025-12-01'
 draft: false
+title: LaVid - NAVIDAD
 ---
 
 ![](imagen_incrustada_1.jpeg)

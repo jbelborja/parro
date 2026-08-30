@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Los pajes de Basida"
-date: 2026-07-08T00:00:00Z
+date: '2024-11-24'
 draft: false
+title: LaVid - Los pajes de Basida
 ---
 
 __
@@ -21,6 +21,3 @@ Estas son las instrucciones pàra participar.
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/66-los-pajes-de-basida&text=Los%20pajes%20de%20Basida)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/66-los-pajes-de-basida "Share On Linkedin")
-
-
-

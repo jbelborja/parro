@@ -29,4 +29,4 @@ No quiero tener excusas para seguir en este empeño. Se que mi oración me permi
 
 Enlace del video:
 
-<https://www.youtube.com/watch?v=H-H0xdZDsdo>
+{{< youtube H-H0xdZDsdo >}}

@@ -1,8 +1,9 @@
 ---
-title: "Domingo 22.12.2024 4º de Adviento"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2024-12-22'
 draft: false
+title: Domingo 22.12.2024 4º de Adviento
 ---
 
 ##  Domingo 22.12.2024 4º de Adviento 

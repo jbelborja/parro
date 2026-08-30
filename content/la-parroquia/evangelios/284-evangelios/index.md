@@ -1,8 +1,9 @@
 ---
-title: "EVANGELIO 05.04.2026 Pascua"
-date: 2026-07-11T00:00:00Z
-categories: ["evangelios"]
+categories:
+- evangelios
+date: '2026-04-09'
 draft: false
+title: EVANGELIO 05.04.2026 Pascua
 ---
 
 ##  EVANGELIO 05.04.2026 Pascua 

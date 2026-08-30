@@ -30,13 +30,12 @@ No quiero tener excusas para seguir en este empeño. Se que mi oración me permi
 
 Enlace del video:
 
-<https://www.youtube.com/watch?v=H-H0xdZDsdo>
+{{< youtube H-H0xdZDsdo >}}
 
   * [ __](https://www.facebook.com/sharer.php?u=https://la-vid.org/actividades/familias-jovenes/278-reunion-del-28-03-2026-del-grupo-familias-jovenes)
 
   * [ ](http://twitter.com/share?url=https://la-vid.org/actividades/familias-jovenes/278-reunion-del-28-03-2026-del-grupo-familias-jovenes&text=REUNION%20DEL%2028.03.2026%20DEL%20GRUPO%20FAMILIAS%20JÓVENES%20)
 
-  * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/actividades/familias-jovenes/278-reunion-del-28-03-2026-del-grupo-familias-jovenes "Share On Linkedin")
 
 
 

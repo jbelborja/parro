@@ -1,8 +1,9 @@
 ---
-title: "Domingo 01.03.2026 II de Cuaresma"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-02-28'
 draft: false
+title: Domingo 01.03.2026 II de Cuaresma
 ---
 
 ##  Domingo 01.03.2026 II de Cuaresma 

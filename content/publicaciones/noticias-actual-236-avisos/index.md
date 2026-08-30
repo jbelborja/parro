@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Avisos"
-date: 2026-07-08T00:00:00Z
+date: '2026-01-01'
 draft: false
+title: LaVid - Avisos
 ---
 
 __
@@ -16,6 +16,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/236-avisos&text=Avisos)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/236-avisos "Share On Linkedin")
-
-
-

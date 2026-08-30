@@ -1,8 +1,9 @@
 ---
-title: "Marcha Mariana 2026"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-06-16'
 draft: false
+title: Marcha Mariana 2026
 ---
 
 ##  Marcha Mariana 2026 

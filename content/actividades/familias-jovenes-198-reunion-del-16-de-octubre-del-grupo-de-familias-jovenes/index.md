@@ -19,6 +19,6 @@ Cuando discutimos con nuestra pareja, lo hacemos por UNA COSA y porque queremos 
 
 Evidentemente no es una tarea fácil, y menos cuando nuestro entorno no participa de estas ideas. Por eso es muy importante tener un grupo de referencia con el q.ue poder compartir y comentar como lo vamos consiguiendo y las dificultades que encontramos y esta claro que esto exige sacrificios y renuncias, en el fondo tiempo, pero vale la pena
 
-Enlace al video: [https://www.youtube.com/watch?v=ZfWz0X_GfIk&t=14s](https://www.youtube.com/watch?v=ZfWz0X_GfIk&t=14s)
+{{< youtube ZfWz0X_GfIk >}}
 
 ![](imagen_incrustada_1.png)

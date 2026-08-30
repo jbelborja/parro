@@ -1,7 +1,7 @@
 ---
-title: "LaVid - TEATRO EN LA PARROQUIA"
-date: 2026-07-08T00:00:00Z
+date: '2025-05-17'
 draft: false
+title: LaVid - TEATRO EN LA PARROQUIA
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/150-teatro-en-la-parroquia&text=TEATRO%20EN%20LA%20PARROQUIA)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/150-teatro-en-la-parroquia "Share On Linkedin")
-
-
-

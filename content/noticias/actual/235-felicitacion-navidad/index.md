@@ -1,8 +1,9 @@
 ---
-title: "Felicitacion Navidad"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-01-01'
 draft: false
+title: Felicitacion Navidad
 ---
 
 ##  Felicitacion Navidad 

@@ -1,8 +1,9 @@
 ---
-title: "Significado de la Confirmación:"
-date: 2026-07-11T00:00:00Z
-categories: ["confirmacion"]
+categories:
+- confirmacion
+date: '2024-09-19'
 draft: false
+title: 'Significado de la Confirmación:'
 ---
 
 La Confirmación es uno de los sacramentos de iniciación cristiana en la Iglesia Católica, junto con el Bautismo y la Eucaristía. A través de la Confirmación, el creyente recibe el don del Espíritu Santo de manera plena, lo que le fortalece y lo capacita para vivir una vida de fe más madura y comprometida. Es vista como la continuación del Bautismo, donde los dones del Espíritu recibidos en el Bautismo se perfeccionan.

@@ -1,7 +1,8 @@
 ---
-title: "LaVid - Normas para el acceso al Estadio Santiago Bernabeu para el acto del Papa"
-date: 2026-07-08T00:00:00Z
+date: '2026-05-30'
 draft: false
+title: LaVid - Normas para el acceso al Estadio Santiago Bernabeu para el acto del
+  Papa
 ---
 
 __
@@ -17,6 +18,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/316-normas-para-el-acceso-al-estadio-santiago-bernabeu-para-el-acto-del-papa&text=Normas%20para%20el%20acceso%20al%20Estadio%20Santiago%20Bernabeu%20para%20el%20acto%20del%20Papa)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/316-normas-para-el-acceso-al-estadio-santiago-bernabeu-para-el-acto-del-papa "Share On Linkedin")
-
-
-

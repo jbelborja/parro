@@ -1,8 +1,9 @@
 ---
-title: "Reuniones de este trimestre en el arciprestazgo"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-01-23'
 draft: false
+title: Reuniones de este trimestre en el arciprestazgo
 ---
 
 ##  Reuniones de este trimestre en el arciprestazgo 

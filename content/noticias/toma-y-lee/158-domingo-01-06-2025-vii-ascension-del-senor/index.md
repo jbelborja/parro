@@ -1,8 +1,9 @@
 ---
-title: "Domingo 01.06.2025 VII Ascensión del Señor"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-06-01'
 draft: false
+title: Domingo 01.06.2025 VII Ascensión del Señor
 ---
 
 ##  Domingo 01.06.2025 VII Ascensión del Señor 

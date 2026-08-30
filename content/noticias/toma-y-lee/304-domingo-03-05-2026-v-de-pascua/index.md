@@ -1,8 +1,9 @@
 ---
-title: "Domingo 03.05.2026 V de Pascua"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-05-02'
 draft: false
+title: Domingo 03.05.2026 V de Pascua
 ---
 
 ##  Domingo 03.05.2026 V de Pascua 

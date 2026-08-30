@@ -1,8 +1,9 @@
 ---
-title: "Domingo 24.05.2026 Pentecostes"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-05-23'
 draft: false
+title: Domingo 24.05.2026 Pentecostes
 ---
 
 ##  Domingo 24.05.2026 Pentecostes 

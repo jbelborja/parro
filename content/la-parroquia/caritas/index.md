@@ -1,8 +1,9 @@
 ---
-title: "CARITAS"
-date: 2026-07-11T00:00:00Z
-categories: ["la-parroquia"]
+categories:
+- la-parroquia
+date: '2024-09-17'
 draft: false
+title: CARITAS
 ---
 
 ##  [ CARITAS](/la-parroquia/caritas/37-caritas)

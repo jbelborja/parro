@@ -1,8 +1,9 @@
 ---
-title: "SABADO 01.11.2025 TODOS LOS SANTOS"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-11-01'
 draft: false
+title: SABADO 01.11.2025 TODOS LOS SANTOS
 ---
 
 ##  SABADO 01.11.2025 TODOS LOS SANTOS 

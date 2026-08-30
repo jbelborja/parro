@@ -1,8 +1,9 @@
 ---
-title: "17.04.2025 JUEVES SANTO"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-04-17'
 draft: false
+title: 17.04.2025 JUEVES SANTO
 ---
 
 ##  17.04.2025 JUEVES SANTO 

@@ -1,7 +1,7 @@
 ---
-title: "LaVid - CURSO PREMATRIMONIAL"
-date: 2026-07-08T00:00:00Z
+date: '2026-04-05'
 draft: false
+title: LaVid - CURSO PREMATRIMONIAL
 ---
 
 __
@@ -17,6 +17,3 @@ Los interesados pueden apuntarse en el despacho.
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/283-curso-prematrimonial&text=CURSO%20PREMATRIMONIAL)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/283-curso-prematrimonial "Share On Linkedin")
-
-
-

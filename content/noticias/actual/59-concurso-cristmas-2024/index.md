@@ -1,8 +1,9 @@
 ---
-title: "Concurso Cristmas 2024"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2024-11-14'
 draft: false
+title: Concurso Cristmas 2024
 ---
 
 ##  Concurso Cristmas 2024 

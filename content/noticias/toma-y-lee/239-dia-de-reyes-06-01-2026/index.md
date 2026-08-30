@@ -1,8 +1,9 @@
 ---
-title: "DIA DE REYES 06.01.2026"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-01-06'
 draft: false
+title: DIA DE REYES 06.01.2026
 ---
 
 ##  DIA DE REYES 06.01.2026 

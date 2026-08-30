@@ -1,8 +1,9 @@
 ---
-title: "REUNIÓN DEL CONSEJO PASTORAL DEL 14.05.2025"
-date: 2026-07-11T00:00:00Z
-categories: ["consejo-pastoral"]
+categories:
+- consejo-pastoral
+date: '2025-05-17'
 draft: false
+title: REUNIÓN DEL CONSEJO PASTORAL DEL 14.05.2025
 ---
 
 ##  REUNIÓN DEL CONSEJO PASTORAL DEL 14.05.2025 

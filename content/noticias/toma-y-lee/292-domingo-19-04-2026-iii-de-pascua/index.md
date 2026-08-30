@@ -1,8 +1,9 @@
 ---
-title: "Domingo 19.04.2026 III de PASCUA"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-04-18'
 draft: false
+title: Domingo 19.04.2026 III de PASCUA
 ---
 
 ##  Domingo 19.04.2026 III de PASCUA 

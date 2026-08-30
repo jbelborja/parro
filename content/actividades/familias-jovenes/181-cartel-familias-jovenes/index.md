@@ -1,8 +1,9 @@
 ---
-title: "Cartel Familias Jóvenes"
-date: 2026-07-11T00:00:00Z
-categories: ["familias-jovenes"]
+categories:
+- familias-jovenes
+date: '2025-09-03'
 draft: false
+title: Cartel Familias Jóvenes
 ---
 
 ##  Cartel Familias Jóvenes 

@@ -1,8 +1,9 @@
 ---
-title: "REUNIÓN DEL GRUPO FAMILIAS JÓVENES"
-date: 2026-07-11T00:00:00Z
-categories: ["actividades"]
+categories:
+- actividades
+date: '2026-03-28'
 draft: false
+title: REUNIÓN DEL GRUPO FAMILIAS JÓVENES
 ---
 
 ##  [ REUNIÓN DEL GRUPO FAMILIAS JÓVENES](/actividades/familias-jovenes/194-reunion-del-grupo-failias-jovenes)

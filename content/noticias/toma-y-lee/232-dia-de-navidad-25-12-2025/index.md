@@ -1,8 +1,9 @@
 ---
-title: "Dia de Navidad 25.12.2025"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-12-25'
 draft: false
+title: Dia de Navidad 25.12.2025
 ---
 
 ##  Dia de Navidad 25.12.2025 

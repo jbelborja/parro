@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Marcha Mariana 2026"
-date: 2026-07-08T00:00:00Z
+date: '2026-06-16'
 draft: false
+title: LaVid - Marcha Mariana 2026
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/322-marcha-mariana-2026&text=Marcha%20Mariana%202026)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/322-marcha-mariana-2026 "Share On Linkedin")
-
-
-

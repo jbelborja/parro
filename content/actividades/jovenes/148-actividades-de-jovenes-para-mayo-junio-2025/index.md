@@ -1,8 +1,9 @@
 ---
-title: "ACTIVIDADES DE JOVENES PARA MAYO-JUNIO 2025"
-date: 2026-07-11T00:00:00Z
-categories: ["jovenes"]
+categories:
+- jovenes
+date: '2025-05-17'
 draft: false
+title: ACTIVIDADES DE JOVENES PARA MAYO-JUNIO 2025
 ---
 
 ##  ACTIVIDADES DE JOVENES PARA MAYO-JUNIO 2025 

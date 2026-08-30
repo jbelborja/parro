@@ -1,8 +1,9 @@
 ---
-title: "HISTORIAS DE 50 AÑOS"
-date: 2026-07-11T00:00:00Z
-categories: ["historico"]
+categories:
+- historico
+date: '2024-11-20'
 draft: false
+title: HISTORIAS DE 50 AÑOS
 ---
 
 ##  [ HISTORIAS DE 50 AÑOS](/actividades/historico/celebracion-de-los-50-anos-de-la-iglesia/62-historias-de-50-anos)

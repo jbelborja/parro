@@ -1,8 +1,9 @@
 ---
-title: "LaVid - PERSONAJES DE LA PASIO - BARIONÁ"
-date: 2026-07-11T00:00:00Z
-categories: ["tiempos-liturgicos"]
+categories:
+- tiempos-liturgicos
+date: '2026-04-01'
 draft: false
+title: LaVid - PERSONAJES DE LA PASIO - BARIONÁ
 ---
 
 Basado en una obra de Jean Paul Sartre.

@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Conciertod de Navidad 2025"
-date: 2026-07-08T00:00:00Z
+date: '2025-12-16'
 draft: false
+title: LaVid - Conciertod de Navidad 2025
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/229-conciertod-de-navidad-2025&text=Conciertod%20de%20Navidad%202025)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/229-conciertod-de-navidad-2025 "Share On Linkedin")
-
-
-

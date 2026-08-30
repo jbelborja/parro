@@ -1,8 +1,9 @@
 ---
-title: "CATEQUESIS DE COMUNION"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-09-12'
 draft: false
+title: CATEQUESIS DE COMUNION
 ---
 
 ##  CATEQUESIS DE COMUNION 

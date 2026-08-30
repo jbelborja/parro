@@ -1,8 +1,9 @@
 ---
-title: "@JOVENES_DELAVID"
-date: 2026-07-11T00:00:00Z
-categories: ["jovenes"]
+categories:
+- jovenes
+date: '2026-02-01'
 draft: false
+title: '@JOVENES_DELAVID'
 ---
 
 ##  @JOVENES_DELAVID 

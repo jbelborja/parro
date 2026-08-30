@@ -1,7 +1,7 @@
 ---
-title: "LaVid - CATEQUESIS DE COMUNION"
-date: 2026-07-08T00:00:00Z
+date: '2025-09-12'
 draft: false
+title: LaVid - CATEQUESIS DE COMUNION
 ---
 
 __
@@ -21,6 +21,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/185-catequesis-de-comunion&text=CATEQUESIS%20DE%20COMUNION)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/185-catequesis-de-comunion "Share On Linkedin")
-
-
-

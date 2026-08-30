@@ -1,8 +1,9 @@
 ---
-title: "LaVid - LA DESPEDIDA"
-date: 2026-07-11T00:00:00Z
-categories: ["uncion-de-los-enfermos"]
+categories:
+- uncion-de-los-enfermos
+date: '2024-09-08'
 draft: false
+title: LaVid - LA DESPEDIDA
 ---
 
 La Unción de los Enfermos es uno de los sacramentos de curación en la Iglesia Católica. Su propósito es otorgar gracia, consuelo, fortaleza espiritual y, si es la voluntad de Dios, sanación física a quienes sufren una enfermedad grave o se encuentran en peligro de muerte. Este sacramento es un signo del cuidado amoroso de Dios por aquellos que padecen enfermedades o enfrentan situaciones críticas de salud. **Es un sacramento de vivos, no de muertos.**

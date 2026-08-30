@@ -1,8 +1,9 @@
 ---
-title: "Conciertod de Navidad 2025"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-12-16'
 draft: false
+title: Conciertod de Navidad 2025
 ---
 
 ##  Conciertod de Navidad 2025 

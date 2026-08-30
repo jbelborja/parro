@@ -1,8 +1,9 @@
 ---
-title: "Domingo 22 de marzo del 2026 V de Cuaresma"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-03-21'
 draft: false
+title: Domingo 22 de marzo del 2026 V de Cuaresma
 ---
 
 ##  Domingo 22 de marzo del 2026 V de Cuaresma 

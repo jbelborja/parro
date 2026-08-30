@@ -1,8 +1,9 @@
 ---
-title: "TEATRO EN LA PARROQUIA"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2025-05-17'
 draft: false
+title: TEATRO EN LA PARROQUIA
 ---
 
 ##  TEATRO EN LA PARROQUIA 

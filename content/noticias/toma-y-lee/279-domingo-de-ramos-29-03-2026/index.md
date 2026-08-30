@@ -1,8 +1,9 @@
 ---
-title: "Domingo de Ramos 29.03.2026"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-03-29'
 draft: false
+title: Domingo de Ramos 29.03.2026
 ---
 
 ##  Domingo de Ramos 29.03.2026 

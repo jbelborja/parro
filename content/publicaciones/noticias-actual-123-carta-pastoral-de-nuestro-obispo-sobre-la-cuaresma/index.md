@@ -1,7 +1,7 @@
 ---
-title: "LaVid - CARTA PASTORAL DE NUESTRO OBISPO SOBRE LA CUARESMA"
-date: 2026-07-08T00:00:00Z
+date: '2025-03-16'
 draft: false
+title: LaVid - CARTA PASTORAL DE NUESTRO OBISPO SOBRE LA CUARESMA
 ---
 
 __
@@ -17,6 +17,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/123-carta-pastoral-de-nuestro-obispo-sobre-la-cuaresma&text=CARTA%20PASTORAL%20DE%20NUESTRO%20OBISPO%20SOBRE%20LA%20CUARESMA)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/123-carta-pastoral-de-nuestro-obispo-sobre-la-cuaresma "Share On Linkedin")
-
-
-

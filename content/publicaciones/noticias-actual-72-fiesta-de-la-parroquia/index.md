@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Fiesta de la Parroquia"
-date: 2026-07-08T00:00:00Z
+date: '2024-12-08'
 draft: false
+title: LaVid - Fiesta de la Parroquia
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/72-fiesta-de-la-parroquia&text=Fiesta%20de%20la%20Parroquia)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/72-fiesta-de-la-parroquia "Share On Linkedin")
-
-
-

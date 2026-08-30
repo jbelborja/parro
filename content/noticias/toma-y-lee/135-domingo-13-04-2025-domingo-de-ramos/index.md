@@ -1,8 +1,9 @@
 ---
-title: "DOMINGO 13.04.2025 DOMINGO DE RAMOS"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-04-13'
 draft: false
+title: DOMINGO 13.04.2025 DOMINGO DE RAMOS
 ---
 
 ##  DOMINGO 13.04.2025 DOMINGO DE RAMOS 

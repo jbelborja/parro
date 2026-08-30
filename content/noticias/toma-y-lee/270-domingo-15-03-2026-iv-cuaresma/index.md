@@ -1,8 +1,9 @@
 ---
-title: "Domingo 15.03.2026 IV Cuaresma"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-03-14'
 draft: false
+title: Domingo 15.03.2026 IV Cuaresma
 ---
 
 ##  Domingo 15.03.2026 IV Cuaresma 

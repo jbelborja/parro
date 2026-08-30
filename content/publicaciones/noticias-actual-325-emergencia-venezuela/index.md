@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Emergencia Venezuela"
-date: 2026-07-08T00:00:00Z
+date: '2026-06-27'
 draft: false
+title: LaVid - Emergencia Venezuela
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/325-emergencia-venezuela&text=Emergencia%20Venezuela)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/325-emergencia-venezuela "Share On Linkedin")
-
-
-

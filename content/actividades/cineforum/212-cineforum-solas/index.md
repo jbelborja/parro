@@ -1,8 +1,9 @@
 ---
-title: "LaVid - CINEFORUM - Solas"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2025-11-20'
 draft: false
+title: LaVid - CINEFORUM - Solas
 ---
 
 ![](imagen_incrustada_1.png)

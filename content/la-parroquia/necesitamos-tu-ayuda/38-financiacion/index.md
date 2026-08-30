@@ -1,8 +1,9 @@
 ---
-title: "FINANCIACION"
-date: 2026-07-11T00:00:00Z
-categories: ["necesitamos-tu-ayuda"]
+categories:
+- necesitamos-tu-ayuda
+date: '2024-09-17'
 draft: false
+title: FINANCIACION
 ---
 
 ##  FINANCIACION 

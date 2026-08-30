@@ -1,8 +1,9 @@
 ---
-title: "LaVid - CURSO PREMATRIMONIAL"
-date: 2026-07-11T00:00:00Z
-categories: ["matrimonio"]
+categories:
+- matrimonio
+date: '2025-01-08'
 draft: false
+title: LaVid - CURSO PREMATRIMONIAL
 ---
 
 EL CURSO PREMATRIMONIAL

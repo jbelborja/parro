@@ -1,8 +1,9 @@
 ---
-title: "Felicitaciones de Navidad"
-date: 2026-07-11T00:00:00Z
-categories: ["tiempos-liturgicos"]
+categories:
+- tiempos-liturgicos
+date: '2025-12-11'
 draft: false
+title: Felicitaciones de Navidad
 ---
 
 ##  [ Felicitaciones de Navidad](/actividades/tiempos-liturgicos/navidad/227-felicitaciones-de-navidad)

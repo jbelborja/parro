@@ -1,8 +1,9 @@
 ---
-title: "Actividades Grupo Jóvenes"
-date: 2026-07-11T00:00:00Z
-categories: ["jovenes"]
+categories:
+- jovenes
+date: '2026-06-05'
 draft: false
+title: Actividades Grupo Jóvenes
 ---
 
 ##  Actividades Grupo Jóvenes 

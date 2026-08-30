@@ -1,8 +1,9 @@
 ---
-title: "LaVid - Cineforum - Lejos del cielo"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2025-02-23'
 draft: false
+title: LaVid - Cineforum - Lejos del cielo
 ---
 
 **![](imagen_incrustada_1.png)**

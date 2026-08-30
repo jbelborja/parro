@@ -1,8 +1,9 @@
 ---
-title: "LaVid - El Credo en el Arte"
-date: 2026-07-11T00:00:00Z
-categories: ["historico"]
+categories:
+- historico
+date: '2025-03-16'
 draft: false
+title: LaVid - El Credo en el Arte
 ---
 
 **El Credo en el Arte**

@@ -1,7 +1,7 @@
 ---
-title: "LaVid - JORNADA DE CATEQUISTAS"
-date: 2026-07-08T00:00:00Z
+date: '2026-02-07'
 draft: false
+title: LaVid - JORNADA DE CATEQUISTAS
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/254-jornada-de-catequistas&text=JORNADA%20DE%20CATEQUISTAS)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/254-jornada-de-catequistas "Share On Linkedin")
-
-
-

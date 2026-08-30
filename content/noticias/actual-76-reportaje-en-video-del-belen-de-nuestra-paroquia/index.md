@@ -11,4 +11,4 @@ draft: false
 
 En este enlace podemos acceder al video del belén.
 
-<https://youtu.be/AEmq0Nt43Ak>
+{{< youtube AEmq0Nt43Ak >}}

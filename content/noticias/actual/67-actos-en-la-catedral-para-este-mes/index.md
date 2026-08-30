@@ -1,8 +1,9 @@
 ---
-title: "Actos en la Catedral para este mes"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2024-11-24'
 draft: false
+title: Actos en la Catedral para este mes
 ---
 
 ##  Actos en la Catedral para este mes 

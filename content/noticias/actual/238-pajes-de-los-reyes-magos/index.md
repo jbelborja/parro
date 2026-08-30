@@ -1,8 +1,9 @@
 ---
-title: "Pajes de los Reyes Magos"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-01-04'
 draft: false
+title: Pajes de los Reyes Magos
 ---
 
 ##  Pajes de los Reyes Magos 

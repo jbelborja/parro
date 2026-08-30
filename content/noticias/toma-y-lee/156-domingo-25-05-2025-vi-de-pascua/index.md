@@ -1,8 +1,9 @@
 ---
-title: "Domingo 25.05.2025 VI de Pascua"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-05-25'
 draft: false
+title: Domingo 25.05.2025 VI de Pascua
 ---
 
 ##  Domingo 25.05.2025 VI de Pascua 

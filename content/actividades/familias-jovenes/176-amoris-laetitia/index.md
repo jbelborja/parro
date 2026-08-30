@@ -1,8 +1,9 @@
 ---
-title: "AMORIS LAETITIA"
-date: 2026-07-11T00:00:00Z
-categories: ["familias-jovenes"]
+categories:
+- familias-jovenes
+date: '2025-08-11'
 draft: false
+title: AMORIS LAETITIA
 ---
 
 ##  AMORIS LAETITIA 

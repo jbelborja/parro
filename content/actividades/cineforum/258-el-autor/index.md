@@ -1,8 +1,9 @@
 ---
-title: "LaVid - El autor"
-date: 2026-07-11T00:00:00Z
-categories: ["cineforum"]
+categories:
+- cineforum
+date: '2026-02-18'
 draft: false
+title: LaVid - El autor
 ---
 
 ![](imagen_incrustada_1.png)

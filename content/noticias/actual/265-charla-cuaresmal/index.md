@@ -1,8 +1,9 @@
 ---
-title: "Charla Cuaresmal"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2026-03-03'
 draft: false
+title: Charla Cuaresmal
 ---
 
 ##  Charla Cuaresmal 

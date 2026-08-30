@@ -1,8 +1,9 @@
 ---
-title: "Domingo 06.01.2025 II de Navidad y Epifania"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-01-05'
 draft: false
+title: Domingo 06.01.2025 II de Navidad y Epifania
 ---
 
 ##  Domingo 06.01.2025 II de Navidad y Epifania 

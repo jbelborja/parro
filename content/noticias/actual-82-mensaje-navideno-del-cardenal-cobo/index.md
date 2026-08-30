@@ -9,4 +9,4 @@ draft: false
 
 ![](imagen_incrustada_1.png)
 
-En este enlace se3 puede acceder al mensaje completo: <https://www.youtube.com/watch?v=NXr36mZ_Ohs>
+{{< youtube NXr36mZ_Ohs >}}

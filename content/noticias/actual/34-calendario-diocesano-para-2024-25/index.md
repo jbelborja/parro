@@ -1,8 +1,9 @@
 ---
-title: "Calendario Diocesano para 2025"
-date: 2026-07-11T00:00:00Z
-categories: ["actual"]
+categories:
+- actual
+date: '2024-09-14'
 draft: false
+title: Calendario Diocesano para 2025
 ---
 
 ##  Calendario Diocesano para 2025 

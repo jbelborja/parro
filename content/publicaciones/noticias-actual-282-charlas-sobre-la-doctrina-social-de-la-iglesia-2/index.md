@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Charlas sobre la Doctrina Social de la Iglesia"
-date: 2026-07-08T00:00:00Z
+date: '2026-04-05'
 draft: false
+title: LaVid - Charlas sobre la Doctrina Social de la Iglesia
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/282-charlas-sobre-la-doctrina-social-de-la-iglesia-2&text=Charlas%20sobre%20la%20Doctrina%20Social%20de%20la%20Iglesia)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/282-charlas-sobre-la-doctrina-social-de-la-iglesia-2 "Share On Linkedin")
-
-
-

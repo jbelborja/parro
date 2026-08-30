@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Peregrinación a la Catedral de la Almudena por el jubileo"
-date: 2026-07-08T00:00:00Z
+date: '2025-12-07'
 draft: false
+title: LaVid - Peregrinación a la Catedral de la Almudena por el jubileo
 ---
 
 __
@@ -17,6 +17,3 @@ Ayer celebramos la peregrinación a la Catedral de la Almudena para obtener el j
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/226-peregrinacion-a-la-catedral-de-la-almudena-por-el-jubileo&text=Peregrinación%20a%20la%20Catedral%20de%20la%20Almudena%20por%20el%20jubileo)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/226-peregrinacion-a-la-catedral-de-la-almudena-por-el-jubileo "Share On Linkedin")
-
-
-

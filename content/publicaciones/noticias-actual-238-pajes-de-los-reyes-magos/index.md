@@ -1,7 +1,7 @@
 ---
-title: "LaVid - Pajes de los Reyes Magos"
-date: 2026-07-08T00:00:00Z
+date: '2026-01-04'
 draft: false
+title: LaVid - Pajes de los Reyes Magos
 ---
 
 __
@@ -15,6 +15,3 @@ __
   * [ ](http://twitter.com/share?url=https://la-vid.org/noticias/actual/238-pajes-de-los-reyes-magos&text=Pajes%20de%20los%20Reyes%20Magos)
 
   * [ __](https://www.linkedin.com/shareArticle?mini=true&url=https://la-vid.org/noticias/actual/238-pajes-de-los-reyes-magos "Share On Linkedin")
-
-
-

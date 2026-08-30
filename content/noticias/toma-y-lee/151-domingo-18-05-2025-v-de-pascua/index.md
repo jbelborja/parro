@@ -1,8 +1,9 @@
 ---
-title: "Domingo 18.05.2025 V de PASCUA"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2025-05-18'
 draft: false
+title: Domingo 18.05.2025 V de PASCUA
 ---
 
 ##  Domingo 18.05.2025 V de PASCUA 

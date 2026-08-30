@@ -1,8 +1,9 @@
 ---
-title: "Domingo 29.12.2024 SAGRADA FAMILIA"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2024-12-29'
 draft: false
+title: Domingo 29.12.2024 SAGRADA FAMILIA
 ---
 
 ##  Domingo 29.12.2024 SAGRADA FAMILIA 

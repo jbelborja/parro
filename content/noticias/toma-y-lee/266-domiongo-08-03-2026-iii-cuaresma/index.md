@@ -1,8 +1,9 @@
 ---
-title: "Domiongo 08.03.2026 III Cuaresma"
-date: 2026-07-11T00:00:00Z
-categories: ["toma-y-lee"]
+categories:
+- toma-y-lee
+date: '2026-03-07'
 draft: false
+title: Domiongo 08.03.2026 III Cuaresma
 ---
 
 ##  Domiongo 08.03.2026 III Cuaresma 
