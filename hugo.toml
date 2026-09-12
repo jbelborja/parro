@@ -100,12 +100,6 @@ theme = 'parroquia'
   weight = 1
 
 [[menu.main]]
-  name = "Toma y lee"
-  parent = "noticias"
-  url = "/noticias/toma-y-lee/"
-  weight = 1
-
-[[menu.main]]
   name = "Sacramentos"
   identifier = "sacramentos"
   url = "/sacramentos/"

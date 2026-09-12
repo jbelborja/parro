@@ -59,12 +59,14 @@
                 {{ end }}
                 {{ if $footerModules }}
                     {{ range sort $footerModules ".Params.weight" }}
+                        {{ if not .Params.draft }}
                         <div class="footer-col">
                             <h4>{{ .Title }}</h4>
                             <div class="footer-content">
                                 {{ .Content }}
                             </div>
                         </div>
+                        {{ end }}
                     {{ end }}
                 {{ else }}
                     <!-- Fallback footer si no hay módulos -->
