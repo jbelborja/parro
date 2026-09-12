@@ -3,6 +3,7 @@ categories:
 - sacramentos
 date: '2025-06-18'
 draft: false
+sidebar: confirmacion
 title: LaVid - CONFIRMACION
 ---
 

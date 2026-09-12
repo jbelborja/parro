@@ -54,7 +54,7 @@ __
       * [ ADVIENTO](/actividades/tiempos-liturgicos/adviento)
       * [ CUARESMA](/actividades/tiempos-liturgicos/cuaresma)
       * [ SEMANA SANTA Y PASCUA](/actividades/tiempos-liturgicos/semana-santa)
-    * [ CINEFORUM](/actividades/cineforum)
+    * [ CINEFÓRUM](/actividades/cinefórum)
     * [ HISTORICO](/actividades/historico) ____
       * [CELEBRACION DE LOS 50 AÑOS DE LA IGLESIA](/actividades/historico/celebracion-de-los-50-anos-de-la-iglesia)
       * [ PANTALLA DEL ATRIO](/actividades/historico/pantalla-del-atrio)

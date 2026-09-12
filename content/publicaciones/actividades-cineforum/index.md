@@ -1,5 +1,5 @@
 ---
-title: "LaVid - CINEFORUM"
+title: "LaVid - CINEFÓRUM"
 date: 2026-07-08T00:00:00Z
 draft: false
 ---

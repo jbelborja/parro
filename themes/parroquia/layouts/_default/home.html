@@ -67,15 +67,34 @@
 <div class="home-grid">
     {{ $modules := (.Site.GetPage "/home-modules").Resources.Match "*.md" }}
     {{ range sort $modules ".Params.weight" }}
-    {{ if ne .Name "1-carrusel.md" }}
+    {{ if and (ne .Name "1-carrusel.md") (not .Params.draft) }}
     <div class="module-card">
         <h2>{{ .Params.icon }} {{ .Title }}</h2>
         <div class="module-content">
-            {{ .Content }}
+            {{ if eq .Params.type "latest-toma-y-lee" }}
+                {{ $latestTYL := first 1 (sort (where $.Site.RegularPages "Section" "toma-y-lee") "Date" "desc") }}
+                {{ range $latestTYL }}
+                <div class="latest-toma-y-lee-card">
+                    <h3 style="margin-bottom: 8px; font-size: 1.15rem; color: var(--primary);">
+                        <a href="{{ .Permalink }}" style="color: var(--primary); text-decoration: none;">{{ .Title }}</a>
+                    </h3>
+                    {{ if not .Date.IsZero }}
+                    <div style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 12px;">📅 {{ .Date.Format "02-01-2006" }}</div>
+                    {{ end }}
+                    <div class="page-content">
+                        {{ .Content }}
+                    </div>
+                </div>
+                {{ end }}
+            {{ else }}
+                {{ .Content }}
+            {{ end }}
         </div>
     </div>
     {{ end }}
     {{ end }}
 </div>
-
+{{ if .Params.show_sidebar_module }}
+    {{ partial "mi-modulo.html" . }}
+{{ end }}
 {{ end }}

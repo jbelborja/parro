@@ -1,4 +1,4 @@
 ---
-title: "Cineforum"
+title: "Cinefórum"
 draft: false
 ---

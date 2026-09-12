@@ -3,6 +3,7 @@ categories:
 - sacramentos
 date: '2024-09-19'
 draft: false
+sidebar: comunion
 title: LaVid - COMUNION
 ---
 

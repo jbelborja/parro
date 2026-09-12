@@ -1,0 +1,8 @@
+---
+title: "Pantalla del atrio de septiembre 2025"
+date: 2026-07-11T00:00:00Z
+categories: ["historico"]
+draft: false
+---
+
+[Pantalla atrio septiembre 2025](https://youtu.be/yh9hv71fMW4 "Pantalla atrio septiembre 2025")

@@ -6,6 +6,6 @@ draft: false
 
 __
 
-##  [ REUNIÓN DEL GRUPO FAMILIAS JÓVENES](/actividades/familias-jovenes/194-reunion-del-grupo-failias-jovenes)
+##  [ REUNIÓN DEL GRUPO FAMILIAS JÓVENES](/actividades/familias-jovenes/194-reunion-del-grupo-familias-jovenes)
 
 ![](imagen_incrustada_1.jpeg)
