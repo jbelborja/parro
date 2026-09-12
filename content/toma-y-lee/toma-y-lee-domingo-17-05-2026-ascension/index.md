@@ -1,0 +1,10 @@
+---
+title: "Domingo 17.05.2026 Ascensión"
+date: 2026-05-17T00:00:00Z
+categories: ["toma-y-lee"]
+draft: false
+---
+
+Todos los dias, hasta el fin de mundo... Mt. 28-20
+
+[26-05-17 Ascensión- A](26-05-17-ascension-a.pdf)

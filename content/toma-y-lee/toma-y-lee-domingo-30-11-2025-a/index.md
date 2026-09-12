@@ -1,0 +1,10 @@
+---
+title: "Domingo 30.11.2025 - A"
+date: 2025-11-30T00:00:00Z
+categories: ["toma-y-lee"]
+draft: false
+---
+
+Estad en vela Lc2,7
+
+[2025,11,30 Toma y Lee-A](2025-11-30-toma-y-lee-a.pdf)

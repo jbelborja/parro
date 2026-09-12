@@ -1,0 +1,64 @@
+{{ $sidebarName := .Params.sidebar }}
+{{ if not $sidebarName }}
+    {{ $sidebarName = .Section }}
+{{ end }}
+
+{{ $sidebarModule := "" }}
+{{ if $sidebarName }}
+    {{ $sidebarModule = (.Site.GetPage "/sidebar-modules").Resources.GetMatch (printf "*%s*" $sidebarName) }}
+    {{ if not $sidebarModule }}
+        {{ $sidebarModule = .Site.GetPage (printf "/sidebar-modules/%s.md" $sidebarName) }}
+    {{ end }}
+{{ end }}
+
+<aside class="sidebar-module">
+    {{ if and $sidebarModule (not $sidebarModule.Params.draft) }}
+        {{ if $sidebarModule.Title }}
+        <h3>{{ $sidebarModule.Title }}</h3>
+        {{ end }}
+        <div class="sidebar-content">
+            {{ $sidebarModule.Content }}
+        </div>
+    {{ end }}
+
+    {{/* Obtener la sección/categoría actual para listar los últimos 5 artículos */}}
+    {{ $sec := .Section }}
+    {{ $cats := .Params.categories }}
+    {{ $recentPages := .Site.RegularPages }}
+
+    {{ if $cats }}
+        {{ $catName := index $cats 0 }}
+        {{ $byCat := where .Site.RegularPages "Params.categories" "intersect" (slice $catName) }}
+        {{ if gt (len $byCat) 0 }}
+            {{ $recentPages = $byCat }}
+        {{ end }}
+    {{ else if $sec }}
+        {{ $bySection := where .Site.RegularPages "Section" $sec }}
+        {{ if gt (len $bySection) 0 }}
+            {{ $recentPages = $bySection }}
+        {{ end }}
+    {{ end }}
+
+    {{ $recentPages = first 5 (sort $recentPages "Date" "desc") }}
+
+    {{ if $recentPages }}
+    <div class="sidebar-recent-posts" {{ if and $sidebarModule (not $sidebarModule.Params.draft) }}style="margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--border-color);"{{ end }}>
+        <h4 style="font-size: 1.1rem; color: var(--primary); margin-bottom: 15px; font-weight: 600;">Últimas publicaciones</h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            {{ range $recentPages }}
+            <li style="margin-bottom: 12px; line-height: 1.4;">
+                <a href="{{ .Permalink }}" style="color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.92rem; display: block; transition: var(--transition);">
+                    {{ .Title }}
+                </a>
+                {{ if not .Date.IsZero }}
+                <span style="font-size: 0.8rem; color: var(--text-light); display: block; margin-top: 2px;">
+                    📅 {{ .Date.Format "02-01-2006" }}
+                </span>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</aside>
+

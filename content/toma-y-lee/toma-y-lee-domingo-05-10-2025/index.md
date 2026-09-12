@@ -1,0 +1,10 @@
+---
+title: "Domingo 05.10.2025"
+date: 2025-10-05T00:00:00Z
+categories: ["toma-y-lee"]
+draft: false
+---
+
+Hemos hecho lo que teníamos que hacer... Lc 17,10
+
+[25-10-05 TL XXVII - C](25-10-05-tl-xxvii-c.pdf)
