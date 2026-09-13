@@ -9,4 +9,3 @@ Simón, ¿me amas? Jn 21,15-17
 
 [25.05.04 Toma y Lee - III Domingo de Pascua C](25-05-04-toma-y-lee-iii-domingo-de-pascua-c.pdf)
 
-{{< share >}}

@@ -9,4 +9,3 @@ Paz a vosotros Jn 20,19.21,26.
 
 [25.04.27 Toma y Lee - II Domingo de Pascua C](25-04-27-toma-y-lee-ii-domingo-de-pascua-c.pdf)
 
-{{< share >}}

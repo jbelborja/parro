@@ -9,4 +9,3 @@ draft: false
 
 [24.11.17 Toma y Lee - Domingo XXXIII TO B](24-11-17-toma-y-lee-domingo-xxxiii-to-b.pdf)
 
-{{< share >}}

@@ -9,4 +9,3 @@ El bajó con ellos a Nazaret... Lc. 2,51
 
 [24.12.29 Toma y Lee - Sagrada Familia C](24-12-29-toma-y-lee-sagrada-familia-c.pdf)
 
-{{< share >}}

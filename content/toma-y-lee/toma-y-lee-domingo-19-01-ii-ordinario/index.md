@@ -9,4 +9,3 @@ draft: false
 
 [25.01.19 Toma y Lee - II Ordinario C](25-01-19-toma-y-lee-ii-ordinario-c.pdf)
 
-{{< share >}}

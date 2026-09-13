@@ -9,4 +9,3 @@ draft: false
 
 [24.12.15 Toma y Lee - III Domingo Adviento C](24-12-15-toma-y-lee-iii-domingo-adviento-c.pdf)
 
-{{< share >}}

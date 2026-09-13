@@ -9,4 +9,3 @@ Recuerda que cuando abandones esta tierra no podrás llevarte contigo nada de lo
 
 [24.11.10 Toma y Lee - Domingo XXXII TO B](24-11-10-toma-y-lee-domingo-xxxii-to-b.pdf)
 
-{{< share >}}

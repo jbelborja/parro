@@ -10,4 +10,3 @@ No me llames extranjero porque fue distinto el seno o porque acunó, mi infancia
 
 [24.09.29 Toma y Lee - Domingo XXVI TO B-1](24-09-29-toma-y-lee-domingo-xxvi-to-b-1.pdf)
 
-{{< share >}}

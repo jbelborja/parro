@@ -9,4 +9,3 @@ draft: false
 
 [24.12.25 Toma y Lee - Navidad C](24-12-25-toma-y-lee-navidad-c.pdf)
 
-{{< share >}}
