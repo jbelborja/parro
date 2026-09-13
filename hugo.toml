@@ -140,3 +140,7 @@ theme = 'parroquia'
   parent = "sacramentos"
   url = "/sacramentos/uncion-de-los-enfermos/"
   weight = 1
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
