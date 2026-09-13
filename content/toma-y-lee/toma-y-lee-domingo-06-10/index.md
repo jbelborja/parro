@@ -10,4 +10,3 @@ por favor, gracias, perdona.
 
 [24.10.06 Toma y Lee - Domingo XXVII TO B-1](24-10-06-toma-y-lee-domingo-xxvii-to-b-1.pdf)
 
-{{< share >}}

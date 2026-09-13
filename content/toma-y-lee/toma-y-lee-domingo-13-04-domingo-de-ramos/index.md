@@ -9,4 +9,3 @@ En tus manos encomiendo mi Espíritu Lc 8,10
 
 [25.04.13 Toma y Lee - Domingo de Ramos C](25-04-13-toma-y-lee-domingo-de-ramos-c.pdf)
 
-{{< share >}}

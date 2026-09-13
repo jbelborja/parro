@@ -9,4 +9,3 @@ Y tú. ¿Que quieres de mi?
 
 [24.10.13 Toma y Lee - Domingo XXVIII TO B](24-10-13-toma-y-lee-domingo-xxviii-to-b.pdf)
 
-{{< share >}}

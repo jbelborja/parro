@@ -9,4 +9,3 @@ La carta de nuestro arzobispo de Madrid para el presente curso pastoral dice: _E
 
 [24.10.20 Toma y Lee - Domingo XXIX TO B](24-10-20-toma-y-lee-domingo-xxix-to-b.pdf)
 
-{{< share >}}

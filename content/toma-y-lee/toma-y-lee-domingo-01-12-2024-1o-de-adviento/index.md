@@ -10,4 +10,3 @@ que espera María.
 
 [24.12.01 Toma y Lee - Domingo I Adviento C](24-12-01-toma-y-lee-domingo-i-adviento-c.pdf)
 
-{{< share >}}

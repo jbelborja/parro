@@ -9,4 +9,3 @@ Comenzando por Jerusalén Lc 24,47
 
 [25.06.01 Toma y Lee - Ascensión C](25-06-01-toma-y-lee-ascension-c.pdf)
 
-{{< share >}}

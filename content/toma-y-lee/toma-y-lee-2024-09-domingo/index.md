@@ -9,4 +9,3 @@ Hoy toca abrazarnos, a mí me gustaría abrazar a cada uno de vosotros en este m
 
 [24.09.01 Toma y Lee - Domingo XXII TO B](24-09-01-toma-y-lee-domingo-xxii-to-b.pdf)
 
-{{< share >}}

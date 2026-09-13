@@ -9,4 +9,3 @@ Al ver la estrella se llenaron de alegría Mt 2,11
 
 [25.01.05-06 Toma y Lee - II Navidad-Epifanía C](25-01-05-06-toma-y-lee-ii-navidad-epifania-c.pdf)
 
-{{< share >}}

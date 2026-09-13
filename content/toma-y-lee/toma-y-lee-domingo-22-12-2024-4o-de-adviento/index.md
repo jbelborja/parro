@@ -9,4 +9,3 @@ draft: false
 
 [24.12.22 Toma y Lee - IV Domingo Adviento C](24-12-22-toma-y-lee-iv-domingo-adviento-c.pdf)
 
-{{< share >}}

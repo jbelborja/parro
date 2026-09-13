@@ -9,4 +9,3 @@ Hoy de la mano de María en su Natividad y bajo el grito de Jesús "Effetá" se 
 
 [24.09.08 Toma y Lee - Domingo XXIII TO B.](24-09-08-toma-y-lee-domingo-xxiii-to-b.pdf)
 
-{{< share >}}
