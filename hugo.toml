@@ -94,12 +94,6 @@ theme = 'parroquia'
   weight = 5
 
 [[menu.main]]
-  name = "Actual"
-  parent = "noticias"
-  url = "/noticias/actual/"
-  weight = 1
-
-[[menu.main]]
   name = "Sacramentos"
   identifier = "sacramentos"
   url = "/sacramentos/"

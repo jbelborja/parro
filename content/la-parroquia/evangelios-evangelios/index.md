@@ -1,6 +1,6 @@
 ---
-title: "EVANGELIO 05.04.2026 Pascua"
-date: 2026-07-11T00:00:00Z
+title: "Evangelio 05.04.2026"
+date: 2026-04-05T00:00:00Z
 categories: ["la-parroquia"]
 draft: false
 ---

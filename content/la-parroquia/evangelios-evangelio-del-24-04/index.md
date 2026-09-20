@@ -1,6 +1,6 @@
 ---
-title: "Evangelio del 24.04.2026"
-date: 2026-07-11T00:00:00Z
+title: "Evangelio 24.04.2026"
+date: 2026-04-24T00:00:00Z
 categories: ["la-parroquia"]
 draft: false
 ---

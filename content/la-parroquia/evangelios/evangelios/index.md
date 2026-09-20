@@ -1,9 +1,9 @@
 ---
 categories:
 - evangelios
-date: '2026-04-09'
+date: 2026-04-05T00:00:00Z
 draft: false
-title: EVANGELIO 05.04.2026 Pascua
+title: "Evangelio 05.04.2026"
 ---
 
 Pascua de Resurrección.
