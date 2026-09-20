@@ -1,6 +1,6 @@
 baseURL = 'https://jbelborja.github.io/parro/'
-canonifyURLs = true
-relativeURLs = true
+canonifyURLs = false
+relativeURLs = false
 languageCode = 'es-es'
 title = 'Parroquia La Vid'
 theme = 'parroquia'

@@ -7,11 +7,9 @@
 {{ $resource := .Page.Resources.GetMatch $destination }}
 
 {{ if $resource }}
-{{/* USAMOS .Permalink (absoluto) PARA EVITAR LA DUPLICACIÓN DE CARPETAS */}}
-<a href="{{ $resource.Permalink }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+<a href="{{ $resource.RelPermalink }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
 {{ else }}
-{{/* Fallback absoluto si el archivo no esta registrado como recurso */}}
-<a href="{{ printf "%s%s" .Page.Permalink $destination }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+<a href="{{ $destination | safeURL }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
 {{ end }}
 {{ else }}
 {{/* Para cualquier otro enlace que no sea PDF */}}
