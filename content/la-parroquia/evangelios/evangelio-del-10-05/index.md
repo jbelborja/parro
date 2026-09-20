@@ -1,9 +1,9 @@
 ---
 categories:
 - evangelios
-date: '2026-05-12'
+date: 2026-05-10T00:00:00Z
 draft: false
-title: Evangelio del 10.05.2026
+title: "Evangelio 10.05.2026"
 ---
 
 [p20](p20.pdf)

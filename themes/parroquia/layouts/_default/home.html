@@ -63,6 +63,27 @@
 </script>
 {{ end }}
 
+{{/* --------------------------------------------------- */}}
+{{/* New introductory sections for Quienes somos and   */}}
+{{/* Funciones de la parroquia, placed before modules */}}
+{{/* --------------------------------------------------- */}}
+{{ $quienes := site.GetPage "la-parroquia/quiens" }}
+{{ $funciones := site.GetPage "la-parroquia/funciones-de-la-parroquia" }}
+
+{{ if $quienes }}
+  <section class="home-intro">
+    <h2>{{ $quienes.Title }}</h2>
+    {{ $quienes.Content }}
+  </section>
+{{ end }}
+
+{{ if $funciones }}
+  <section class="home-intro">
+    <h2>{{ $funciones.Title }}</h2>
+    {{ $funciones.Content }}
+  </section>
+{{ end }}
+
 <!-- 2. RENDERIZAR MÓDULOS INFERIORES EN GRID -->
 <div class="home-grid">
     {{ $modules := (.Site.GetPage "/home-modules").Resources.Match "*.md" }}

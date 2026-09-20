@@ -1,9 +1,9 @@
 ---
 categories:
 - evangelios
-date: '2026-04-09'
+date: 2026-04-08T00:00:00Z
 draft: false
-title: EVANGELIO 08.04.2026 Emaus
+title: "Evangelio 08.04.2026"
 ---
 
 Los discípulos de Emaus

@@ -1,4 +1,4 @@
 ---
-title: "Noticias"
+title: "Actual"
 draft: false
 ---

@@ -1,9 +1,9 @@
 ---
 categories:
 - evangelios
-date: '2026-04-22'
+date: 2026-04-22T00:00:00Z
 draft: false
-title: Evangelio 22.04.2026
+title: "Evangelio 22.04.2026"
 ---
 
 Evangelio del 22,04,2026

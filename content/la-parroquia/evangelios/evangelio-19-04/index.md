@@ -1,9 +1,9 @@
 ---
 categories:
 - evangelios
-date: '2026-04-20'
+date: 2026-04-19T00:00:00Z
 draft: false
-title: Evangelio 19.04.2026
+title: "Evangelio 19.04.2026"
 ---
 
 Evangelio sel 19,04,2026

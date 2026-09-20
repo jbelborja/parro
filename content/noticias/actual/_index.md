@@ -1,4 +1,0 @@
----
-title: "Actual"
-draft: false
----
