@@ -517,3 +517,20 @@ main { flex-grow: 1; padding: 40px 0; }
     }
 }
 
+/* List spacing in module and page content */
+.module-content ul,
+.module-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.module-content li {
+  margin-bottom: 0.5rem;
+}
+.page-content ul,
+.page-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.page-content li {
+  margin-bottom: 0.5rem;
+}

@@ -88,6 +88,12 @@ theme = 'parroquia'
   weight = 1
 
 [[menu.main]]
+  name = "Otros Enlaces"
+  parent = "la-parroquia"
+  url = "/la-parroquia/otros-enlaces/"
+  weight = 1
+
+[[menu.main]]
   name = "Noticias"
   identifier = "noticias"
   url = "/noticias/"

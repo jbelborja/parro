@@ -21,7 +21,7 @@ __
   * [ LA PARROQUIA](/la-parroquia) ____
     * [CONSEJO PASTORAL](/la-parroquia/consejo-pastoral)
     * [ CARITAS](/la-parroquia/caritas)
-    * [ QUIENES SOMOS](/la-parroquia/quiens)
+    * [ QUIENES SOMOS](/la-parroquia/quienes-somos)
     * [ IDEARIO](/la-parroquia/ideario)
     * [ NECESITAMOS TU AYUDA](/la-parroquia/necesitamos-tu-ayuda)
     * OTROS ENLACES ____

@@ -1,8 +1,0 @@
----
-title: "Evangelio 29.04.2026"
-date: 2026-04-29T00:00:00Z
-categories: ["la-parroquia"]
-draft: false
----
-
-[Evangelio 29.04.2026](evangelio-29-04-2026.pdf)
