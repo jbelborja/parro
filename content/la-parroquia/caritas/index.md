@@ -1,6 +1,6 @@
 ---
 categories:
-- la-parroquia
+- caritas
 date: '2024-09-17'
 draft: false
 title: CARITAS
