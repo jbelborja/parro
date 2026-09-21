@@ -13,7 +13,6 @@
         {{ $paginator := .Paginate .Pages.ByDate.Reverse 10 }}
 
         <div class="pages-list" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
-            <h2>Artículos y Novedades</h2>
             <ul style="list-style: none; padding: 0; margin-top: 20px;">
                 {{ range $paginator.Pages }}
                 <li style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--border-color);">
