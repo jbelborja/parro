@@ -13,4 +13,4 @@ draft: true
 Antes de cada misa o solicitar cuando se necesite.
 
 **Despacho Parroquial:**
-Martes a viernes de 20:30 a 21:15.
+Martes a viernes de 19:30 a 20:15.

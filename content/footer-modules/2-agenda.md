@@ -10,5 +10,6 @@ weight: 2
 **Domingos:**
 - 9:30h Misa
 - 11:00h Misa (niños)
+- 12,30  Misa
 - 13:30h Misa
-- 20:00h Misa
+- 20:00h Misa 
