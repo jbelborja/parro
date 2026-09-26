@@ -27,7 +27,12 @@
                     {{ range .Site.Menus.main }}
                         {{ if .HasChildren }}
                             <li class="has-dropdown {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
-                                <a href="{{ .URL | relLangURL }}">{{ .Name }} ▾</a>
+                                <span class="nav-link-dropdown" role="button" tabindex="0" aria-haspopup="true">
+                                    <span>{{ .Name }}</span>
+                                    <svg class="dropdown-icon" width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M2 4l4 4 4-4"/>
+                                    </svg>
+                                </span>
                                 <ul>
                                     {{ range .Children }}
                                         <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
@@ -36,7 +41,7 @@
                             </li>
                         {{ else }}
                             <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                                <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                                <a href="{{ .URL | relLangURL }}"><span>{{ .Name }}</span></a>
                             </li>
                         {{ end }}
                     {{ end }}
@@ -86,23 +91,33 @@
     </footer>
 
     <script>
-        // Mobile Menu Script
+        // Mobile & Dropdown Menu Script
         document.addEventListener('DOMContentLoaded', () => {
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mainNav = document.getElementById('main-navigation');
-            const dropdownParents = document.querySelectorAll('.has-dropdown > a');
+            const dropdownParents = document.querySelectorAll('.has-dropdown > .nav-link-dropdown, .has-dropdown > a');
 
-            menuBtn.addEventListener('click', () => {
-                menuBtn.classList.toggle('open');
-                mainNav.classList.toggle('open');
-            });
+            if (menuBtn && mainNav) {
+                menuBtn.addEventListener('click', () => {
+                    menuBtn.classList.toggle('open');
+                    mainNav.classList.toggle('open');
+                });
+            }
 
-            // Handle mobile dropdowns
-            dropdownParents.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    if (window.innerWidth <= 900) {
+            // Handle dropdown toggles
+            dropdownParents.forEach(item => {
+                const toggleDropdown = (e) => {
+                    if (window.innerWidth <= 1024) {
                         e.preventDefault();
-                        link.parentElement.classList.toggle('open');
+                        item.parentElement.classList.toggle('open');
+                    }
+                };
+
+                item.addEventListener('click', toggleDropdown);
+                item.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        item.parentElement.classList.toggle('open');
                     }
                 });
             });

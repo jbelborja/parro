@@ -1,0 +1,13 @@
+{{ $destination := .Destination }}
+{{ $isRemote := or (strings.HasPrefix (lower $destination) "http://") (strings.HasPrefix (lower $destination) "https://") (strings.HasPrefix $destination "//") (strings.HasPrefix $destination "data:") }}
+
+{{ if not $isRemote }}
+  {{ $resource := .Page.Resources.GetMatch $destination }}
+  {{ if $resource }}
+    {{ $destination = $resource.RelPermalink }}
+  {{ else if not (strings.HasPrefix $destination "/") }}
+    {{ $destination = printf "%s%s" .Page.RelPermalink $destination }}
+  {{ end }}
+{{ end }}
+
+<img src="{{ $destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
