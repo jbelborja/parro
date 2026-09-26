@@ -672,3 +672,9 @@ main { flex-grow: 1; padding: 40px 0; }
 .page-content li {
   margin-bottom: 0.5rem;
 }
+
+/* Fix image responsiveness in home-intro section */
+.home-intro img {
+    max-width: 100%;
+    height: auto;
+}

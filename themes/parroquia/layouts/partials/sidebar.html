@@ -1,6 +1,10 @@
 {{ $sidebarName := .Params.sidebar }}
 {{ if not $sidebarName }}
-    {{ $sidebarName = .Section }}
+    {{ if and .Params.categories (gt (len .Params.categories) 0) }}
+        {{ $sidebarName = index .Params.categories 0 }}
+    {{ else }}
+        {{ $sidebarName = .Section }}
+    {{ end }}
 {{ end }}
 
 {{ $sidebarModule := "" }}
