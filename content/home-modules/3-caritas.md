@@ -4,4 +4,4 @@ weight: 3
 icon: "❤️"
 bg_color: "#f8d7da"
 ---
-![Mercadillo.png](/images/mercadillo.png)
+![Imagen1](/images/logo.png)
