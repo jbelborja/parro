@@ -8,7 +8,7 @@ slides:
   - image: "images/imagen4.jpg"
     title: "Horarios de Eucaristías"
     caption: "Laborables: 19: 00h | Domingos y Festivos: 9:30h, 11,00, 12:30, 13,30h y 19:00h."
-  - image: "images/imagen5.jpg"
+  - image: "images/Mercadillo.jpg"
     title: "Caminamos Juntos"
     caption: "Participa en nuestras actividades pastorales, catequesis y grupos de formación."
 ---
