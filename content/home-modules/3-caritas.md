@@ -1,7 +1,8 @@
 ---
-title: "Cáritas Parroquial"
+title: "Agape"
 weight: 3
 icon: "❤️"
 bg_color: "#fff3cd"
 ---
-[Verlo en ...]({{<ref"noticias/agape">}})
+[![Verlo en ...](/images/agape.png)](/noticias/agape/)
+
