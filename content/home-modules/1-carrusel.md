@@ -7,7 +7,7 @@ slides:
     caption: "Un lugar de encuentro, oración y comunidad en el corazón del barrio."
   - image: "images/imagen4.jpg"
     title: "Horarios de Eucaristías"
-    c aption: "Laborables: 19: 00h | Domingos y Festivos: 9:30h, 11,00, 12:30, 13,30h y 19:00h."
+    caption: "Laborables: 19: 00h | Domingos y Festivos: 9:30h, 11,00, 12:30, 13,30h y 19:00h."
   - image: "images/imagen5.jpg"
     title: "Caminamos Juntos"
     caption: "Participa en nuestras actividades pastorales, catequesis y grupos de formación."
