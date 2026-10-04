@@ -4,4 +4,4 @@ weight: 3
 icon: "❤️"
 bg_color: "#f8d7da"
 ---
-parro/la-parroquia/caritas
+[Verlo en ...]({{<ref"noticias/agape">}})
