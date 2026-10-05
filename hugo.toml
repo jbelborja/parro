@@ -144,3 +144,4 @@ theme = 'parroquia'
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS", "JSON"]
+
