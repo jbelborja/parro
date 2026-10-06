@@ -1,6 +1,7 @@
 {{ define "main" }}
-<div class="layout-with-sidebar">
-    <div class="content-wrapper main-column">
+{{ $sidebarHtml := trim (partial "sidebar.html" .) " \n\r\t" }}
+<div class="{{ if $sidebarHtml }}layout-with-sidebar{{ else }}content-wrapper{{ end }}">
+    <div class="content-wrapper main-column" {{ if not $sidebarHtml }}style="max-width: 100% !important; width: 100% !important; flex: none;"{{ end }}>
         <h1>{{ .Title }}</h1>
 
         {{ if .Content }}
@@ -61,6 +62,8 @@
         {{ end }}
     </div>
 
-    {{ partial "sidebar.html" . }}
+    {{ if $sidebarHtml }}
+    {{ $sidebarHtml | safeHTML }}
+    {{ end }}
 </div>
 {{ end }}

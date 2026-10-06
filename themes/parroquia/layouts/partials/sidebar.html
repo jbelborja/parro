@@ -22,15 +22,6 @@
     {{ end }}
 {{ end }}
 
-<aside class="sidebar-module">
-    {{ if and $sidebarModule (not $sidebarModule.Params.draft) }}
-        {{ if $sidebarModule.Title }}
-        <h3>{{ $sidebarModule.Title }}</h3>
-        {{ end }}
-        <div class="sidebar-content">
-            {{ $sidebarModule.Content }}
-        </div>
-    {{ end }}
 
     {{/* Obtener la sección/categoría actual para listar los últimos 5 artículos */}}
     {{ $sec := .Section }}
@@ -52,8 +43,22 @@
 
     {{ $recentPages = first 5 (sort $recentPages "Date" "desc") }}
 
-    {{ if and $recentPages (ne .Section "sacramentos") }}
-    <div class="sidebar-recent-posts" {{ if and $sidebarModule (not $sidebarModule.Params.draft) }}style="margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--border-color);"{{ end }}>
+{{ $hasModule := (and $sidebarModule (not $sidebarModule.Params.draft)) }}
+{{ $hasRecent := (and $recentPages (ne .Section "sacramentos")) }}
+
+{{ if or $hasModule $hasRecent }}
+<aside class="sidebar-module">
+    {{ if $hasModule }}
+        {{ if $sidebarModule.Title }}
+        <h3>{{ $sidebarModule.Title }}</h3>
+        {{ end }}
+        <div class="sidebar-content">
+            {{ $sidebarModule.Content }}
+        </div>
+    {{ end }}
+
+    {{ if $hasRecent }}
+    <div class="sidebar-recent-posts" {{ if $hasModule }}style="margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--border-color);"{{ end }}>
         <h4 style="font-size: 1.1rem; color: var(--primary); margin-bottom: 15px; font-weight: 600;">Últimas publicaciones</h4>
         <ul style="list-style: none; padding: 0; margin: 0;">
             {{ range $recentPages }}
@@ -72,4 +77,4 @@
     </div>
     {{ end }}
 </aside>
-
+{{- end -}}

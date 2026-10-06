@@ -64,23 +64,13 @@
 {{ end }}
 
 {{/* --------------------------------------------------- */}}
-{{/* New introductory sections for Quienes somos and   */}}
-{{/* Funciones de la parroquia, placed before modules */}}
+{{/* Contenido de la carpeta inicio                    */}}
 {{/* --------------------------------------------------- */}}
-{{ $quienes := site.GetPage "la-parroquia/quienes-somos" }}
-{{ $funciones := site.GetPage "la-parroquia/funciones-de-la-parroquia" }}
-
-{{ if $quienes }}
+{{ $inicio := site.GetPage "inicio" }}
+{{ if $inicio }}
   <section class="home-intro">
-    <h2>{{ $quienes.Title }}</h2>
-    {{ $quienes.Content }}
-  </section>
-{{ end }}
-
-{{ if $funciones }}
-  <section class="home-intro">
-    <h2>{{ $funciones.Title }}</h2>
-    {{ $funciones.Content }}
+    {{ if $inicio.Title }}<h2>{{ $inicio.Title }}</h2>{{ end }}
+    {{ $inicio.Content }}
   </section>
 {{ end }}
 
