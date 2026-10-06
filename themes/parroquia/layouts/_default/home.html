@@ -98,7 +98,9 @@
                 </div>
                 {{ end }}
             {{ else }}
-                {{ .Content }}
+                {{ $parsedURL := urls.Parse $.Site.BaseURL }}
+                {{ $basePath := strings.TrimSuffix "/" $parsedURL.Path }}
+                {{ .Content | replaceRE `src="(/[^"]*)"` (printf `src="%s$1"` $basePath) | replaceRE `href="(/[^"]*)"` (printf `href="%s$1"` $basePath) | safeHTML }}
             {{ end }}
         </div>
     </div>
