@@ -5,6 +5,5 @@ date: '2026-02-24'
 draft: false
 title: Actividades Cuaresmales
 ---
-
-[![Agape](agape.png)]({{<ref"noticias/agape">}})
+![agape.png](agape.png)
 ![](imagen_incrustada_1.png)
