@@ -8,4 +8,3 @@ Hay que descargar, leer y rellenar la hoja adjunta y entregarla en el despacho d
 
 [Inscripción comunión](/sidebar-modules/inscripcion-comunion.pdf)
 
-### Calendario
