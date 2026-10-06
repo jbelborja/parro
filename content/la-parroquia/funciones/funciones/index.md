@@ -1,7 +1,7 @@
 ---
 title: "Funciones de la parroquia"
 date: 2024-09-07T00:00:00Z
-categories: ["la-parroquia"]
+categories: ["funciones"]
 draft: false
 ---
 
