@@ -64,34 +64,41 @@ theme = 'parroquia'
   weight = 4
 
 [[menu.main]]
+  name = "Funciones de la Parroquia"
+  parent = "la-parroquia"
+  url = "/la-parroquia/funciones"
+  weight = 1
+
+
+[[menu.main]]
   name = "Caritas"
   parent = "la-parroquia"
   url = "/la-parroquia/caritas/"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Consejo pastoral"
   parent = "la-parroquia"
   url = "/la-parroquia/consejo-pastoral/"
-  weight = 1
+  weight = 3
 
 [[menu.main]]
   name = "Evangelios"
   parent = "la-parroquia"
   url = "/la-parroquia/evangelios/"
-  weight = 1
+  weight = 4
 
 [[menu.main]]
   name = "Necesitamos tu ayuda"
   parent = "la-parroquia"
   url = "/la-parroquia/necesitamos-tu-ayuda/"
-  weight = 1
+  weight = 5
 
 [[menu.main]]
   name = "Otros Enlaces"
   parent = "la-parroquia"
   url = "/la-parroquia/otros-enlaces/"
-  weight = 1
+  weight = 6
 
 [[menu.main]]
   name = "Noticias"
