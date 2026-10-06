@@ -1,15 +1,11 @@
 ---
-title: "Agenda Semanal"
+title: "Agenda"
 weight: 2
 ---
 
-**Lunes a Viernes:**
-- 9:00h Misa
-- 19:00h Misa
-
-**Domingos y Festivos:**
-- 9:30h Misa
-- 11:00h Misa (niños)
-- 12,30  Misa
-- 13:30h Misa
-- 19:00h Misa 
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=473a19833f4e0bdc2eb2cc65d73f1482e1f2f8c13e03bdf86e8b8d6371da66c4%40group.calendar.google.com&ctz=Europe%2FMadrid&mode=AGENDA&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&hl=es"
+  style="border: none; width: 100%; min-height: 280px; background: transparent;"
+  frameborder="0"
+  scrolling="no">
+</iframe>
