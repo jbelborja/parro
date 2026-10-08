@@ -6,4 +6,4 @@ draft: false
 title: Concierto del coro de la parroquia
 ---
 
-![](Captura%20de%20pantalla%20de%202026-06-14%2010-54-41.png)
+![](coro2606.png)
