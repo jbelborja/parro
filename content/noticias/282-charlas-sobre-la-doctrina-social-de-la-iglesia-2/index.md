@@ -6,4 +6,4 @@ draft: false
 title: Charlas sobre la Doctrina Social de la Iglesia
 ---
 
-[](doctrina.png)
+![](doctrina.png)
