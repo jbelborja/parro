@@ -6,4 +6,4 @@ draft: false
 title: Misa de niños
 ---
 
-![](misa-de-niños.jpg)
+![](misa-de-niños.png)
