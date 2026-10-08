@@ -1,6 +1,5 @@
 ---
-categories:
-- actual
+categories:- actual
 date: '2026-05-30'
 draft: false
 title: Normas para el acceso al Estadio Santiago Bernabeu para el acto del Papa
