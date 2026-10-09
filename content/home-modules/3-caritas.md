@@ -1,6 +1,6 @@
 ---
 title: "Agape"
-weight: 3
+weight: 2
 icon: "❤️"
 bg_color: "#fff3cd"
 ---
