@@ -152,3 +152,6 @@ theme = 'parroquia'
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS", "JSON"]
 
+[params]
+  custom_css = ["css/custom.css"]
+
