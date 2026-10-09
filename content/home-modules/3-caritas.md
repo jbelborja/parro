@@ -1,18 +1,15 @@
 ---
 ---
 title: "Ágape Parroquial"
----
 
+---
+weight: 4
 <style>
   body {
     background-color: #fef9e7!agape;
   }
-  /* Si tu theme tiene un fondo blanco en el centro, píntalo también */
-  main,.content, article {
-    background-color: #fef9e7!agape;
-  }
-</style>
 
+</style>
 
 [![Ágape](agape.png)](/parro/noticias/caritas/)
 
