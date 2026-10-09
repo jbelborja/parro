@@ -6,5 +6,5 @@ bg_color: "#fff3cd"
 
 
 <a href="/noticias/caritas/" target="_blank">
-  <img src="agape.png" alt="Ágape parroquial" style="border-radius:10px; width:50%;">
+  <img src="agape.png" alt="Ágape parroquial" style="border-radius:10px; width:10%;">
 </a>
