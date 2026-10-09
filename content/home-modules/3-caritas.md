@@ -5,4 +5,4 @@ icon: "❤️"
 bg_color: "#fff3cd"
 ---
 
-![agape.png](/home-modules/agape.png)
+[![Ágape](agape.png)](/agape/)
