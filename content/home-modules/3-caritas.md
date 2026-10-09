@@ -5,4 +5,4 @@ icon: "❤️"
 bg_color: "#fff3cd"
 ---
 
-[![Ágape](agape.png)](/agape/)
+[![Ágape](agape.png)](/noticias/caritas/)
