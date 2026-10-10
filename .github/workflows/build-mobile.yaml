@@ -160,9 +160,15 @@ jobs:
       - name: Install CocoaPods
         working-directory: ./mobile-app/ios
         run: |
-          # FirebaseCoreInternal / GoogleUtilities requieren use_modular_headers! en CocoaPods
-          sed -i '' '1s/^/use_modular_headers!\n/' Podfile
-          cat Podfile | head -n 15
+          # En lugar de use_modular_headers! global que rompe ReactCommon,
+          # habilitamos modular_headers especificamente para los pods de Firebase y GoogleUtilities
+          cat << 'EOF' >> Podfile
+
+          # Modular headers solo para Firebase/Google targets
+          pod 'FirebaseCoreInternal', :modular_headers => true
+          pod 'GoogleUtilities', :modular_headers => true
+          EOF
+          cat Podfile | tail -n 20
           pod install --repo-update
 
       - name: Build iOS App (.app / .ipa)
