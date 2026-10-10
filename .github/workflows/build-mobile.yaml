@@ -160,15 +160,25 @@ jobs:
       - name: Install CocoaPods
         working-directory: ./mobile-app/ios
         run: |
-          # En lugar de use_modular_headers! global que rompe ReactCommon,
-          # habilitamos modular_headers especificamente para los pods de Firebase y GoogleUtilities
-          cat << 'EOF' >> Podfile
+          # Añadir post_install hook para subir el deployment target mínimo a 13.0
+          # Xcode 15.4 sólo soporta deployment targets 12.0–17.5.99,
+          # pero varios pods de Firebase/Google declaran 9.0/10.0/11.0 causando error de compilación.
+          cat << 'PODFILE_PATCH' >> Podfile
 
-          # Modular headers solo para Firebase/Google targets
-          pod 'FirebaseCoreInternal', :modular_headers => true
-          pod 'GoogleUtilities', :modular_headers => true
-          EOF
-          cat Podfile | tail -n 20
+          post_install do |installer|
+            installer.pods_project.targets.each do |target|
+              target.build_configurations.each do |config|
+                current = config.build_settings['IPHONEOS_DEPLOYMENT_TARGET']
+                if current && current.to_f < 13.0
+                  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+                end
+              end
+            end
+          end
+          PODFILE_PATCH
+
+          echo "=== Últimas líneas del Podfile ==="
+          tail -n 25 Podfile
           pod install --repo-update
 
       - name: Build iOS App (.app / .ipa)
