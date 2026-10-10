@@ -10,9 +10,10 @@ import {
 } from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
 import { fetchLatestContent } from '../services/content';
+import { colors, shadows, radius, typography } from '../theme';
 
 export default function HomeScreen() {
-  const [activeTab, setActiveTab] = useState('noticias'); // 'noticias' | 'toma-y-lee'
+  const [activeTab, setActiveTab] = useState('noticias');
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
@@ -36,14 +37,11 @@ export default function HomeScreen() {
 
   const handleOpenItem = async (item) => {
     const targetUrl = item.pdf || item.permalink;
-    if (targetUrl) {
-      await WebBrowser.openBrowserAsync(targetUrl);
-    }
+    if (targetUrl) await WebBrowser.openBrowserAsync(targetUrl);
   };
 
   const cleanSummary = (text) => {
     if (!text) return '';
-    // Eliminar imagenes markdown ![](...) y enlaces [...](...)
     let cleaned = text.replace(/!\[.*?\]\(.*?\)/g, '');
     cleaned = cleaned.replace(/\[(.*?)\]\(.*?\)/g, '$1');
     cleaned = cleaned.replace(/<[^>]*>?/gm, '');
@@ -52,30 +50,40 @@ export default function HomeScreen() {
 
   const renderItem = ({ item }) => {
     const summary = cleanSummary(item.summary);
+    const isNoticias = activeTab === 'noticias';
     return (
+      // .module-card equivalente: white bg, border, shadow-md, border-radius --radius-lg
       <TouchableOpacity
         style={styles.card}
-        activeOpacity={0.7}
+        activeOpacity={0.75}
         onPress={() => handleOpenItem(item)}
       >
+        {/* Cabecera de tarjeta: badge de categoría + fecha */}
         <View style={styles.cardHeader}>
-          <Text style={styles.cardCategory}>
-            {activeTab === 'noticias' ? '📰 NOTICIA' : '📖 TOMA Y LEE'}
-          </Text>
-          {item.date ? <Text style={styles.cardDate}>{item.date}</Text> : null}
+          <View style={[styles.badge, isNoticias ? styles.badgeNoticias : styles.badgeToma]}>
+            <Text style={styles.badgeText}>
+              {isNoticias ? 'NOTICIA' : 'TOMA Y LEE'}
+            </Text>
+          </View>
+          {item.date ? (
+            <Text style={styles.cardDate}>{item.date}</Text>
+          ) : null}
         </View>
 
+        {/* Título — .module-card h2: color --primary, font-weight 700 */}
         <Text style={styles.cardTitle}>{item.title}</Text>
 
+        {/* Resumen — color --text-color, font-size ~1rem */}
         {summary ? (
           <Text style={styles.cardSummary} numberOfLines={3}>
             {summary}
           </Text>
         ) : null}
 
+        {/* Pie: enlace de acción — color --accent */}
         <View style={styles.cardFooter}>
           <Text style={styles.readMoreText}>
-            {item.pdf ? '📄 Abrir lectura (PDF) →' : 'Leer en la web →'}
+            {item.pdf ? 'Abrir lectura (PDF)' : 'Leer en la web'} →
           </Text>
         </View>
       </TouchableOpacity>
@@ -84,43 +92,32 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      {/* Selector de pestañas */}
+      {/* Tab selector — inspirado en el menú principal de la web */}
       <View style={styles.tabBar}>
-        <TouchableOpacity
-          style={[styles.tabButton, activeTab === 'noticias' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('noticias')}
-        >
-          <Text
-            style={[styles.tabButtonText, activeTab === 'noticias' && styles.tabButtonTextActive]}
+        {[
+          { id: 'noticias',    label: 'Noticias' },
+          { id: 'toma-y-lee',  label: 'Toma y lee' },
+        ].map(tab => (
+          <TouchableOpacity
+            key={tab.id}
+            style={[styles.tabButton, activeTab === tab.id && styles.tabButtonActive]}
+            onPress={() => setActiveTab(tab.id)}
           >
-            📰 Últimas Noticias
-          </Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={[styles.tabButton, activeTab === 'toma-y-lee' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('toma-y-lee')}
-        >
-          <Text
-            style={[
-              styles.tabButtonText,
-              activeTab === 'toma-y-lee' && styles.tabButtonTextActive,
-            ]}
-          >
-            📖 Toma y Lee
-          </Text>
-        </TouchableOpacity>
+            <Text style={[styles.tabButtonText, activeTab === tab.id && styles.tabButtonTextActive]}>
+              {tab.label}
+            </Text>
+          </TouchableOpacity>
+        ))}
       </View>
 
-      {/* Lista de contenidos */}
+      {/* Contenido */}
       {loading ? (
         <View style={styles.centerContainer}>
-          <ActivityIndicator size="large" color="#5B2C6F" />
+          <ActivityIndicator size="large" color={colors.accent} />
           <Text style={styles.loadingText}>Cargando publicaciones...</Text>
         </View>
       ) : items.length === 0 ? (
         <View style={styles.centerContainer}>
-          <Text style={styles.emptyIcon}>{activeTab === 'noticias' ? '📰' : '📖'}</Text>
           <Text style={styles.emptyTitle}>No hay contenidos disponibles</Text>
           <Text style={styles.emptySubtitle}>Desliza hacia abajo para actualizar.</Text>
         </View>
@@ -134,8 +131,8 @@ export default function HomeScreen() {
             <RefreshControl
               refreshing={refreshing}
               onRefresh={onRefresh}
-              colors={['#5B2C6F']}
-              tintColor="#5B2C6F"
+              colors={[colors.accent]}
+              tintColor={colors.accent}
             />
           }
         />
@@ -145,45 +142,48 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
+  // main { background: --bg-color }
   container: {
     flex: 1,
-    backgroundColor: '#F5EEF8',
+    backgroundColor: colors.bg,
   },
+
+  // Tab bar: equivalente a .main-nav en móvil (blanco, borde inferior, shadow-sm)
   tabBar: {
     flexDirection: 'row',
-    backgroundColor: '#FFFFFF',
-    padding: 6,
-    marginHorizontal: 14,
-    marginTop: 10,
-    marginBottom: 8,
-    borderRadius: 14,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.08,
-    shadowRadius: 3,
-    elevation: 2,
+    backgroundColor: colors.white,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.border,
+    ...shadows.sm,
   },
+
+  // Cada tab — .main-nav a: padding 8px 13px, font-size 0.92rem, font-weight 500
   tabButton: {
     flex: 1,
-    paddingVertical: 10,
+    paddingVertical: 13,
+    paddingHorizontal: 8,
     alignItems: 'center',
-    borderRadius: 10,
+    borderBottomWidth: 3,
+    borderBottomColor: 'transparent',
   },
   tabButtonActive: {
-    backgroundColor: '#5B2C6F',
+    borderBottomColor: colors.accent,
   },
   tabButtonText: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: '#666',
+    fontSize: typography.sizes.base,
+    fontWeight: typography.weights.medium,
+    color: colors.textLight,
   },
   tabButtonTextActive: {
-    color: '#FFFFFF',
+    color: colors.accent,
+    fontWeight: typography.weights.semibold,
   },
+
   listContent: {
-    padding: 14,
-    paddingBottom: 25,
+    padding: 16,
+    paddingBottom: 28,
   },
+
   centerContainer: {
     flex: 1,
     justifyContent: 'center',
@@ -192,72 +192,92 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     marginTop: 12,
-    fontSize: 14,
-    color: '#5B2C6F',
-  },
-  emptyIcon: {
-    fontSize: 48,
-    marginBottom: 12,
+    fontSize: typography.sizes.sm,
+    color: colors.textLight,
   },
   emptyTitle: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#5B2C6F',
+    fontSize: typography.sizes.md,
+    fontWeight: typography.weights.semibold,
+    color: colors.primary,
     marginBottom: 4,
+    textAlign: 'center',
   },
   emptySubtitle: {
-    fontSize: 13,
-    color: '#777',
+    fontSize: typography.sizes.sm,
+    color: colors.textLight,
+    textAlign: 'center',
   },
+
+  // .module-card: white bg, border --border-color, shadow-md, radius --radius-lg
   card: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 14,
-    padding: 16,
-    marginBottom: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.08,
-    shadowRadius: 4,
-    elevation: 2,
+    backgroundColor: colors.white,
+    borderRadius: radius.lg,
+    borderWidth: 1,
+    borderColor: colors.border,
+    padding: 18,
+    marginBottom: 14,
+    ...shadows.md,
   },
+
   cardHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 6,
+    marginBottom: 8,
   },
-  cardCategory: {
-    fontSize: 11,
-    fontWeight: 'bold',
-    color: '#8E44AD',
-    letterSpacing: 0.5,
+
+  // Badge de categoría — estilo pill con el color --accent
+  badge: {
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: radius.sm,
   },
+  badgeNoticias: {
+    backgroundColor: '#eff6ff',   // blue-50
+  },
+  badgeToma: {
+    backgroundColor: '#f0fdf4',   // green-50
+  },
+  badgeText: {
+    fontSize: typography.sizes.xs,
+    fontWeight: typography.weights.bold,
+    color: colors.accent,
+    letterSpacing: 0.6,
+  },
+
+  // Fecha — --text-light, font-size 0.9rem
   cardDate: {
-    fontSize: 12,
-    color: '#888',
+    fontSize: typography.sizes.sm,
+    color: colors.textLight,
   },
+
+  // Título — .module-card h2: color --primary, font-size 1.5rem web → lg en móvil
   cardTitle: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#2C3E50',
-    lineHeight: 22,
+    fontSize: typography.sizes.lg,
+    fontWeight: typography.weights.bold,
+    color: colors.primary,
+    lineHeight: typography.lineHeight.tight,
     marginBottom: 6,
   },
+
+  // Resumen — color --text-color, font-size ~1rem, line-height 1.6
   cardSummary: {
-    fontSize: 13,
-    color: '#555',
-    lineHeight: 18,
-    marginBottom: 10,
+    fontSize: typography.sizes.md,
+    color: colors.text,
+    lineHeight: typography.lineHeight.normal,
+    marginBottom: 12,
   },
+
+  // Pie — separador igual que el borde-bottom de la web
   cardFooter: {
     borderTopWidth: 1,
-    borderTopColor: '#F0E6F4',
-    paddingTop: 8,
+    borderTopColor: colors.border,
+    paddingTop: 10,
     marginTop: 4,
   },
   readMoreText: {
-    fontSize: 13,
-    fontWeight: '600',
-    color: '#5B2C6F',
+    fontSize: typography.sizes.sm,
+    fontWeight: typography.weights.semibold,
+    color: colors.accent,   // --accent: #3b82f6
   },
 });
