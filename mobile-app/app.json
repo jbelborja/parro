@@ -38,8 +38,7 @@
       [
         "expo-notifications",
         {
-          "icon": "./assets/logo.png",
-          "color": "#5B2C6F"
+          "icon": "./assets/logo.png"
         }
       ]
     ]
