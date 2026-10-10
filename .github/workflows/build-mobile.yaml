@@ -154,26 +154,76 @@ jobs:
           EOF
           fi
 
+      - name: Cache CocoaPods
+        uses: actions/cache@v4
+        id: pods-cache
+        with:
+          path: |
+            ~/Library/Caches/CocoaPods
+            mobile-app/ios/Pods
+          key: pods-${{ hashFiles('mobile-app/package.json') }}
+          restore-keys: pods-
+
       - name: Prebuild iOS
         run: npx expo prebuild --platform ios
 
-      - name: Install CocoaPods
+      - name: Patch Podfile y instalar CocoaPods
         working-directory: ./mobile-app/ios
         run: |
-          # Inyectar fix de deployment target DENTRO del post_install existente (Expo ya genera uno)
-          # Xcode 15.4 sólo soporta 12.0+, pero varios pods de Firebase/Google declaran 9.0/10.0/11.0
-          sed -i '' '/^post_install do |installer|/a\
-            installer.pods_project.targets.each do |target|\
-              target.build_configurations.each do |config|\
-                dt = config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"]\
-                config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] = "13.0" if dt && dt.to_f < 13.0\
-              end\
-            end\
-          ' Podfile
+          # Usar Python para parchear el Podfile de forma robusta:
+          # 1. Añadir GoogleUtilities con :modular_headers => true dentro del bloque target
+          # 2. Inyectar fix de deployment target dentro del post_install existente (Expo ya genera uno)
+          python3 << 'PYEOF'
+          import re
 
-          echo "=== post_install en Podfile ==="
-          grep -A 20 "post_install" Podfile
-          pod install --repo-update
+          with open('Podfile', 'r') as f:
+              content = f.read()
+
+          # Fix 1: GoogleUtilities con modular_headers dentro del primer bloque target
+          content = re.sub(
+              r"(^target '[^']+' do\s*$)",
+              r"\1\n  pod 'GoogleUtilities', :modular_headers => true",
+              content,
+              count=1,
+              flags=re.MULTILINE
+          )
+
+          # Fix 2: Deployment target >= 13.0 dentro del post_install existente
+          fix = (
+              "\n"
+              "  # Fix: subir deployment target minimo a 13.0 (Xcode 15.4 requiere 12.0+)\n"
+              "  installer.pods_project.targets.each do |t|\n"
+              "    t.build_configurations.each do |c|\n"
+              "      dt = c.build_settings['IPHONEOS_DEPLOYMENT_TARGET']\n"
+              "      c.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0' if dt && dt.to_f < 13.0\n"
+              "    end\n"
+              "  end"
+          )
+          content = re.sub(
+              r'(^post_install do \|installer\|)',
+              r'\1' + fix,
+              content,
+              count=1,
+              flags=re.MULTILINE
+          )
+
+          with open('Podfile', 'w') as f:
+              f.write(content)
+
+          print("Podfile parcheado correctamente")
+          PYEOF
+
+          echo "=== Verificando parches en Podfile ==="
+          grep -n "GoogleUtilities\|IPHONEOS\|post_install\|deployment" Podfile
+
+          # Instalar pods (sin --repo-update si hay cache)
+          if [ "${{ steps.pods-cache.outputs.cache-hit }}" = "true" ]; then
+            echo "Cache hit — usando pods cacheados"
+            pod install --no-repo-update
+          else
+            echo "Cache miss — descargando pods con repo-update"
+            pod install --repo-update
+          fi
 
       - name: Build iOS App (.app / .ipa)
         working-directory: ./mobile-app/ios
