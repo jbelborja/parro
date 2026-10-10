@@ -1,0 +1,5 @@
+# Propietario por defecto para todo el repositorio
+* @jbelborja
+
+# jfbel solo tiene acceso como revisor/propietario de la carpeta content
+/content/ @jfbel @jbelborja
