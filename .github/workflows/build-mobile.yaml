@@ -5,16 +5,6 @@ on:
     branches:
       - apps
   workflow_dispatch:
-    inputs:
-      platform:
-        description: 'Platform to build (android/ios/all)'
-        required: true
-        default: 'all'
-        type: choice
-        options:
-          - all
-          - android
-          - ios
 
 permissions:
   contents: read
@@ -22,7 +12,6 @@ permissions:
 jobs:
   build-android:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' || inputs.platform == 'android' || inputs.platform == 'all'
     defaults:
       run:
         working-directory: ./mobile-app
@@ -35,45 +24,28 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: Install dependencies
         run: npm install
-
-      - name: Setup EAS CLI
-        run: npm install -g eas-cli
 
       - name: Create google-services.json
         run: echo '${{ secrets.GOOGLE_SERVICES_JSON }}' > google-services.json
 
-      - name: Run EAS Build for Android
-        env:
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas build --platform android --profile preview --non-interactive
+      - name: Prebuild Android
+        run: npx expo prebuild --platform android
 
-  build-ios:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push' || inputs.platform == 'ios' || inputs.platform == 'all'
-    defaults:
-      run:
-        working-directory: ./mobile-app
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Build APK (Release)
+        working-directory: ./mobile-app/android
+        run: ./gradlew assembleRelease
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
         with:
-          node-version: '20'
+          name: parroquia-app-android
+          path: mobile-app/android/app/build/outputs/apk/release/app-release.apk
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Setup EAS CLI
-        run: npm install -g eas-cli
-
-      - name: Create GoogleService-Info.plist
-        run: echo '${{ secrets.GOOGLE_SERVICE_INFO_PLIST }}' > GoogleService-Info.plist
-
-      - name: Run EAS Build for iOS
-        env:
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas build --platform ios --profile preview --non-interactive
