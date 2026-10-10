@@ -2,21 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Switch, StyleSheet } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { subscribeToTopic, unsubscribeFromTopic } from '../services/notifications';
+import { colors, shadows, radius, typography } from '../theme';
 
 export default function CategoryToggle({ category }) {
   const [isEnabled, setIsEnabled] = useState(false);
   const { id, label, description, icon, topic } = category;
-  
   const storageKey = `@subscription_${id}`;
 
-  // Cargar estado inicial desde AsyncStorage
   useEffect(() => {
     const loadState = async () => {
       try {
         const value = await AsyncStorage.getItem(storageKey);
-        if (value !== null) {
-          setIsEnabled(value === 'true');
-        }
+        if (value !== null) setIsEnabled(value === 'true');
       } catch (e) {
         console.error('Error cargando estado de AsyncStorage', e);
       }
@@ -24,10 +21,8 @@ export default function CategoryToggle({ category }) {
     loadState();
   }, [storageKey]);
 
-  // Cambiar estado y suscribirse/desuscribirse
   const toggleSwitch = async (newValue) => {
     setIsEnabled(newValue);
-
     try {
       if (newValue) {
         await subscribeToTopic(topic);
@@ -38,23 +33,27 @@ export default function CategoryToggle({ category }) {
       }
     } catch (e) {
       console.error('Error cambiando el estado del topic', e);
-      setIsEnabled(!newValue); // Revertir en caso de error
+      setIsEnabled(!newValue);
     }
   };
 
   return (
+    // .module-card: white, border --border-color, shadow-md, radius --radius-lg
     <View style={styles.card}>
       <View style={styles.contentContainer}>
         <Text style={styles.icon}>{icon}</Text>
         <View style={styles.textContainer}>
+          {/* .module-card h2: color --primary, font-weight 600 */}
           <Text style={styles.label}>{label}</Text>
+          {/* cuerpo: color --text-color, font-size ~1rem */}
           <Text style={styles.description}>{description}</Text>
         </View>
       </View>
+      {/* Switch: colores --accent / --border-color */}
       <Switch
-        trackColor={{ false: '#D2B4DE', true: '#5B2C6F' }}
-        thumbColor={isEnabled ? '#FFFFFF' : '#f4f3f4'}
-        ios_backgroundColor="#D2B4DE"
+        trackColor={{ false: colors.border, true: colors.accent }}
+        thumbColor={colors.white}
+        ios_backgroundColor={colors.border}
         onValueChange={toggleSwitch}
         value={isEnabled}
       />
@@ -67,15 +66,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: colors.white,
+    borderWidth: 1,
+    borderColor: colors.border,
     padding: 16,
     marginBottom: 12,
-    borderRadius: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
+    borderRadius: radius.lg,
+    ...shadows.md,
   },
   contentContainer: {
     flexDirection: 'row',
@@ -83,21 +80,22 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   icon: {
-    fontSize: 28,
-    marginRight: 16,
+    fontSize: 26,
+    marginRight: 14,
   },
   textContainer: {
     flex: 1,
-    paddingRight: 8,
+    paddingRight: 10,
   },
   label: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#5B2C6F',
-    marginBottom: 4,
+    fontSize: typography.sizes.md,
+    fontWeight: typography.weights.semibold,
+    color: colors.primary,
+    marginBottom: 3,
   },
   description: {
-    fontSize: 14,
-    color: '#666',
+    fontSize: typography.sizes.sm,
+    color: colors.text,
+    lineHeight: typography.lineHeight.normal,
   },
 });

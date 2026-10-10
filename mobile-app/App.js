@@ -12,6 +12,7 @@ import {
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import { setupNotificationHandlers, requestPermissions } from './src/services/notifications';
+import { colors, shadows, radius, typography } from './src/theme';
 
 const { width } = Dimensions.get('window');
 
@@ -19,24 +20,20 @@ export default function App() {
   const [currentScreen, setCurrentScreen] = useState('home'); // 'home' | 'settings'
 
   useEffect(() => {
-    // Pedir permisos de notificaciones al inicio
     requestPermissions().catch(err => console.warn('Error pidiendo permisos:', err));
-
-    // Configurar listeners de notificaciones push
     const cleanup = setupNotificationHandlers();
     return () => {
-      if (typeof cleanup === 'function') {
-        cleanup();
-      }
+      if (typeof cleanup === 'function') cleanup();
     };
   }, []);
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
+      <StatusBar barStyle="dark-content" backgroundColor={colors.white} />
 
-      {/* Cabecera común con logo grande y título */}
+      {/* Header — equivalente a .site-header de la web */}
       <View style={styles.topBar}>
+        {/* Logo — mismo tratamiento que .logo-container img (height: 48px en web) */}
         <View style={styles.logoRow}>
           <Image
             source={require('./assets/logo.png')}
@@ -45,19 +42,14 @@ export default function App() {
           />
         </View>
 
-        {/* Barra de navegación superior / tabs principales */}
+        {/* Nav tabs — equivalentes a .main-nav a de la web */}
         <View style={styles.navBar}>
           <TouchableOpacity
             style={[styles.navItem, currentScreen === 'home' && styles.navItemActive]}
             onPress={() => setCurrentScreen('home')}
           >
-            <Text
-              style={[
-                styles.navItemText,
-                currentScreen === 'home' && styles.navItemTextActive,
-              ]}
-            >
-              📰 Contenidos
+            <Text style={[styles.navItemText, currentScreen === 'home' && styles.navItemTextActive]}>
+              Contenidos
             </Text>
           </TouchableOpacity>
 
@@ -65,19 +57,13 @@ export default function App() {
             style={[styles.navItem, currentScreen === 'settings' && styles.navItemActive]}
             onPress={() => setCurrentScreen('settings')}
           >
-            <Text
-              style={[
-                styles.navItemText,
-                currentScreen === 'settings' && styles.navItemTextActive,
-              ]}
-            >
-              🔔 Notificaciones
+            <Text style={[styles.navItemText, currentScreen === 'settings' && styles.navItemTextActive]}>
+              Notificaciones
             </Text>
           </TouchableOpacity>
         </View>
       </View>
 
-      {/* Vista de pantalla activa */}
       <View style={styles.contentArea}>
         {currentScreen === 'home' ? <HomeScreen /> : <SettingsScreen />}
       </View>
@@ -88,55 +74,64 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: colors.white,
   },
+
+  // .site-header: white bg, bottom border, shadow-sm, sticky
   topBar: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: colors.white,
     borderBottomWidth: 1,
-    borderBottomColor: '#E8DAEF',
-    paddingTop: 8,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.05,
-    shadowRadius: 3,
-    elevation: 3,
+    borderBottomColor: colors.border,
+    ...shadows.sm,
   },
+
+  // .logo-container: centered, padding equivalente al header-inner
   logoRow: {
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 10,
-    paddingHorizontal: 16,
+    paddingHorizontal: 20,
   },
   bigLogo: {
-    width: Math.min(width - 32, 420),
-    height: 75,
+    width: Math.min(width - 40, 380),
+    height: 48,   // igual que height: 48px de .logo-container img en la web
   },
+
+  // .main-nav: barra de pestañas con estilo de nav links
   navBar: {
     flexDirection: 'row',
-    paddingHorizontal: 16,
-    paddingTop: 4,
+    paddingHorizontal: 6,
+    paddingBottom: 0,
   },
+
+  // equivalente a .main-nav a (padding 8px 13px, border-radius --radius-md)
   navItem: {
     flex: 1,
-    paddingVertical: 12,
+    paddingVertical: 11,
     alignItems: 'center',
     borderBottomWidth: 3,
     borderBottomColor: 'transparent',
+    marginHorizontal: 2,
+    borderRadius: 0,
   },
   navItemActive: {
-    borderBottomColor: '#5B2C6F',
+    borderBottomColor: colors.accent,   // --accent: #3b82f6
   },
+
+  // font-size: 0.92rem, font-weight: 500, color: --text-color
   navItemText: {
-    fontSize: 15,
-    fontWeight: '600',
-    color: '#888',
+    fontSize: typography.sizes.base,
+    fontWeight: typography.weights.medium,
+    color: colors.text,
   },
   navItemTextActive: {
-    color: '#5B2C6F',
-    fontWeight: 'bold',
+    color: colors.accent,
+    fontWeight: typography.weights.semibold,
   },
+
+  // main { background: --bg-color }
   contentArea: {
     flex: 1,
-    backgroundColor: '#F5EEF8',
+    backgroundColor: colors.bg,
   },
 });
