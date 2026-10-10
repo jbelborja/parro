@@ -1,0 +1,81 @@
+name: Build Mobile App
+
+on:
+  push:
+    branches:
+      - apps
+    paths:
+      - 'mobile-app/**'
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform to build (android/ios/all)'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - android
+          - ios
+
+permissions:
+  contents: read
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || inputs.platform == 'android' || inputs.platform == 'all'
+    defaults:
+      run:
+        working-directory: ./mobile-app
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Setup EAS CLI
+        run: npm install -g eas-cli
+
+      - name: Create google-services.json
+        run: echo '${{ secrets.GOOGLE_SERVICES_JSON }}' > google-services.json
+
+      - name: Run EAS Build for Android
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: eas build --platform android --profile preview --non-interactive
+
+  build-ios:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || inputs.platform == 'ios' || inputs.platform == 'all'
+    defaults:
+      run:
+        working-directory: ./mobile-app
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Setup EAS CLI
+        run: npm install -g eas-cli
+
+      - name: Create GoogleService-Info.plist
+        run: echo '${{ secrets.GOOGLE_SERVICE_INFO_PLIST }}' > GoogleService-Info.plist
+
+      - name: Run EAS Build for iOS
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: eas build --platform ios --profile preview --non-interactive
