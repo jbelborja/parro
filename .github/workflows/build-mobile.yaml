@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - apps
-    paths:
-      - 'mobile-app/**'
   workflow_dispatch:
     inputs:
       platform:
