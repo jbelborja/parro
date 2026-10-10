@@ -1,10 +1,17 @@
 name: Build Mobile App
 
 on:
-  push:
-    branches:
-      - apps
   workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Plataforma a compilar'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - android
+          - ios
 
 permissions:
   contents: read
@@ -13,6 +20,7 @@ permissions:
 jobs:
   build-android:
     runs-on: ubuntu-latest
+    if: inputs.platform == 'android' || inputs.platform == 'all'
     defaults:
       run:
         working-directory: ./mobile-app
@@ -84,6 +92,7 @@ jobs:
 
   build-ios:
     runs-on: macos-14
+    if: inputs.platform == 'ios' || inputs.platform == 'all'
     defaults:
       run:
         working-directory: ./mobile-app
@@ -150,7 +159,11 @@ jobs:
 
       - name: Install CocoaPods
         working-directory: ./mobile-app/ios
-        run: pod install
+        run: |
+          # FirebaseCoreInternal / GoogleUtilities requieren use_modular_headers! en CocoaPods
+          sed -i '' '1s/^/use_modular_headers!\n/' Podfile
+          cat Podfile | head -n 15
+          pod install --repo-update
 
       - name: Build iOS App (.app / .ipa)
         working-directory: ./mobile-app/ios
