@@ -57,3 +57,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  notify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r scripts/requirements-notifications.txt
+      - name: Detect new content
+        id: detect
+        run: python3 scripts/detect_new_content.py
+        continue-on-error: true
+      - name: Send notifications
+        if: steps.detect.outcome == 'success'
+        env:
+          FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+        run: python3 scripts/send_notifications.py
