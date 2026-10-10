@@ -1,102 +1,249 @@
-import React, { useEffect } from 'react';
-import { ScrollView, View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import React, { useState, useEffect, useCallback } from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  FlatList,
+  TouchableOpacity,
+  ActivityIndicator,
+  RefreshControl,
+} from 'react-native';
 import * as WebBrowser from 'expo-web-browser';
-import { categories } from '../config/categories';
-import CategoryToggle from '../components/CategoryToggle';
-import { requestPermissions } from '../services/notifications';
+import { fetchLatestContent } from '../services/content';
 
 export default function HomeScreen() {
-  useEffect(() => {
-    // Pedir permisos de notificaciones al abrir la app
-    requestPermissions().then(granted => {
-      if (!granted) {
-        console.warn('Permisos de notificación denegados');
-      }
-    });
+  const [activeTab, setActiveTab] = useState('noticias'); // 'noticias' | 'toma-y-lee'
+  const [items, setItems] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
+
+  const loadData = useCallback(async (tab) => {
+    setLoading(true);
+    const data = await fetchLatestContent(tab);
+    setItems(data);
+    setLoading(false);
   }, []);
 
-  const openWebsite = async () => {
-    await WebBrowser.openBrowserAsync('https://jbelborja.github.io/parro/');
+  useEffect(() => {
+    loadData(activeTab);
+  }, [activeTab, loadData]);
+
+  const onRefresh = async () => {
+    setRefreshing(true);
+    const data = await fetchLatestContent(activeTab);
+    setItems(data);
+    setRefreshing(false);
   };
 
-  return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <View style={styles.header}>
-        <Image 
-          source={require('../../assets/logo.png')} 
-          style={styles.logo} 
-          resizeMode="contain" 
-        />
-        <Text style={styles.title}>Parroquia Ntra. Sra. de la Vid</Text>
-        <Text style={styles.subtitle}>Notificaciones</Text>
-        
-        <Text style={styles.explanation}>
-          Selecciona qué contenidos quieres recibir en tu móvil. Te enviaremos una notificación cuando haya novedades.
+  const handleOpenItem = async (item) => {
+    const targetUrl = item.pdf || item.permalink;
+    if (targetUrl) {
+      await WebBrowser.openBrowserAsync(targetUrl);
+    }
+  };
+
+  const renderItem = ({ item }) => (
+    <TouchableOpacity
+      style={styles.card}
+      activeOpacity={0.7}
+      onPress={() => handleOpenItem(item)}
+    >
+      <View style={styles.cardHeader}>
+        <Text style={styles.cardCategory}>
+          {activeTab === 'noticias' ? '📰 NOTICIA' : '📖 TOMA Y LEE'}
+        </Text>
+        {item.date ? <Text style={styles.cardDate}>{item.date}</Text> : null}
+      </View>
+      <Text style={styles.cardTitle}>{item.title}</Text>
+      {item.summary ? (
+        <Text style={styles.cardSummary} numberOfLines={3}>
+          {item.summary.replace(/<[^>]*>?/gm, '').trim()}
+        </Text>
+      ) : null}
+      <View style={styles.cardFooter}>
+        <Text style={styles.readMoreText}>
+          {item.pdf ? '📄 Ver lectura (PDF) →' : 'Leer en la web →'}
         </Text>
       </View>
+    </TouchableOpacity>
+  );
 
-      <View style={styles.list}>
-        {categories.map((cat) => (
-          <CategoryToggle key={cat.id} category={cat} />
-        ))}
+  return (
+    <View style={styles.container}>
+      {/* Selector de pestañas */}
+      <View style={styles.tabBar}>
+        <TouchableOpacity
+          style={[styles.tabButton, activeTab === 'noticias' && styles.tabButtonActive]}
+          onPress={() => setActiveTab('noticias')}
+        >
+          <Text
+            style={[styles.tabButtonText, activeTab === 'noticias' && styles.tabButtonTextActive]}
+          >
+            📰 Últimas Noticias
+          </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={[styles.tabButton, activeTab === 'toma-y-lee' && styles.tabButtonActive]}
+          onPress={() => setActiveTab('toma-y-lee')}
+        >
+          <Text
+            style={[
+              styles.tabButtonText,
+              activeTab === 'toma-y-lee' && styles.tabButtonTextActive,
+            ]}
+          >
+            📖 Toma y Lee
+          </Text>
+        </TouchableOpacity>
       </View>
 
-      <TouchableOpacity style={styles.footer} onPress={openWebsite}>
-        <Text style={styles.footerText}>🌐 Visitar web de la Parroquia</Text>
-      </TouchableOpacity>
-    </ScrollView>
+      {/* Lista de contenidos */}
+      {loading ? (
+        <View style={styles.centerContainer}>
+          <ActivityIndicator size="large" color="#5B2C6F" />
+          <Text style={styles.loadingText}>Cargando publicaciones...</Text>
+        </View>
+      ) : items.length === 0 ? (
+        <View style={styles.centerContainer}>
+          <Text style={styles.emptyIcon}>{activeTab === 'noticias' ? '📰' : '📖'}</Text>
+          <Text style={styles.emptyTitle}>No hay contenidos disponibles</Text>
+          <Text style={styles.emptySubtitle}>Desliza hacia abajo para actualizar.</Text>
+        </View>
+      ) : (
+        <FlatList
+          data={items}
+          keyExtractor={(item, index) => item.permalink || String(index)}
+          renderItem={renderItem}
+          contentContainerStyle={styles.listContent}
+          refreshControl={
+            <RefreshControl
+              refreshing={refreshing}
+              onRefresh={onRefresh}
+              colors={['#5B2C6F']}
+              tintColor="#5B2C6F"
+            />
+          }
+        />
+      )}
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5EEF8', // Tono violeta claro (background)
+    backgroundColor: '#F5EEF8',
   },
-  content: {
-    padding: 20,
-    paddingBottom: 40,
+  tabBar: {
+    flexDirection: 'row',
+    backgroundColor: '#FFFFFF',
+    padding: 6,
+    marginHorizontal: 14,
+    marginTop: 10,
+    marginBottom: 8,
+    borderRadius: 14,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.08,
+    shadowRadius: 3,
+    elevation: 2,
   },
-  header: {
+  tabButton: {
+    flex: 1,
+    paddingVertical: 10,
     alignItems: 'center',
-    marginBottom: 30,
+    borderRadius: 10,
   },
-  logo: {
-    width: 100,
-    height: 100,
-    marginBottom: 16,
-    borderRadius: 50,
+  tabButtonActive: {
+    backgroundColor: '#5B2C6F',
   },
-  title: {
-    fontSize: 22,
+  tabButtonText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#666',
+  },
+  tabButtonTextActive: {
+    color: '#FFFFFF',
+  },
+  listContent: {
+    padding: 14,
+    paddingBottom: 25,
+  },
+  centerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 24,
+  },
+  loadingText: {
+    marginTop: 12,
+    fontSize: 14,
+    color: '#5B2C6F',
+  },
+  emptyIcon: {
+    fontSize: 48,
+    marginBottom: 12,
+  },
+  emptyTitle: {
+    fontSize: 16,
     fontWeight: 'bold',
-    color: '#5B2C6F', // Púrpura principal
-    textAlign: 'center',
+    color: '#5B2C6F',
     marginBottom: 4,
   },
-  subtitle: {
-    fontSize: 18,
-    color: '#8E44AD',
-    marginBottom: 16,
+  emptySubtitle: {
+    fontSize: 13,
+    color: '#777',
   },
-  explanation: {
-    fontSize: 15,
-    textAlign: 'center',
-    color: '#4A235A',
-    lineHeight: 22,
-  },
-  list: {
-    marginBottom: 30,
-  },
-  footer: {
-    backgroundColor: '#5B2C6F',
+  card: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 14,
     padding: 16,
-    borderRadius: 12,
-    alignItems: 'center',
+    marginBottom: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 4,
+    elevation: 2,
   },
-  footerText: {
-    color: '#FFFFFF',
+  cardHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 6,
+  },
+  cardCategory: {
+    fontSize: 11,
+    fontWeight: 'bold',
+    color: '#8E44AD',
+    letterSpacing: 0.5,
+  },
+  cardDate: {
+    fontSize: 12,
+    color: '#888',
+  },
+  cardTitle: {
     fontSize: 16,
+    fontWeight: 'bold',
+    color: '#2C3E50',
+    lineHeight: 22,
+    marginBottom: 6,
+  },
+  cardSummary: {
+    fontSize: 13,
+    color: '#555',
+    lineHeight: 18,
+    marginBottom: 10,
+  },
+  cardFooter: {
+    borderTopWidth: 1,
+    borderTopColor: '#F0E6F4',
+    paddingTop: 8,
+    marginTop: 4,
+  },
+  readMoreText: {
+    fontSize: 13,
     fontWeight: '600',
-  }
+    color: '#5B2C6F',
+  },
 });
