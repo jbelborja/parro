@@ -17,8 +17,8 @@ export default function HomeScreen() {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
 
-  const loadData = useCallback(async (tab) => {
-    setLoading(true);
+  const loadData = useCallback(async (tab, isRefresh = false) => {
+    if (!isRefresh) setLoading(true);
     const data = await fetchLatestContent(tab);
     setItems(data);
     setLoading(false);
@@ -30,8 +30,7 @@ export default function HomeScreen() {
 
   const onRefresh = async () => {
     setRefreshing(true);
-    const data = await fetchLatestContent(activeTab);
-    setItems(data);
+    await loadData(activeTab, true);
     setRefreshing(false);
   };
 
@@ -42,31 +41,46 @@ export default function HomeScreen() {
     }
   };
 
-  const renderItem = ({ item }) => (
-    <TouchableOpacity
-      style={styles.card}
-      activeOpacity={0.7}
-      onPress={() => handleOpenItem(item)}
-    >
-      <View style={styles.cardHeader}>
-        <Text style={styles.cardCategory}>
-          {activeTab === 'noticias' ? '📰 NOTICIA' : '📖 TOMA Y LEE'}
-        </Text>
-        {item.date ? <Text style={styles.cardDate}>{item.date}</Text> : null}
-      </View>
-      <Text style={styles.cardTitle}>{item.title}</Text>
-      {item.summary ? (
-        <Text style={styles.cardSummary} numberOfLines={3}>
-          {item.summary.replace(/<[^>]*>?/gm, '').trim()}
-        </Text>
-      ) : null}
-      <View style={styles.cardFooter}>
-        <Text style={styles.readMoreText}>
-          {item.pdf ? '📄 Ver lectura (PDF) →' : 'Leer en la web →'}
-        </Text>
-      </View>
-    </TouchableOpacity>
-  );
+  const cleanSummary = (text) => {
+    if (!text) return '';
+    // Eliminar imagenes markdown ![](...) y enlaces [...](...)
+    let cleaned = text.replace(/!\[.*?\]\(.*?\)/g, '');
+    cleaned = cleaned.replace(/\[(.*?)\]\(.*?\)/g, '$1');
+    cleaned = cleaned.replace(/<[^>]*>?/gm, '');
+    return cleaned.trim();
+  };
+
+  const renderItem = ({ item }) => {
+    const summary = cleanSummary(item.summary);
+    return (
+      <TouchableOpacity
+        style={styles.card}
+        activeOpacity={0.7}
+        onPress={() => handleOpenItem(item)}
+      >
+        <View style={styles.cardHeader}>
+          <Text style={styles.cardCategory}>
+            {activeTab === 'noticias' ? '📰 NOTICIA' : '📖 TOMA Y LEE'}
+          </Text>
+          {item.date ? <Text style={styles.cardDate}>{item.date}</Text> : null}
+        </View>
+
+        <Text style={styles.cardTitle}>{item.title}</Text>
+
+        {summary ? (
+          <Text style={styles.cardSummary} numberOfLines={3}>
+            {summary}
+          </Text>
+        ) : null}
+
+        <View style={styles.cardFooter}>
+          <Text style={styles.readMoreText}>
+            {item.pdf ? '📄 Abrir lectura (PDF) →' : 'Leer en la web →'}
+          </Text>
+        </View>
+      </TouchableOpacity>
+    );
+  };
 
   return (
     <View style={styles.container}>
