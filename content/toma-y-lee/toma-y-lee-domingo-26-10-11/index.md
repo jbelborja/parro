@@ -7,4 +7,4 @@ draft: false
 
 ,Le empujaron fuera de la viña...Mt 21,39.
 
-[26-10-04-domingo-a.pdf](26-10-04-domingo-a.pdf)
+![26-10-04-domingo-a.pdf](26-10-04-domingo-a.pdf)
