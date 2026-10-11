@@ -14,7 +14,7 @@ on:
           - ios
 
 permissions:
-  contents: read
+  contents: write
   actions: write
 
 jobs:
@@ -89,6 +89,14 @@ jobs:
         with:
           name: parroquia-app-android
           path: mobile-app/android/app/build/outputs/apk/release/app-release.apk
+
+      - name: Publish Android APK to Release
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view latest-build || gh release create latest-build --title "Última versión App Móvil" --notes "Compilación automática de la app parroquial" || true
+          gh release upload latest-build "mobile-app/android/app/build/outputs/apk/release/app-release.apk#parroquia-la-vid.apk" --clobber
 
   build-ios:
     runs-on: macos-14
@@ -281,6 +289,14 @@ jobs:
         with:
           name: parroquia-app-ios
           path: mobile-app/parroquia-app-ios.ipa
+
+      - name: Publish iOS IPA to Release
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view latest-build || gh release create latest-build --title "Última versión App Móvil" --notes "Compilación automática de la app parroquial" || true
+          gh release upload latest-build "mobile-app/parroquia-app-ios.ipa#parroquia-la-vid.ipa" --clobber
 
   prune-artifacts:
     runs-on: ubuntu-latest
