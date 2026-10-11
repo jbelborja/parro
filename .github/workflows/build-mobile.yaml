@@ -169,49 +169,66 @@ jobs:
         working-directory: ./mobile-app/ios
         run: |
           # Parchear Podfile con Python:
-          # 1. Habilitar modular_headers en GoogleUtilities
+          # 1. Habilitar modular_headers para Firebase y Google (necesario para resolver @import FirebaseCore en FirebaseMessaging)
           # 2. En post_install: subir deployment target a 13.4 en todos los targets y bundles de recursos
-          # 3. Permitir non-modular includes en framework modules (soluciona error de compilación de React-RCTAppDelegate y Firebase)
+          # 3. Permitir non-modular includes en framework modules y habilitar DEFINES_MODULE en pods de Firebase
           python3 << 'PYEOF'
           import re
 
           with open('Podfile', 'r') as f:
               content = f.read()
 
-          # Fix 1: GoogleUtilities con modular_headers dentro del target
+          # Fix 1: Habilitar modular_headers para pods de Firebase y Google dentro del target
+          modular_pods = (
+              "\n"
+              "  # Modular headers para Firebase y Google (necesario para @import en FirebaseCoreInternal / FirebaseMessaging)\n"
+              "  pod 'FirebaseCore', :modular_headers => true\n"
+              "  pod 'FirebaseCoreInternal', :modular_headers => true\n"
+              "  pod 'FirebaseInstallations', :modular_headers => true\n"
+              "  pod 'FirebaseMessaging', :modular_headers => true\n"
+              "  pod 'GoogleDataTransport', :modular_headers => true\n"
+              "  pod 'GoogleUtilities', :modular_headers => true\n"
+              "  pod 'PromisesObjC', :modular_headers => true\n"
+              "  pod 'nanopb', :modular_headers => true\n"
+          )
           content = re.sub(
-              r"(^target '[^']+' do\s*$)",
-              r"\1\n  pod 'GoogleUtilities', :modular_headers => true",
+              r"(^\s*target '[^']+' do\s*$)",
+              r"\1" + modular_pods,
               content,
               count=1,
               flags=re.MULTILINE
           )
 
-          # Fix 2: Deployment target 13.4 y CLANG_ALLOW_NON_MODULAR_INCLUDES en targets y bundles
-          fix = """
-            # Fix para compatibilidad Xcode 15.4 + Firebase + React Native
-            installer.pods_project.build_configurations.each do |config|
-              config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.4'
-            end
-            installer.pods_project.targets.each do |target|
-              target.build_configurations.each do |config|
-                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.4'
-                config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
-              end
-            end
-            if installer.respond_to?(:target_installation_results)
-              installer.target_installation_results.pod_target_installation_results.each do |_, res|
-                res.resource_bundle_targets.each do |rb_target|
-                  rb_target.build_configurations.each do |config|
-                    config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.4'
-                    config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
-                  end
-                end
-              end
-            end
-          """
+          # Fix 2: Deployment target 13.4, CLANG_ALLOW_NON_MODULAR_INCLUDES y DEFINES_MODULE en targets y bundles
+          fix = (
+              "\n"
+              "    # Fix para compatibilidad Xcode 15.4 + Firebase + React Native\n"
+              "    installer.pods_project.build_configurations.each do |config|\n"
+              "      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.4'\n"
+              "    end\n"
+              "    installer.pods_project.targets.each do |target|\n"
+              "      target.build_configurations.each do |config|\n"
+              "        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.4'\n"
+              "        config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'\n"
+              "        if target.name.start_with?('Firebase') || target.name.start_with?('Google') || ['nanopb', 'PromisesObjC'].include?(target.name)\n"
+              "          config.build_settings['DEFINES_MODULE'] = 'YES'\n"
+              "          config.build_settings['CLANG_ENABLE_MODULES'] = 'YES'\n"
+              "        end\n"
+              "      end\n"
+              "    end\n"
+              "    if installer.respond_to?(:target_installation_results)\n"
+              "      installer.target_installation_results.pod_target_installation_results.each do |_, res|\n"
+              "        res.resource_bundle_targets.each do |rb_target|\n"
+              "          rb_target.build_configurations.each do |config|\n"
+              "            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.4'\n"
+              "            config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'\n"
+              "          end\n"
+              "        end\n"
+              "      end\n"
+              "    end\n"
+          )
           content = re.sub(
-              r'(^post_install do \|installer\|)',
+              r'(^\s*post_install do \|installer\|)',
               r'\1' + fix,
               content,
               count=1,
@@ -225,7 +242,7 @@ jobs:
           PYEOF
 
           echo "=== Verificando Podfile ==="
-          grep -n "GoogleUtilities\|IPHONEOS\|CLANG_ALLOW_NON_MODULAR" Podfile
+          grep -n "FirebaseCore\|GoogleUtilities\|IPHONEOS\|CLANG_ALLOW_NON_MODULAR\|DEFINES_MODULE" Podfile
 
           pod install --repo-update
 
