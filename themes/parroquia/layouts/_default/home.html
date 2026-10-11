@@ -79,7 +79,7 @@
     {{ $modules := (.Site.GetPage "/home-modules").Resources.Match "*.md" }}
     {{ range sort $modules ".Params.weight" }}
     {{ if and (ne .Name "1-carrusel.md") (not .Params.draft) }}
-    <div class="module-card">
+    <div class="module-card{{ if .Params.full_width }} full-width{{ end }}">
         <h2>{{ .Params.icon }} {{ .Title }}</h2>
         <div class="module-content">
             {{ if eq .Params.type "latest-toma-y-lee" }}
