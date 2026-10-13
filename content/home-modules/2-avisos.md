@@ -1,7 +1,6 @@
 ---
 title: "Avisos Parroquiales"
 ---
-las imagenes
 weight: 2
 icon: "📢"
 bg_color: "#fff3fd"
