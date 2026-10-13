@@ -183,6 +183,13 @@ export const initialContent = {
   ],
   "toma-y-lee": [
     {
+      "title": "Domingo 2026-10-11",
+      "date": "2026-10-11",
+      "permalink": "https://jbelborja.github.io/parro/toma-y-lee/toma-y-lee-domingo-26-10-11/",
+      "pdf": "https://jbelborja.github.io/parro/toma-y-lee/toma-y-lee-domingo-26-10-11/26-10-11-domingo-a.pdf",
+      "summary": "La sala del banquete se lleno...Mt 22.10\n\n[26-10-11-domingo-a.pdf](26-10-11-domingo-a.pdf)"
+    },
+    {
       "title": "Domingo 2026-10-04",
       "date": "2026-10-04",
       "permalink": "https://jbelborja.github.io/parro/toma-y-lee/toma-y-lee-domingo-26-10-04/",
