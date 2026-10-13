@@ -61,11 +61,22 @@ jobs:
   notify:
     needs: deploy
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+      - name: Determine base ref
+        id: base_ref
+        run: |
+          if git rev-parse --verify last-notified >/dev/null 2>&1; then
+            echo "ref=last-notified" >> $GITHUB_OUTPUT
+          else
+            echo "ref=HEAD~1" >> $GITHUB_OUTPUT
+          fi
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -74,10 +85,16 @@ jobs:
         run: pip install -r scripts/requirements-notifications.txt
       - name: Detect new content
         id: detect
-        run: python3 scripts/detect_new_content.py
+        run: python3 scripts/detect_new_content.py --base-ref ${{ steps.base_ref.outputs.ref }}
         continue-on-error: true
       - name: Send notifications
         if: steps.detect.outcome == 'success'
         env:
           FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
         run: python3 scripts/send_notifications.py
+      - name: Update last-notified tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag -f last-notified HEAD
+          git push origin -f last-notified
