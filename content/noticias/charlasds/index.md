@@ -6,4 +6,4 @@ draft: false
 title: Charlas de formación sobre la Doctrina Social de la Iglesia
 ---
 
-[Charlas de formación sobre la Doctrina Social de la Iglesia](images/calendario.pdf)
+[Charlas de formación sobre la Doctrina Social de la Iglesia](/images/calendario.pdf)
