@@ -1,5 +1,5 @@
 ---
-title: "Avisos"
+title: "Formacion en D.S.I."
 weight: 3
 icon: "❤️"
 ---
