@@ -1,3 +1,3 @@
 ---
-title: "...Mas información pulsando en cada imagen..."
+title: "...mas información pulsando en cada imagen..."
 ---
