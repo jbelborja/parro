@@ -1,9 +1,9 @@
 ---
 categories:
 - actual
-date: '2026-10-08'
+date: '2026-10-14'
 draft: false
-title: Misa de niños
+title: Misa de familias
 ---
 
-![](misa-de-niños.png)
+![](parro/images/misa-familias.png)
