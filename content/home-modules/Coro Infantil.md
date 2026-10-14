@@ -1,7 +1,5 @@
 Coro Infantil
 ---
-Mas información pulsando las imagenes
-
 [![Coro Infanti](images/coroinfantil.png)](noticias/coroinfantil)
 
 ---

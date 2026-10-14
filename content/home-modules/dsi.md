@@ -1,7 +1,5 @@
 Formación en D.S.I.
 ---
-Mas información pulsando las imagenes
-
 [![D.S.](images/ds.png)](noticias/charlasds)
 
 ---
