@@ -1,4 +1,4 @@
 
 ---
-![](images/minformacion.png)
+[](images/minformacion.png)
 ---
