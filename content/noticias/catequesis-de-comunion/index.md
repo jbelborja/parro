@@ -1,9 +1,9 @@
 ---
 categories:
 - actual
-date: '2025-09-12'
+date: '2026-10-15'
 draft: false
-title: CATEQUESIS DE COMUNION
+title: CATEQUESIS DE INFANCIA
 ---
 
 [![](imagen_incrustada_1.png)](/sacramentos/comunion "Formulario")
