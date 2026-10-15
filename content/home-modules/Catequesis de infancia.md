@@ -1,6 +1,6 @@
 Catequesis de infancia
 ---
-[![cataquesis de infancia](cat-infantil.png)](noticias/comunion)
+[![cataquesis de infancia](cat-infantil.png)](noticias/comuniona)
 
 
 ---

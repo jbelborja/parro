@@ -6,7 +6,7 @@ draft: false
 title: CATEQUESIS DE INFANCIA
 ---
 
-[![](imagen_incrustada_1.png)](/sacramentos/comunion "Formulario")
+[![](document.pdf)](/sacramentos/comunion "Formulario")
 
 ### _**[Formulario](/sacramentos/comunion "Formulario")**_
 
