@@ -1,5 +1,5 @@
 Misa de Familias
 ---
-[![Misa de Familias](images/misafam.png)](noticias/Misa-de-niños)
+[![Misa de Familias](images/misafam.png)](noticias/misa-familias.png)
 
 ---
