@@ -1,9 +1,4 @@
----
-categories:
-- actual
-date: '2026-10-11'
-draft: false
-title: Coro Infantil
----
 
-![](/parro/images/minformacion.png)
+---
+![Coro Infantil](images/minformacion.png)
+---
