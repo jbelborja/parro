@@ -1,7 +1,7 @@
 ...
 ---
 
-<img src="/images/minformacion.png" alt="  " style="width:100%">
+<img src="/images/minformacion.png" alt="  " style="width:140%">
 
 
 ---
