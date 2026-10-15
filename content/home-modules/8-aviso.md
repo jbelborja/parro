@@ -1,5 +1,5 @@
-Coro Infantil
+...
 ---
-[Coro Infanti](minformacion.png)
+(minformacion.png)
 
 ---
