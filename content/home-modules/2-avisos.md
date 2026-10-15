@@ -1,6 +1,6 @@
 
 Coro Infantil
 ---
-[Coro Infanti](images/coroinfantil.png)
+images: "images/coroinfantil.png"
 
 ---
