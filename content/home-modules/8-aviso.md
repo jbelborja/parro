@@ -1,5 +1,6 @@
 ...
 ---
-[![(minformacion.png)]]
+[![Coro Infanti](images/coroinfantil.png)](/)
+
 
 ---
