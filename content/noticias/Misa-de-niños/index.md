@@ -6,4 +6,4 @@ draft: false
 title: Misa de familias
 ---
 
-[![]](/parro/images/misa-familias.png)
+![](/parro/images/misafamilias.png)
