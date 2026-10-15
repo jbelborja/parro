@@ -1,5 +1,5 @@
 ...
 ---
-(minformacion.png)
+[![(minformacion.png)]]
 
 ---
