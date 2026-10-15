@@ -1,4 +1,4 @@
 
 ---
-![Coro Infantil](images/minformacion.png)
+![](images/minformacion.png)
 ---
