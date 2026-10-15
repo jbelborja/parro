@@ -6,4 +6,4 @@ draft: false
 title: Adoracion Eucarística
 ---
 
-[](/parro/images/adoracion1.jpg)
+![](/parro/images/adoracion1.jpg)
