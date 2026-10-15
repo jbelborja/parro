@@ -1,6 +1,6 @@
-Catequesis de infancia
+Inscripcion para la catequesis de comunión.
 ---
-[![cataquesis de infancia](cat-infantil.png)](noticias/comuniona)
+[![cataquesis de infancia](images/coroinfantil.png)](noticias/comuniona)
 
 
 ---
