@@ -7,4 +7,3 @@ sidebar: confirmacion
 title: LaVid - CONFIRMACION
 ---
 
-![](imagen_incrustada_1.png)
