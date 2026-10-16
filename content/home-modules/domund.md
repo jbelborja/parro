@@ -1,6 +1,5 @@
 Domund
 ---
-[![Domund(images/domund.png)](noticias/coroinfantil)
-
+![Domund(images/domund.png)]
 
 ---
