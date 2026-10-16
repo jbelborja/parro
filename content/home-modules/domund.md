@@ -1,5 +1,5 @@
 Domund
 ---
-![Domund(images/domund.png)]
+![](/images/domund.png)]
 
 ---
