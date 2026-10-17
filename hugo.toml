@@ -4,6 +4,7 @@ relativeURLs = false
 languageCode = 'es-es'
 title = 'Parroquia La Vid'
 theme = 'parroquia'
+buildFuture = true
 
 [markup]
   [markup.goldmark]
