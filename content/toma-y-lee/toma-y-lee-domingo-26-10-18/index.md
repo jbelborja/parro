@@ -7,4 +7,4 @@ draft: false
 
 La sala del banquete se lleno...Mt 22.10
 
-[26-10-18 XXIX Domingo-A.pdf](26-10-18 XXIX Domingo-A.pdf)
+[26-10-18-domingo-a.pdf](26-10-18-domingo-a.pdf)
