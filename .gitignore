@@ -21,5 +21,5 @@ __pycache__/
 
 migracion/
 content_backup/
-*.json
-!mobile-app/src/data/initialContent.json
+service-account.json
+live_dates.json

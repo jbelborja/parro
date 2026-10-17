@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Fetches the live noticias and toma-y-lee JSON feeds from GitHub Pages
-and regenerates mobile-app/src/data/initialContent.json (plain JSON)
-and mobile-app/src/data/initialContent.js (ES module).
+Fetches the noticias and toma-y-lee JSON feeds (either from a local Hugo build directory
+like ./public or from the live GitHub Pages site) and regenerates
+mobile-app/src/data/initialContent.json (plain JSON) and
+mobile-app/src/data/initialContent.js (ES module).
 
-Run after every successful Hugo deploy to keep the bundled fallback fresh.
+Run after every successful Hugo build/deploy to keep the bundled fallback fresh.
 """
+import argparse
 import json
 import sys
 import urllib.request
@@ -18,7 +20,31 @@ OUT_DIR = Path("mobile-app/src/data")
 MAX_ITEMS = 50  # cap per section to keep bundle size reasonable
 
 
-def fetch_section(section: str) -> list:
+def get_section_from_local(local_dir: Path, section: str) -> list:
+    candidates = [
+        local_dir / section / "index.json",
+        local_dir / "public" / section / "index.json",
+    ]
+    file_path = None
+    for c in candidates:
+        if c.exists():
+            file_path = c
+            break
+    if not file_path:
+        print(f"Local file not found in candidates for {section} under {local_dir}")
+        return []
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = [i for i in (data.get("items") or []) if i and i.get("title")]
+        print(f"Loaded {len(items)} items from {file_path}")
+        return items[:MAX_ITEMS]
+    except Exception as e:
+        print(f"Error reading local file {file_path}: {e}")
+        return []
+
+
+def fetch_section_from_remote(section: str) -> list:
     url = f"{BASE_URL}/{section}/index.json"
     print(f"Fetching {url} ...")
     try:
@@ -29,7 +55,7 @@ def fetch_section(section: str) -> list:
                 return []
             data = json.loads(resp.read().decode("utf-8"))
             items = [i for i in (data.get("items") or []) if i and i.get("title")]
-            print(f"  OK — {len(items)} items")
+            print(f"  OK — {len(items)} items from remote")
             return items[:MAX_ITEMS]
     except urllib.error.HTTPError as e:
         print(f"  ERROR HTTP {e.code}: {url}")
@@ -40,17 +66,28 @@ def fetch_section(section: str) -> list:
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Update initial content bundle from local build or remote JSON.")
+    parser.add_argument("--local-dir", type=str, default=None, help="Path to local Hugo build output (e.g. ./public)")
+    args = parser.parse_args()
+
     result = {}
     any_success = False
+    local_path = Path(args.local_dir) if args.local_dir else None
 
     for section in SECTIONS:
-        items = fetch_section(section)
+        items = []
+        if local_path:
+            items = get_section_from_local(local_path, section)
+
+        if not items:
+            items = fetch_section_from_remote(section)
+
         result[section] = items
         if items:
             any_success = True
 
     if not any_success:
-        print("ERROR: Could not fetch any section. Aborting to avoid overwriting with empty data.")
+        print("ERROR: Could not fetch or read any section. Aborting to avoid overwriting with empty data.")
         sys.exit(1)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
