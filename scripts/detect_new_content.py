@@ -50,7 +50,7 @@ def parse_frontmatter(filepath):
 
 def main():
     parser = argparse.ArgumentParser(description="Detecta nuevo contenido en Hugo para notificaciones Push.")
-    parser.add_argument("--base-ref", default="HEAD~1", help="Referencia base para git diff (por defecto HEAD~1)")
+    parser.add_argument("--base-ref", default="HEAD~10", help="Referencia base para git diff (por defecto HEAD~10)")
     parser.add_argument("--dry-run", action="store_true", help="Solo imprime los resultados sin escribir el archivo JSON")
     args = parser.parse_args()
 
