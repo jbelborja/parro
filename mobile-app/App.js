@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   SafeAreaView,
   View,
@@ -11,21 +11,12 @@ import {
 } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
-import { setupNotificationHandlers, requestPermissions } from './src/services/notifications';
 import { colors, shadows, radius, typography } from './src/theme';
 
 const { width } = Dimensions.get('window');
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState('home'); // 'home' | 'settings'
-
-  useEffect(() => {
-    requestPermissions().catch(err => console.warn('Error pidiendo permisos:', err));
-    const cleanup = setupNotificationHandlers();
-    return () => {
-      if (typeof cleanup === 'function') cleanup();
-    };
-  }, []);
 
   return (
     <SafeAreaView style={styles.container}>
