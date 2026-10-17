@@ -45,6 +45,21 @@ export default function HomeScreen() {
     let cleaned = text.replace(/!\[.*?\]\(.*?\)/g, '');
     cleaned = cleaned.replace(/\[(.*?)\]\(.*?\)/g, '$1');
     cleaned = cleaned.replace(/<[^>]*>?/gm, '');
+    // Decode common HTML entities from Hugo-generated summaries
+    cleaned = cleaned
+      .replace(/&hellip;/g, '…')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/&apos;/g, "'")
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&ndash;/g, '–')
+      .replace(/&mdash;/g, '—')
+      .replace(/&laquo;/g, '«')
+      .replace(/&raquo;/g, '»')
+      .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
     return cleaned.trim();
   };
 
