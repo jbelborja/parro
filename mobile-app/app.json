@@ -31,7 +31,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/logo.png"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "@react-native-firebase/app",
