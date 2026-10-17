@@ -36,6 +36,7 @@ jobs:
 
       - name: Fetch latest artifacts
         run: python3 scripts/fetch_artifacts.py
+        continue-on-error: true          # Don't fail the whole build if external repos are unreachable
         env:
           GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
@@ -69,32 +70,71 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.MY_GITHUB_TOKEN }}
-      - name: Determine base ref
-        id: base_ref
-        run: |
-          if git rev-parse --verify last-notified >/dev/null 2>&1; then
-            echo "ref=last-notified" >> $GITHUB_OUTPUT
-          else
-            echo "ref=HEAD~1" >> $GITHUB_OUTPUT
-          fi
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install dependencies
+
+      - name: Install notification dependencies
         run: pip install -r scripts/requirements-notifications.txt
+
+      # ── Determine base ref for diff ──────────────────────────────────────────
+      - name: Determine base ref
+        id: base_ref
+        run: |
+          # Fetch tags from remote so last-notified is visible
+          git fetch --tags --force || true
+          if git rev-parse --verify last-notified >/dev/null 2>&1; then
+            echo "ref=last-notified" >> $GITHUB_OUTPUT
+            echo "Using last-notified tag as base ref"
+          else
+            echo "ref=HEAD~10" >> $GITHUB_OUTPUT
+            echo "Tag last-notified not found – using HEAD~10 as fallback"
+          fi
+
+      # ── Detect & notify new content ──────────────────────────────────────────
       - name: Detect new content
         id: detect
         run: python3 scripts/detect_new_content.py --base-ref ${{ steps.base_ref.outputs.ref }}
         continue-on-error: true
+
       - name: Send notifications
         if: steps.detect.outcome == 'success'
         env:
           FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
         run: python3 scripts/send_notifications.py
+
+      # ── Update last-notified tag ─────────────────────────────────────────────
       - name: Update last-notified tag
+        continue-on-error: true          # Never let a tag-push failure mark the whole job as failed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git tag -f last-notified HEAD
           git push origin -f last-notified
+
+      # ── Refresh bundled content snapshot in the app ──────────────────────────
+      # Wait a moment for GitHub Pages CDN to propagate the new deploy
+      - name: Wait for GitHub Pages CDN propagation
+        run: sleep 30
+
+      - name: Update bundled initialContent from live site
+        id: update_bundle
+        run: python3 scripts/update_initial_content.py
+        continue-on-error: true
+
+      - name: Commit updated initialContent bundle
+        if: steps.update_bundle.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add mobile-app/src/data/initialContent.js mobile-app/src/data/initialContent.json
+          # Only commit if there are actual changes
+          if git diff --staged --quiet; then
+            echo "Bundle already up to date, nothing to commit."
+          else
+            git commit -m "chore: auto-update initialContent bundle [skip ci]"
+            git push origin main
+          fi
+        continue-on-error: true          # Don't fail the job if the push is rejected
