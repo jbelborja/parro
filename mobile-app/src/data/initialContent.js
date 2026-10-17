@@ -36,13 +36,6 @@ export const initialContent = {
       "title": "Coro Infantil"
     },
     {
-      "date": "2026-10-11",
-      "pdf": "",
-      "permalink": "https://jbelborja.github.io/parro/noticias/minformacion/",
-      "summary": " ",
-      "title": ""
-    },
-    {
       "date": "2026-06-16",
       "pdf": "",
       "permalink": "https://jbelborja.github.io/parro/noticias/marcha-mariana/",

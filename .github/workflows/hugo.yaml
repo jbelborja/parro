@@ -48,6 +48,14 @@ jobs:
         with:
           path: ./public
 
+      - name: Upload json feeds
+        uses: actions/upload-artifact@v4
+        with:
+          name: json-feeds
+          path: |
+            public/noticias/index.json
+            public/toma-y-lee/index.json
+
   deploy:
     environment:
       name: github-pages
@@ -115,13 +123,16 @@ jobs:
           git push origin -f last-notified
 
       # ── Refresh bundled content snapshot in the app ──────────────────────────
-      # Wait a moment for GitHub Pages CDN to propagate the new deploy
-      - name: Wait for GitHub Pages CDN propagation
-        run: sleep 30
+      - name: Download json feeds
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: json-feeds
+          path: public-feeds
 
-      - name: Update bundled initialContent from live site
+      - name: Update bundled initialContent
         id: update_bundle
-        run: python3 scripts/update_initial_content.py
+        run: python3 scripts/update_initial_content.py --local-dir public-feeds
         continue-on-error: true
 
       - name: Commit updated initialContent bundle

@@ -1,0 +1,12 @@
+{{- $items := slice -}}
+{{- range .Pages.ByDate.Reverse -}}
+{{- $pdfUrl := "" -}}
+{{- with .Resources.GetMatch "*.pdf" -}}
+{{- $pdfUrl = .Permalink -}}
+{{- end -}}
+
+{{- $item := dict "title" .Title "date" (.Date.Format "2006-01-02") "permalink" .Permalink "summary" .Summary "pdf" $pdfUrl -}}
+{{- $items = $items | append $item -}}
+{{- end -}}
+
+{{- dict "title" .Title "total" (len $items) "items" $items | jsonify -}}
