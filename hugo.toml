@@ -1,4 +1,4 @@
-baseURL = 'https://jbelborja.github.io/parro/'
+baseURL = 'https://la-vid.org/'
 canonifyURLs = false
 relativeURLs = false
 languageCode = 'es-es'
