@@ -5,5 +5,4 @@ date: '2026-10-13'
 draft: false
 title: Charlas de formación sobre la Doctrina Social de la Iglesia
 ---
-
-[Calendario, sitio y lista de ponentes](/parro/images/calendario.pdf)
+[Ponentes y calendario](calendario.pdf)

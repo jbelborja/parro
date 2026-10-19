@@ -5,6 +5,6 @@ categories: ["toma-y-lee"]
 draft: false
 ---
 
-La sala del banquete se lleno...Mt 22.10
+A Dios lo que es de Dios.. Mt 22,21
 
 [26-10-18-domingo-a.pdf](26-10-18-domingo-a.pdf)
