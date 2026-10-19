@@ -1,6 +1,4 @@
-Coro Infantil
 ---
-[![Coro Infanti](images/coroinfantil.png)](noticias/coroinfantil)
-
-
+title: "Coro Infantil"
 ---
+![coroinfantil.png](../images/coroinfantil.png)
