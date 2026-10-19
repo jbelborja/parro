@@ -9,3 +9,5 @@ title: Reportaje en video del Belen de nuestra Parroquia
 **![](imagen_incrustada_1.jpeg)**
 
 En este enlace podemos acceder al video del belén.
+
+https://www.youtube.com/watch?v=AEmq0Nt43Ak
