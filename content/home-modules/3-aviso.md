@@ -1,3 +1,5 @@
-.---
-[![Avisos](images/minformacion.png)](noticias/minformacion)
 ---
+title: ""
+draft: true
+---
+[Avisos](../images/minformacion.png)

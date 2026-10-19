@@ -1,6 +1,6 @@
-Inscripcion para la catequesis de comunión.
 ---
-[![cataquesis de infancia](images/com.jpg)](noticias/comuniona)
-
-
+title: "Catequesis de comunión"
 ---
+Inscripción para la catequesis de comunión.
+
+![com.jpg](../images/com.jpg)

@@ -4,7 +4,6 @@ weight: 4
 icon: "📱"
 full_width: true
 ---
-
 <div class="app-module-body">
 <div class="app-module-info">
 <p class="app-module-desc">Lleva la parroquia en tu teléfono: consulta horarios de misa, lecturas del último Toma y Lee, avisos parroquiales y recibe notificaciones de actividades en tiempo real.</p>
