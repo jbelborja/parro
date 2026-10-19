@@ -1,9 +1,10 @@
-baseURL = 'https://jbelborja.github.io/parro/'
+baseURL = 'https://la-vid.org/'
 canonifyURLs = false
 relativeURLs = false
 languageCode = 'es-es'
 title = 'Parroquia La Vid'
 theme = 'parroquia'
+buildFuture = true
 
 [markup]
   [markup.goldmark]
