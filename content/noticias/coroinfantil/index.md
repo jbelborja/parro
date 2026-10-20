@@ -6,4 +6,4 @@ draft: false
 title: Coro Infantil
 ---
 
-![](/parro/images/coroinfantil.png)
+![](coroinfantil.png)

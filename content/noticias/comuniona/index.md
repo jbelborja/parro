@@ -6,4 +6,4 @@ draft: false
 title: Inscripcion para la catequesis de comunión
 ---
 
-[Formulario de inscripción](/parro/images/cat-infantil.pdf)
+[Formulario de inscripción](../images/cat-infantil.pdf)
