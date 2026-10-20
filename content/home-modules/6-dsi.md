@@ -1,5 +1,6 @@
 ---
 title: Formación en D.S.I.
+draft: "false"
 ---
 
 [![Formación D.S.I.](../images/ds.png)](../noticias/charlads)
