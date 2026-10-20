@@ -3,4 +3,4 @@ title: ""
 draft: false
 ---
 
-[![Aviso](../images/minformacion.png)](../noticias/minformacion)
+[![Aviso](../images/minformacion.png)](minformacion)
