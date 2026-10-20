@@ -1,5 +1,5 @@
 ---
 title: ""
-draft: true
+draft: false
 ---
-[Avisos](../images/minformacion.png)
+![Avisos](../images/minformacion.png)
