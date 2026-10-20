@@ -1,5 +1,5 @@
 ---
-title: "Adoración Eucarística"
+title: "Adoración Eucarística."
 draft: "false"
 ---
 [![adoracion.png](../images/adoracion.png)](../noticias/adoracion-eucaristica)
