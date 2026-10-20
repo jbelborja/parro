@@ -2,4 +2,5 @@
 title: ""
 draft: false
 ---
-![Avisos](../images/minformacion.png)
+
+[![Aviso](../images/minformacion.png)](../noticias/minformacion)
