@@ -1,4 +1,5 @@
 ---
 title: "Coro Infantil"
 ---
-![coroinfantil.png](../images/coroinfantil.png)
+
+[![Coro Infantil](../images/coroinfantil.png)](../noticias/coroinfantil)

@@ -3,4 +3,6 @@ title: "Catequesis de comunión"
 ---
 Inscripción para la catequesis de comunión.
 
-![com.jpg](../images/com.jpg)
+[![Catequesis de Comunión](../images/com.jpg)](../noticias/comuna)
+
+
