@@ -16,6 +16,13 @@ export const initialContent = {
     },
     {
       "date": "2026-10-13",
+      "pdf": "",
+      "permalink": "https://la-vid.org/noticias/chosen/",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/chosen/chosen1.png\" alt=\"\">\n</p>",
+      "title": "Primer capitulo de la sexta temporada."
+    },
+    {
+      "date": "2026-10-13",
       "pdf": "https://la-vid.org/noticias/comuniona/cat-infantil.pdf",
       "permalink": "https://la-vid.org/noticias/comuniona/",
       "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/comuniona/cat-infantil.pdf\" download>![Formulario de inscripción]</a>\n\n</p>",
