@@ -4,6 +4,6 @@ draft: "false"
 ---
 Inscripción para la catequesis de comunión.
 
-[![Catequesis de Comunión](catinfantil.png)](../noticias/comuniona)
+[![Catequesis de Comunión](../images/com.jpg)](../noticias/comuniona)
 
 
