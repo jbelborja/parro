@@ -16,23 +16,23 @@ export const initialContent = {
     },
     {
       "date": "2026-10-13",
-      "pdf": "",
+      "pdf": "https://la-vid.org/noticias/comuniona/cat-infantil.pdf",
       "permalink": "https://la-vid.org/noticias/comuniona/",
-      "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/parro/images/cat-infantil.pdf\" download>Formulario de inscripción</a>\n\n</p>",
+      "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/comuniona/cat-infantil.pdf\" download>![Formulario de inscripción]</a>\n\n</p>",
       "title": "Inscripcion para la catequesis de comunión"
     },
     {
       "date": "2026-10-13",
       "pdf": "https://la-vid.org/noticias/charlasds/calenda.pdf",
       "permalink": "https://la-vid.org/noticias/charlasds/",
-      "summary": "<p>\n\n\n\n  \n  \n\n\n<img src=\"/noticias/charlads/calenda.pdf\" alt=\"Ponentes y calendario\">\n</p>",
+      "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/charlasds/calenda.pdf\" download>![Ponentes y calendario]</a>\n\n</p>",
       "title": "Charlas de formación sobre la Doctrina Social de la Iglesia"
     },
     {
       "date": "2026-10-11",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/coroinfantil/",
-      "summary": "<p>\n\n\n\n  \n  \n\n\n<img src=\"/parro/images/coroinfantil.png\" alt=\"\">\n</p>",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/coroinfantil/coroinfantil.png\" alt=\"\">\n</p>",
       "title": "Coro Infantil"
     },
     {
@@ -74,7 +74,7 @@ export const initialContent = {
       "date": "2026-01-15",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/adoracion-eucaristica/",
-      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/adoracion-eucaristica/../images/adoracion1.jpg\" alt=\"\">\n</p>",
+      "summary": "<p>[\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/adoracion-eucaristica/../adoracion1.jpg\" alt=\"adoracion\">\n]</p>",
       "title": "Adoracion Eucarística"
     },
     {
