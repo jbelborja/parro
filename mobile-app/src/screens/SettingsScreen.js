@@ -7,7 +7,7 @@ import { colors, shadows, radius, typography } from '../theme';
 
 export default function SettingsScreen() {
   const openWebsite = async () => {
-    await WebBrowser.openBrowserAsync('https://jbelborja.github.io/parro/');
+    await WebBrowser.openBrowserAsync('https://la-vid.org');
   };
 
   return (

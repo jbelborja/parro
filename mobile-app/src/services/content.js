@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import initialContent from '../data/initialContent';
 
-const BASE_URL = 'https://jbelborja.github.io/parro';
+const BASE_URL = 'https://la-vid.org';
 
 /**
  * Obtiene las publicaciones de una seccion ('noticias' o 'toma-y-lee').
