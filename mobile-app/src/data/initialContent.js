@@ -25,7 +25,7 @@ export const initialContent = {
       "date": "2026-10-13",
       "pdf": "https://la-vid.org/noticias/dientesdiablo/dientesdiablo.pdf",
       "permalink": "https://la-vid.org/noticias/dientesdiablo/",
-      "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"calenda.pdf\" download>![Los dientes del diablo]</a>\n\n</p>",
+      "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/dientesdiablo/dientesdiablo.pdf\" download>![Los dientes del diablo]</a>\n\n</p>",
       "title": "Los dientes del diablo"
     },
     {
