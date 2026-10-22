@@ -7,3 +7,4 @@ title: Coro Infantil
 ---
 
 ![](coroinfantil.png)
+
