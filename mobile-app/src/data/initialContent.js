@@ -18,7 +18,7 @@ export const initialContent = {
       "date": "2026-10-13",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/chosen/",
-      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/chosen/chosen1.png\" alt=\"\">\n</p>",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/chosen/chosen1.jpg\" alt=\"\">\n</p>",
       "title": "Primer capitulo de la sexta temporada."
     },
     {
