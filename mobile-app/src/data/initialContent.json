@@ -23,13 +23,6 @@
     },
     {
       "date": "2026-10-13",
-      "pdf": "https://la-vid.org/noticias/dientesdiablo/dientesdiablo.pdf",
-      "permalink": "https://la-vid.org/noticias/dientesdiablo/",
-      "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/dientesdiablo/dientesdiablo.pdf\" download>Los dientes del diablo</a>\n\n</p>",
-      "title": "Los dientes del diablo"
-    },
-    {
-      "date": "2026-10-13",
       "pdf": "https://la-vid.org/noticias/comuniona/cat-infantil.pdf",
       "permalink": "https://la-vid.org/noticias/comuniona/",
       "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/comuniona/cat-infantil.pdf\" download>![Formulario de inscripción]</a>\n\n</p>",
@@ -125,6 +118,13 @@
       "permalink": "https://la-vid.org/noticias/fiesta-de-la-parroquia/",
       "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/fiesta-de-la-parroquia/imagen_incrustada_1.png\" alt=\"\">\n</p>",
       "title": "Fiesta de la Parroquia"
+    },
+    {
+      "date": "0001-01-01",
+      "pdf": "",
+      "permalink": "https://la-vid.org/noticias/dientesdiablo/dientesdiablo/",
+      "summary": "<p>\n\n\n\n\n\n<a href=\"../noticias/dientesdiablo\">\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/dientesdiablo/dientesdiablo/../images/dientesdiablo.png\" alt=\"CINE FORUM\">\n</a>\n</p>\n<p>Pelicula de los años 60, tremendamente actual y que merece la pena ver. No os la perdais&hellip;</p>",
+      "title": "C I N E F O R U M."
     }
   ],
   "toma-y-lee": [
