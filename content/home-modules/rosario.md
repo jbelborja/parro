@@ -1,6 +1,6 @@
 ---
-title: "roario de jóvenes"
+title: "rosario de jóvenes"
 draft: "false"
 ---
 
-[![Santo Rosario](rosario.jpg)](../actividades/jovenes/rosario.jpg)
+[![Santo Rosario](rosario.jpg)](actividades/jovenes/rosario)
