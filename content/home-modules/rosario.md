@@ -1,5 +1,5 @@
 ---
-title: "rosario de jóvenes"
+title: "Rosario de jóvenes"
 draft: "false"
 ---
 
