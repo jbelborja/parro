@@ -1,5 +1,5 @@
 ---
-title: "Domingos 2026-10-25"
+title: "Domingo 2026-10-25"
 date: 2026-10-25T00:00:00Z
 categories: ["toma-y-lee"]
 draft: false
