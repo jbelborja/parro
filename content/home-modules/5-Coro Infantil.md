@@ -1,5 +1,5 @@
 ---
-title: "Coro Infantil"
+title: "Coro Infantil."
 draft: "false"
 ---
 
