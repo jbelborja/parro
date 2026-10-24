@@ -1,6 +1,8 @@
 ---
 title: C I N E F O R U M.
 draft: "false"
+categories:
+- cinefórum
 ---
 
 [![CINE FORUM](../images/dientesdiablo.png)]
