@@ -23,6 +23,13 @@
     },
     {
       "date": "2026-10-13",
+      "pdf": "",
+      "permalink": "https://la-vid.org/noticias/loteria/",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/loteria/loteria.jpg\" alt=\"\">\n</p>",
+      "title": "Loteria."
+    },
+    {
+      "date": "2026-10-13",
       "pdf": "https://la-vid.org/noticias/comuniona/cat-infantil.pdf",
       "permalink": "https://la-vid.org/noticias/comuniona/",
       "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/comuniona/cat-infantil.pdf\" download>![Formulario de inscripción]</a>\n\n</p>",
@@ -34,6 +41,13 @@
       "permalink": "https://la-vid.org/noticias/charlasds/",
       "summary": "<p>\n\n\n\n  \n  \n\n\n<img src=\"/images/ds.jpg\" alt=\"\">\n</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/charlasds/calenda.pdf\" download>![Ponentes y calendario]</a>\n\n</p>",
       "title": "Charlas de formación sobre la Doctrina Social de la Iglesia"
+    },
+    {
+      "date": "2026-10-13",
+      "pdf": "",
+      "permalink": "https://la-vid.org/noticias/cateadult/",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/cateadult/cateadult1.jpg\" alt=\"\">\n</p>",
+      "title": "catequesis de adultos no bautizados o no confirmados."
     },
     {
       "date": "2026-10-11",
@@ -121,6 +135,13 @@
     }
   ],
   "toma-y-lee": [
+    {
+      "date": "2026-10-25",
+      "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-25/26-10-25-domingo-a.pdf",
+      "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-25/",
+      "summary": "<p>Amarás al Señor tu Dios   MT 22,37</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-25/26-10-25-domingo-a.pdf\" download>26-10-25-domingo-a.pdf</a>\n\n</p>",
+      "title": "Domingo 2026-10-25"
+    },
     {
       "date": "2026-10-18",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-18/26-10-18-domingo-a.pdf",
@@ -463,13 +484,6 @@
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-21-12/",
       "summary": "<p>Un ángel del Señor se le apareció en sueños MT 1.20</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-21-12/25-12-14-tl-a.pdf\" download>25-12-14 TL- A</a>\n\n</p>",
       "title": "Domingo 21.12.2025"
-    },
-    {
-      "date": "2025-12-14",
-      "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-14-12-fiesta-de-nuestra-senora-dela-vid/25-12-14-tl-a.pdf",
-      "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-14-12-fiesta-de-nuestra-senora-dela-vid/",
-      "summary": "<p>¿Dichoso quién no se escandalica de mi! Mt.11,6</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-14-12-fiesta-de-nuestra-senora-dela-vid/25-12-14-tl-a.pdf\" download>25-12-14 TL- A</a>\n\n</p>",
-      "title": "Domingo 14.12.2025 Fiesta de Nuestra Señora dela VId"
     }
   ]
 }
