@@ -51,6 +51,11 @@ export async function clearObsoleteSubscriptions() {
   }
 }
 
+/**
+ * Cancela la suscripción a un topic de FCM
+ * @param {string} topic - Nombre del tema del que desuscribirse
+ */
+export async function unsubscribeFromTopic(topic) {
   try {
     await messaging().unsubscribeFromTopic(topic);
     console.log(`Desuscrito de ${topic}`);
