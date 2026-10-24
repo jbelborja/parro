@@ -2,7 +2,7 @@
 title: "MERIENDA."
 draft: "false"
 ---
-[![Merienda](../images/merienda.jpg)](actividades/jovenes/merienda)
+[![Merienda](../actividades/jovenes/merienda.jpg)](actividades/jovenes/merienda)
 
 
 Organizado por el grupo de jóvenes
