@@ -21,29 +21,26 @@ export async function fetchLatestContent(section = 'noticias', limit = 25) {
   const cacheKey = `@content_cache_${section}`;
 
   try {
-    const url = `${BASE_URL}/${section}/index.xml`;
+    const url = `${BASE_URL}/${section}/index.json`;
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 6000);
     const response = await fetch(url, {
       signal: controller.signal,
-      headers: {
-        'Accept': 'application/rss+xml',
-      },
+      headers: { 'Accept': 'application/json' },
     });
     clearTimeout(timeoutId);
     if (response.ok) {
-      const text = await response.text();
-      const items = parseRss(text);
+      const data = await response.json();
+      const items = (data.items || []).filter(item => item && item.title);
       if (items.length > 0) {
         await AsyncStorage.setItem(cacheKey, JSON.stringify(items));
         return items.slice(0, limit);
       }
     }
   } catch (error) {
-    console.log(`RSS fetch failed for ${section}:`, error?.message || error);
+    console.log(`Fallo descarga remota de ${section}:`, error?.message || error);
   }
-    console.log(`Fallo descarga remota de ${section}, usando datos locales:`, error?.message || error);
-  }
+
 
   // Fallback 1: Buscar en cache de AsyncStorage
   try {
