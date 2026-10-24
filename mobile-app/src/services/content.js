@@ -1,6 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import initialContent from '../data/initialContent';
 
+
 const BASE_URL = 'https://la-vid.org';
 
 /**
@@ -20,28 +21,27 @@ export async function fetchLatestContent(section = 'noticias', limit = 25) {
   const cacheKey = `@content_cache_${section}`;
 
   try {
-    const url = `${BASE_URL}/${section}/index.json`;
+    const url = `${BASE_URL}/${section}/index.xml`;
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 6000); // 6 segundos timeout
-
+    const timeoutId = setTimeout(() => controller.abort(), 6000);
     const response = await fetch(url, {
       signal: controller.signal,
       headers: {
-        'Accept': 'application/json',
+        'Accept': 'application/rss+xml',
       },
     });
     clearTimeout(timeoutId);
-
     if (response.ok) {
-      const data = await response.json();
-      const items = (data.items || []).filter(item => item && item.title);
+      const text = await response.text();
+      const items = parseRss(text);
       if (items.length > 0) {
-        // Guardar en cache para accesos futuros offline
         await AsyncStorage.setItem(cacheKey, JSON.stringify(items));
         return items.slice(0, limit);
       }
     }
   } catch (error) {
+    console.log(`RSS fetch failed for ${section}:`, error?.message || error);
+  }
     console.log(`Fallo descarga remota de ${section}, usando datos locales:`, error?.message || error);
   }
 
