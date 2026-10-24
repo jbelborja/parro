@@ -1,5 +1,6 @@
 import messaging from '@react-native-firebase/messaging';
 import * as Notifications from 'expo-notifications';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as WebBrowser from 'expo-web-browser';
 
 // Configuración sobre cómo se muestran las notificaciones en primer plano
@@ -42,7 +43,14 @@ export async function subscribeToTopic(topic) {
  * Cancela la suscripción a un topic de FCM
  * @param {string} topic - Nombre del tema del que desuscribirse
  */
-export async function unsubscribeFromTopic(topic) {
+export async function clearObsoleteSubscriptions() {
+  try {
+    await AsyncStorage.removeItem('@subscription_actividades');
+  } catch (e) {
+    console.warn('Failed to clear obsolete subscription', e);
+  }
+}
+
   try {
     await messaging().unsubscribeFromTopic(topic);
     console.log(`Desuscrito de ${topic}`);
