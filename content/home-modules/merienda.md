@@ -1,6 +1,6 @@
 ---
 title: "MERIENDA."
-draft: "false"
+draft: "true"
 ---
 [![Merienda](../actividades/jovenes/merienda.jpg)](actividades/jovenes/merienda)
 
