@@ -25,7 +25,7 @@ export const initialContent = {
       "date": "2026-10-13",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/loteria/",
-      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/loteria/loteria.jpg\" alt=\"\">\n</p>",
+      "summary": "<style>\n  body {\n    background-color: #fdd9e7; /* color crema */\n  }\n</style>\n<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/loteria/loteria.jpg\" alt=\"\">\n</p>",
       "title": "Loteria."
     },
     {
@@ -46,7 +46,7 @@ export const initialContent = {
       "date": "2026-10-13",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/cateadult/",
-      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/cateadult/cateadult1.jpg\" alt=\"\">\n</p>",
+      "summary": "<style>\n  body {\n    background-color: #fef9e7; /* color crema */\n  }\n</style>\n<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/cateadult/cateadult1.jpg\" alt=\"\">\n</p>",
       "title": "catequesis de adultos no bautizados o no confirmados."
     },
     {
