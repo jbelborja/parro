@@ -1,0 +1,4 @@
+/* Color de fondo para toda la parroquia */
+body {
+  background-color: #f5f0e6; /* pergamino */
+}
