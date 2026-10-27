@@ -1,6 +1,6 @@
 ---
 title: C I N E F O R U M.
-draft: "false"
+draft: "true"
 ---
 
 [![CINE FORUM](../images/dientesdiablo.png)](../actividades/cineforum/dientesdiablo)
