@@ -136,6 +136,13 @@ export const initialContent = {
   ],
   "toma-y-lee": [
     {
+      "date": "2026-11-01",
+      "pdf": "",
+      "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-01/",
+      "summary": "<p>Amarás al Señor tu Dios   MT 22,37</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"26-11-01-domingo-a.pdf\" download>26-11-01-domingo-a.pdf</a>\n\n</p>",
+      "title": "Domingo 2026-11-01"
+    },
+    {
       "date": "2026-10-25",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-25/26-10-25-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-25/",
@@ -477,13 +484,6 @@ export const initialContent = {
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-dia-de-navidad-25-12/",
       "summary": "<p>Un niño envuelto en pañales&hellip; Lc 2,12</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-dia-de-navidad-25-12/25-12-25-tl-a.pdf\" download>25-12-25 TL- A</a>\n\n</p>",
       "title": "Dia de Navidad 25.12.2025"
-    },
-    {
-      "date": "2025-12-21",
-      "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-21-12/25-12-14-tl-a.pdf",
-      "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-21-12/",
-      "summary": "<p>Un ángel del Señor se le apareció en sueños MT 1.20</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-21-12/25-12-14-tl-a.pdf\" download>25-12-14 TL- A</a>\n\n</p>",
-      "title": "Domingo 21.12.2025"
     }
   ]
 };
