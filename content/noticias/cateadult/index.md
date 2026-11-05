@@ -1,7 +1,7 @@
 ---
 categories:
 - actual
-date: '2026-10-13'
+date: '2026-10-31'
 draft: false
 title: catequesis de adultos no bautizados o no confirmados.
 ---
