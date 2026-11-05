@@ -23,3 +23,5 @@ migracion/
 content_backup/
 service-account.json
 live_dates.json
+static/videos/*.mp4
+static/videos/*.mov
