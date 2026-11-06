@@ -1,6 +1,6 @@
 ---
-title: "Pantalla de mayo-2026"
-date: 2026-11-01T00:00:00Z
+title: "26/05 Pantalla de mayo"
+date: 2026-10-29T00:00:00Z
 categories: ["historico"]
 draft: false
 ---

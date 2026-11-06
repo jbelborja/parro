@@ -1,5 +1,5 @@
 ---
-title: "26/9 Pantalla de agosto-2026"
+title: "26/8 Pantalla de agosto-2026"
 date: 2026-11-01T00:00:00Z
 categories: ["historico"]
 draft: false

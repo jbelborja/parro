@@ -1,6 +1,6 @@
 ---
-title: "Pantalla de marzo-2026"
-date: 2026-11-01T00:00:00Z
+title: "26/03 Pantalla de marzo"
+date: 2026-10-28T00:00:00Z
 categories: ["historico"]
 draft: false
 ---

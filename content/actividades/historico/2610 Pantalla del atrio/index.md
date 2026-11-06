@@ -1,6 +1,6 @@
 ---
 title: "26/10 Pantalla de octubre-2026"
-date: 2026-11-01T00:00:00Z
+date: 2026-11-03T00:00:00Z
 categories: ["historico"]
 draft: false
 ---

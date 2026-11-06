@@ -1,6 +1,6 @@
 ---
-title: "Pantalla de febrero-2026"
-date: 2026-11-01T00:00:00Z
+title: "26/02 Pantalla de febrero"
+date: 2026-10-26T00:00:00Z
 categories: ["historico"]
 draft: false
 ---

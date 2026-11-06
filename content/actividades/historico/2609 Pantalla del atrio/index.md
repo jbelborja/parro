@@ -1,6 +1,6 @@
 ---
 title: "26/9 Pantalla de septiembre-2026"
-date: 2026-11-01T00:00:00Z
+date: 2026-11-02T00:00:00Z
 categories: ["historico"]
 draft: false
 ---
