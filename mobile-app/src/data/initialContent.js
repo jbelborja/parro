@@ -137,7 +137,7 @@ export const initialContent = {
   "toma-y-lee": [
     {
       "date": "2026-11-01",
-      "pdf": "",
+      "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-01/26-11-01%20XXXI%20domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-01/",
       "summary": "<p>Amarás al Señor tu Dios   MT 22,37</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"26-11-01-domingo-a.pdf\" download>26-11-01-domingo-a.pdf</a>\n\n</p>",
       "title": "Domingo 2026-11-01"
