@@ -53,7 +53,7 @@ export const initialContent = {
       "date": "2026-10-11",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/coroinfantil/",
-      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/coroinfantil/coroinfantil.png\" alt=\"\">\n</p>",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/coroinfantil/coro.png\" alt=\"\">\n</p>",
       "title": "Coro Infantil"
     },
     {
