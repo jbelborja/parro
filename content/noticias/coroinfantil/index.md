@@ -6,5 +6,5 @@ draft: false
 title: Coro Infantil
 ---
 
-![](coroinfantil.png)
+![](coro.png)
 

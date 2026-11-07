@@ -1,6 +1,6 @@
 ---
 title: "Catequesis de comunión"
-draft: "false"
+draft: "true"
 ---
 Inscripción para la catequesis de comunión.
 
