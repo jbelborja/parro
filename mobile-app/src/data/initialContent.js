@@ -52,6 +52,13 @@ export const initialContent = {
     {
       "date": "2026-10-11",
       "pdf": "",
+      "permalink": "https://la-vid.org/noticias/corona/",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/corona/corona.png\" alt=\"\">\n</p>",
+      "title": "Corona Adviento"
+    },
+    {
+      "date": "2026-10-11",
+      "pdf": "",
       "permalink": "https://la-vid.org/noticias/coroinfantil/",
       "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/coroinfantil/coro.png\" alt=\"\">\n</p>",
       "title": "Coro Infantil"
@@ -135,6 +142,13 @@ export const initialContent = {
     }
   ],
   "toma-y-lee": [
+    {
+      "date": "2026-11-08",
+      "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-08/26-11-08%20XXXII%20domingo-a.pdf",
+      "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-08/",
+      "summary": "<p>Se pusieron a preparar las lámparas   Mt 25.7</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"26-11-08-domingo-a.pdf\" download>26-11-08-domingo-a.pdf</a>\n\n</p>",
+      "title": "Domingo 2026-11-08"
+    },
     {
       "date": "2026-11-01",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-01/26-11-01%20XXXI%20domingo-a.pdf",
@@ -477,13 +491,6 @@ export const initialContent = {
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-28-12/",
       "summary": "<p>Un pueblo llamado Nazaret&hellip; Mt 2,23</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-28-12/25-12-28-tl-a.pdf\" download>25-12-28 TL- A</a>\n\n</p>",
       "title": "Domingo 28.12.2025"
-    },
-    {
-      "date": "2025-12-25",
-      "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-dia-de-navidad-25-12/25-12-25-tl-a.pdf",
-      "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-dia-de-navidad-25-12/",
-      "summary": "<p>Un niño envuelto en pañales&hellip; Lc 2,12</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-dia-de-navidad-25-12/25-12-25-tl-a.pdf\" download>25-12-25 TL- A</a>\n\n</p>",
-      "title": "Dia de Navidad 25.12.2025"
     }
   ]
 };
