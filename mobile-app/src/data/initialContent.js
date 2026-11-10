@@ -2,6 +2,13 @@ export const initialContent = {
   "noticias": [
     {
       "date": "2026-10-31",
+      "pdf": "https://la-vid.org/noticias/charlasds/calenda.pdf",
+      "permalink": "https://la-vid.org/noticias/charlasds/",
+      "summary": "<p>\n\n\n\n  \n  \n\n\n<img src=\"/images/ds.jpg\" alt=\"\">\n\n\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/noticias/charlasds/calenda.pdf\" download>Charlas de formacion DSI</a>\n  \n</p>",
+      "title": "Charlas de formación sobre la Doctrina Social de la Iglesia."
+    },
+    {
+      "date": "2026-10-31",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/cateadult/",
       "summary": "<style>\n  body {\n    background-color: #fef9e7; /* color crema */\n  }\n</style>\n<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/cateadult/cateadult1.jpg\" alt=\"\">\n</p>",
@@ -41,13 +48,6 @@ export const initialContent = {
       "permalink": "https://la-vid.org/noticias/comuniona/",
       "summary": "<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/noticias/comuniona/cat-infantil.pdf\" download>![Formulario de inscripción]</a>\n  \n</p>",
       "title": "Inscripcion para la catequesis de comunión"
-    },
-    {
-      "date": "2026-10-13",
-      "pdf": "https://la-vid.org/noticias/charlasds/calenda.pdf",
-      "permalink": "https://la-vid.org/noticias/charlasds/",
-      "summary": "<p>\n\n\n\n  \n  \n\n\n<img src=\"/images/ds.jpg\" alt=\"\">\n</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/noticias/charlasds/calenda.pdf\" download>![Ponentes y calendario]</a>\n  \n</p>",
-      "title": "Charlas de formación sobre la Doctrina Social de la Iglesia"
     },
     {
       "date": "2026-10-11",
