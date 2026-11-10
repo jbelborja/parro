@@ -11,7 +11,7 @@ export const initialContent = {
       "date": "2026-10-15",
       "pdf": "https://la-vid.org/noticias/comunion/document.pdf",
       "permalink": "https://la-vid.org/noticias/comunion/",
-      "summary": "<p>\n\n\n\n\n\n<a href=\"/sacramentos/comunion\" title=\"Formulario\">\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/comunion/document.pdf\" alt=\"\">\n</a>\n</p>\n<h3 id=\"formulario\"><em><strong>\n\n\n\n\n\n<a href=\"/sacramentos/comunion\" title=\"Formulario\">Formulario</a>\n</strong></em></h3>\n<h3 id=\"de\"><em><strong>\n\n\n\n\n\n<a href=\"/sacramentos/comunion\" title=\"Formulario\">de</a>\n</strong></em></h3>\n<h3 id=\"inscripción\"><em><strong>\n\n\n\n\n\n<a href=\"/sacramentos/comunion\" title=\"Formulario\">inscripción</a>\n</strong></em></h3>",
+      "summary": "<p>\n\n\n\n\n  \n  \n  \n  <a href=\"/sacramentos/comunion\" title=\"Formulario\">\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/comunion/document.pdf\" alt=\"\">\n</a>\n</p>\n<h3 id=\"formulario\"><em><strong>\n\n\n\n\n  \n  \n  \n  <a href=\"/sacramentos/comunion\" title=\"Formulario\">Formulario</a>\n</strong></em></h3>\n<h3 id=\"de\"><em><strong>\n\n\n\n\n  \n  \n  \n  <a href=\"/sacramentos/comunion\" title=\"Formulario\">de</a>\n</strong></em></h3>\n<h3 id=\"inscripción\"><em><strong>\n\n\n\n\n  \n  \n  \n  <a href=\"/sacramentos/comunion\" title=\"Formulario\">inscripción</a>\n</strong></em></h3>",
       "title": "CATEQUESIS DE INFANCIA"
     },
     {
@@ -39,14 +39,14 @@ export const initialContent = {
       "date": "2026-10-13",
       "pdf": "https://la-vid.org/noticias/comuniona/cat-infantil.pdf",
       "permalink": "https://la-vid.org/noticias/comuniona/",
-      "summary": "<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/comuniona/cat-infantil.pdf\" download>![Formulario de inscripción]</a>\n\n</p>",
+      "summary": "<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/noticias/comuniona/cat-infantil.pdf\" download>![Formulario de inscripción]</a>\n  \n</p>",
       "title": "Inscripcion para la catequesis de comunión"
     },
     {
       "date": "2026-10-13",
       "pdf": "https://la-vid.org/noticias/charlasds/calenda.pdf",
       "permalink": "https://la-vid.org/noticias/charlasds/",
-      "summary": "<p>\n\n\n\n  \n  \n\n\n<img src=\"/images/ds.jpg\" alt=\"\">\n</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/noticias/charlasds/calenda.pdf\" download>![Ponentes y calendario]</a>\n\n</p>",
+      "summary": "<p>\n\n\n\n  \n  \n\n\n<img src=\"/images/ds.jpg\" alt=\"\">\n</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/noticias/charlasds/calenda.pdf\" download>![Ponentes y calendario]</a>\n  \n</p>",
       "title": "Charlas de formación sobre la Doctrina Social de la Iglesia"
     },
     {
@@ -102,7 +102,7 @@ export const initialContent = {
       "date": "2026-01-21",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/video-del-belen-de-la-parroquia/",
-      "summary": "<p>\n\n\n\n\n\n<a href=\"https://www.youtube.com/watch?v=WB0-85FXbNQ&amp;list=RDWB0-85FXbNQ&amp;start_radio=1\">https://www.youtube.com/watch?v=WB0-85FXbNQ&list=RDWB0-85FXbNQ&start_radio=1</a>\n</p>",
+      "summary": "<p>\n\n\n\n\n  \n  \n  \n  <a href=\"https://www.youtube.com/watch?v=WB0-85FXbNQ&amp;list=RDWB0-85FXbNQ&amp;start_radio=1\">https://www.youtube.com/watch?v=WB0-85FXbNQ&list=RDWB0-85FXbNQ&start_radio=1</a>\n</p>",
       "title": "Video del Belen de la Parroquia"
     },
     {
@@ -137,7 +137,7 @@ export const initialContent = {
       "date": "2024-12-17",
       "pdf": "",
       "permalink": "https://la-vid.org/noticias/reportaje-en-video-del-belen-de-nuestra-paroquia/",
-      "summary": "<p><strong>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/reportaje-en-video-del-belen-de-nuestra-paroquia/imagen_incrustada_1.jpeg\" alt=\"\">\n</strong></p>\n<p>En este enlace podemos acceder al video del belén.</p>\n<p>\n\n\n\n\n\n<a href=\"https://www.youtube.com/watch?v=AEmq0Nt43Ak\">https://www.youtube.com/watch?v=AEmq0Nt43Ak</a>\n</p>",
+      "summary": "<p><strong>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/reportaje-en-video-del-belen-de-nuestra-paroquia/imagen_incrustada_1.jpeg\" alt=\"\">\n</strong></p>\n<p>En este enlace podemos acceder al video del belén.</p>\n<p>\n\n\n\n\n  \n  \n  \n  <a href=\"https://www.youtube.com/watch?v=AEmq0Nt43Ak\">https://www.youtube.com/watch?v=AEmq0Nt43Ak</a>\n</p>",
       "title": "Reportaje en video del Belen de nuestra Parroquia"
     },
     {
@@ -153,273 +153,273 @@ export const initialContent = {
       "date": "2026-11-08",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-08/26-11-08%20XXXII%20domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-08/",
-      "summary": "<p>Se pusieron a preparar las lámparas   Mt 25.7</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"26-11-08%20XXXII%20domingo-a.pdf\" download>26-11-08-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>Se pusieron a preparar las lámparas   Mt 25.7</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n    \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-11-08/26-11-08%20XXXII%20domingo-a.pdf\" download>26-11-08-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-11-08"
     },
     {
       "date": "2026-11-01",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-01/26-11-01%20XXXI%20domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-11-01/",
-      "summary": "<p>Amarás al Señor tu Dios   MT 22,37</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"26-11-01%20XXXI%20domingo-a.pdf\" download>26-11-01-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>Amarás al Señor tu Dios   MT 22,37</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n    \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-11-01/26-11-01%20XXXI%20domingo-a.pdf\" download>26-11-01-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-11-01"
     },
     {
       "date": "2026-10-25",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-25/26-10-25-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-25/",
-      "summary": "<p>Amarás al Señor tu Dios   MT 22,37</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-25/26-10-25-domingo-a.pdf\" download>26-10-25-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>Amarás al Señor tu Dios   MT 22,37</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-25/26-10-25-domingo-a.pdf\" download>26-10-25-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-10-25"
     },
     {
       "date": "2026-10-18",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-18/26-10-18-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-18/",
-      "summary": "<p>A Dios lo que es de Dios.. Mt 22,21</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-18/26-10-18-domingo-a.pdf\" download>26-10-18-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>A Dios lo que es de Dios.. Mt 22,21</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-18/26-10-18-domingo-a.pdf\" download>26-10-18-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingos 2026-10-18"
     },
     {
       "date": "2026-10-11",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-11/26-10-11-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-11/",
-      "summary": "<p>La sala del banquete se lleno&hellip;Mt 22.10</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-11/26-10-11-domingo-a.pdf\" download>26-10-11-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>La sala del banquete se lleno&hellip;Mt 22.10</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-11/26-10-11-domingo-a.pdf\" download>26-10-11-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-10-11"
     },
     {
       "date": "2026-10-04",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-04/26-10-04-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-10-04/",
-      "summary": "<p>Le empujaron fuera de la viña&hellip;Mt 21,39.</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-04/26-10-04-domingo-a.pdf\" download>26-10-04-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>Le empujaron fuera de la viña&hellip;Mt 21,39.</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-10-04/26-10-04-domingo-a.pdf\" download>26-10-04-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-10-04"
     },
     {
       "date": "2026-09-27",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-27/26-09-27-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-27/",
-      "summary": "<p>,Or llevan la delantera en el camino&hellip;Mt 21,30.</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-27/26-09-27-domingo-a.pdf\" download>26-09-27-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>,Or llevan la delantera en el camino&hellip;Mt 21,30.</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-27/26-09-27-domingo-a.pdf\" download>26-09-27-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-09-27"
     },
     {
       "date": "2026-09-20",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-20/26-09-20-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-20/",
-      "summary": "<p>,Los últimos serán los primeros&hellip;Mt 20,16.</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-20/26-09-20-domingo-a.pdf\" download>26-09-20-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>,Los últimos serán los primeros&hellip;Mt 20,16.</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-20/26-09-20-domingo-a.pdf\" download>26-09-20-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-09-20"
     },
     {
       "date": "2026-09-13",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-13/26-09-13-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-13/",
-      "summary": "<p>¿Cuantas veces tengo que perdonar? Mt 18,21.</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-13/26-09-13-domingo-a.pdf\" download>26-09-13-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>¿Cuantas veces tengo que perdonar? Mt 18,21.</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-13/26-09-13-domingo-a.pdf\" download>26-09-13-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-09-13"
     },
     {
       "date": "2026-09-06",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-06/26-09-06-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-09-06/",
-      "summary": "<p>,,,alli estoy yo enmedio de ellos. Mt 18,20.</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-06/26-09-06-domingo-a.pdf\" download>26-09-06-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>,,,alli estoy yo enmedio de ellos. Mt 18,20.</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-09-06/26-09-06-domingo-a.pdf\" download>26-09-06-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-09-06"
     },
     {
       "date": "2026-08-30",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-30/26-08-30-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-30/",
-      "summary": "<p>,,,que se niegue a si mismo. Mt 16-24.</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-30/26-08-30-domingo-a.pdf\" download>26-08-30-domingo-a.pdf</a>\n\n</p>",
+      "summary": "<p>,,,que se niegue a si mismo. Mt 16-24.</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-30/26-08-30-domingo-a.pdf\" download>26-08-30-domingo-a.pdf</a>\n  \n</p>",
       "title": "Domingo 2026-08-30"
     },
     {
       "date": "2026-08-23",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-23/26-08-23-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-23/",
-      "summary": "<p>y vosotros, ¿Quien deciis que soy yp? Mt 16-15.</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-23/26-08-23-domingo-a.pdf\" download>26-08-23-domingo-a</a>\n\n</p>",
+      "summary": "<p>y vosotros, ¿Quien deciis que soy yp? Mt 16-15.</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-23/26-08-23-domingo-a.pdf\" download>26-08-23-domingo-a</a>\n  \n</p>",
       "title": "Domingo 2026-08-23"
     },
     {
       "date": "2026-08-16",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-16/26-08-16-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-16/",
-      "summary": "<p>Mujer, que grande es tu fe.  Mt 15-28</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-16/26-08-16-domingo-a.pdf\" download>26-08-16 XX Domingo-A</a>\n\n</p>",
+      "summary": "<p>Mujer, que grande es tu fe.  Mt 15-28</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-16/26-08-16-domingo-a.pdf\" download>26-08-16 XX Domingo-A</a>\n  \n</p>",
       "title": "Domingo 2026-08-16"
     },
     {
       "date": "2026-08-09",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-09/26-08-09-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-09/",
-      "summary": "<p>Ánimo, soy yo, no tengais miedo  Mt 14, 27</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-09/26-08-09-domingo-a.pdf\" download>26-08-09 XIV Domingo-A</a>\n\n</p>",
+      "summary": "<p>Ánimo, soy yo, no tengais miedo  Mt 14, 27</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-09/26-08-09-domingo-a.pdf\" download>26-08-09 XIV Domingo-A</a>\n  \n</p>",
       "title": "Domingo 2026-08-09"
     },
     {
       "date": "2026-08-02",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-02/26-08-02-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-08-02/",
-      "summary": "<p>Dadles vosotros de comer. Mt 12.16</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-02/26-08-02-domingo-a.pdf\" download>26-08-02 XIV Domingo-A</a>\n\n</p>",
+      "summary": "<p>Dadles vosotros de comer. Mt 12.16</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-08-02/26-08-02-domingo-a.pdf\" download>26-08-02 XIV Domingo-A</a>\n  \n</p>",
       "title": "Domingo 02-08-2026"
     },
     {
       "date": "2026-07-26",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-07/26-07-26-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-07/",
-      "summary": "<p>Va a vender todo lo que tiene&hellip;Mt 13 44,46</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-07/26-07-26-domingo-a.pdf\" download>26-07-26 XIV Domingo-A</a>\n\n</p>",
+      "summary": "<p>Va a vender todo lo que tiene&hellip;Mt 13 44,46</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-07/26-07-26-domingo-a.pdf\" download>26-07-26 XIV Domingo-A</a>\n  \n</p>",
       "title": "Domingo 26.07.2026"
     },
     {
       "date": "2026-07-19",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-19-07/26-07-19-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-19-07/",
-      "summary": "<p>Venid a mi todos los que estis cansados Mt 11.28</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"26-07-19-xvi-domingo-a.pdf\" download>26-07-19 XIV Domingo-A</a>\n\n</p>",
+      "summary": "<p>Venid a mi todos los que estis cansados Mt 11.28</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n    \n  \n\n  \n  \n    \n  \n\n  \n  \n    \n  \n\n  \n  \n    \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-19-07/26-07-19-domingo-a.pdf\" download>26-07-19 XIV Domingo-A</a>\n  \n</p>",
       "title": "Domingo 19.07.2026"
     },
     {
       "date": "2026-07-12",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo1-12-07/26-07-12-xv-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo1-12-07/",
-      "summary": "<p>El que tenga oídos que oiga. Mt. 13.9</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo1-12-07/26-07-12-xv-domingo-a.pdf\" download>26-07-12 XV Domingo- A</a>\n\n</p>",
+      "summary": "<p>El que tenga oídos que oiga. Mt. 13.9</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo1-12-07/26-07-12-xv-domingo-a.pdf\" download>26-07-12 XV Domingo- A</a>\n  \n</p>",
       "title": "Domingo 12.07.2026"
     },
     {
       "date": "2026-07-12",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-12-07/26-07-12-xv-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-12-07/",
-      "summary": "<p>El que tenga oídos que oiga. Mt. 13.9</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-12-07/26-07-12-xv-domingo-a.pdf\" download>26-07-12 XV Domingo- A</a>\n\n</p>",
+      "summary": "<p>El que tenga oídos que oiga. Mt. 13.9</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-12-07/26-07-12-xv-domingo-a.pdf\" download>26-07-12 XV Domingo- A</a>\n  \n</p>",
       "title": "Domingo 12.07.2026"
     },
     {
       "date": "2026-07-05",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-05-07/26-07-05-xiv-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-05-07/",
-      "summary": "<p>Venid a mi todos los que estais cansados Mt 11.28</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-05-07/26-07-05-xiv-domingo-a.pdf\" download>26-07-05 XIV Domingo- A</a>\n\n</p>",
+      "summary": "<p>Venid a mi todos los que estais cansados Mt 11.28</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-05-07/26-07-05-xiv-domingo-a.pdf\" download>26-07-05 XIV Domingo- A</a>\n  \n</p>",
       "title": "Domingo 05.07.2026"
     },
     {
       "date": "2026-06-28",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-28-06/26-06-28-xiii-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-28-06/",
-      "summary": "<p>&hellip;el que os recibe a vosotros me recibe a MI Mt. 10-40</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-28-06/26-06-28-xiii-domingo-a.pdf\" download>26-06-28 XIII Domingo- A</a>\n\n</p>",
+      "summary": "<p>&hellip;el que os recibe a vosotros me recibe a MI Mt. 10-40</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-28-06/26-06-28-xiii-domingo-a.pdf\" download>26-06-28 XIII Domingo- A</a>\n  \n</p>",
       "title": "Domingo 28.06.2026"
     },
     {
       "date": "2026-06-21",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-21-06/26-06-21-xii-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-21-06/",
-      "summary": "<p>&hellip;No tengais miedo&hellip; Mt 10,26-28-31</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-21-06/26-06-21-xii-domingo-a.pdf\" download>26-06-21 XII Domingo- A</a>\n\n</p>",
+      "summary": "<p>&hellip;No tengais miedo&hellip; Mt 10,26-28-31</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-21-06/26-06-21-xii-domingo-a.pdf\" download>26-06-21 XII Domingo- A</a>\n  \n</p>",
       "title": "Domingo 21.06.2026"
     },
     {
       "date": "2026-06-14",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-14-06/26-06-14-xi-domingo-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-14-06/",
-      "summary": "<p>Gratis lo rebibisteis, dádlo gratis Mt. 10.8</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-14-06/26-06-14-xi-domingo-a.pdf\" download>26-06-14 XI Domingo- A</a>\n\n</p>",
+      "summary": "<p>Gratis lo rebibisteis, dádlo gratis Mt. 10.8</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-14-06/26-06-14-xi-domingo-a.pdf\" download>26-06-14 XI Domingo- A</a>\n  \n</p>",
       "title": "Domingo 14.06.2026"
     },
     {
       "date": "2026-06-07",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-07-06/26-06-07-corpus-christi-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-07-06/",
-      "summary": "<p>El que me come, vivirá por mi&hellip; Jn 6,57</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-07-06/26-06-07-corpus-christi-a.pdf\" download>26-06-07 Corpus Christi- A</a>\n\n</p>",
+      "summary": "<p>El que me come, vivirá por mi&hellip; Jn 6,57</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-07-06/26-06-07-corpus-christi-a.pdf\" download>26-06-07 Corpus Christi- A</a>\n  \n</p>",
       "title": "Domingo 07.06.2026"
     },
     {
       "date": "2026-05-31",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-31-05/26-05-31-trinidad-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-31-05/",
-      "summary": "<p>Para que el mundo se salve&hellip; Jn 3,17</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-31-05/26-05-31-trinidad-a.pdf\" download>26-05-31 Trinidad- A</a>\n\n</p>",
+      "summary": "<p>Para que el mundo se salve&hellip; Jn 3,17</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-31-05/26-05-31-trinidad-a.pdf\" download>26-05-31 Trinidad- A</a>\n  \n</p>",
       "title": "Domingo 31.05.2026"
     },
     {
       "date": "2026-05-24",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-24-05-pentecostes/26-05-24-pentecostes-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-24-05-pentecostes/",
-      "summary": "<p>Exhaló su aliento sobre ellos&hellip; Jn 20.20</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-24-05-pentecostes/26-05-24-pentecostes-a.pdf\" download>26-05-24 Pentecostés- A</a>\n\n</p>",
+      "summary": "<p>Exhaló su aliento sobre ellos&hellip; Jn 20.20</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-24-05-pentecostes/26-05-24-pentecostes-a.pdf\" download>26-05-24 Pentecostés- A</a>\n  \n</p>",
       "title": "Domingo 24.05.2026 Pentecostes"
     },
     {
       "date": "2026-05-17",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-17-05-ascension/26-05-17-ascension-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-17-05-ascension/",
-      "summary": "<p>Todos los dias, hasta el fin de mundo&hellip; Mt. 28-20</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-17-05-ascension/26-05-17-ascension-a.pdf\" download>26-05-17 Ascensión- A</a>\n\n</p>",
+      "summary": "<p>Todos los dias, hasta el fin de mundo&hellip; Mt. 28-20</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-17-05-ascension/26-05-17-ascension-a.pdf\" download>26-05-17 Ascensión- A</a>\n  \n</p>",
       "title": "Domingo 17.05.2026 Ascensión"
     },
     {
       "date": "2026-05-10",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-10-05/26-05-10-pascua-vi-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-10-05/",
-      "summary": "<p>Pediré al padre que os de un defensor Jn 14-15</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-10-05/26-05-10-pascua-vi-a.pdf\" download>26-05-10 Pascua VI- A</a>\n\n</p>",
+      "summary": "<p>Pediré al padre que os de un defensor Jn 14-15</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-10-05/26-05-10-pascua-vi-a.pdf\" download>26-05-10 Pascua VI- A</a>\n  \n</p>",
       "title": "Domingo 10.05.2026 VI de Pascua"
     },
     {
       "date": "2026-05-03",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-03-05-v-de-pascua/26-05-03-pascua-v-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-03-05-v-de-pascua/",
-      "summary": "<p>Yo soy el Camino , la Verdad u la Vida Jn. 14.6</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-03-05-v-de-pascua/26-05-03-pascua-v-a.pdf\" download>26-05-03 Pascua V- A</a>\n\n</p>",
+      "summary": "<p>Yo soy el Camino , la Verdad u la Vida Jn. 14.6</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-03-05-v-de-pascua/26-05-03-pascua-v-a.pdf\" download>26-05-03 Pascua V- A</a>\n  \n</p>",
       "title": "Domingo 03.05.2026 V de Pascua"
     },
     {
       "date": "2026-04-26",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-04-iv-de-pascua/26-04-26-pascua-iv-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-04-iv-de-pascua/",
-      "summary": "<p>Le siguen porque conocen su voz. Jn 10,4</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-04-iv-de-pascua/26-04-26-pascua-iv-a.pdf\" download>26-04-26 Pascua IV- A</a>\n\n</p>",
+      "summary": "<p>Le siguen porque conocen su voz. Jn 10,4</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-04-iv-de-pascua/26-04-26-pascua-iv-a.pdf\" download>26-04-26 Pascua IV- A</a>\n  \n</p>",
       "title": "Domingo 26.04.2026 IV de Pascua"
     },
     {
       "date": "2026-04-19",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-19-04-iii-de-pascua/domingo-19-04-2026.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-19-04-iii-de-pascua/",
-      "summary": "<p>Se les abrieron los ojos&hellip;Lc 24,31</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-19-04-iii-de-pascua/domingo-19-04-2026.pdf\" download>Domingo 19,04.2026</a>\n\n</p>",
+      "summary": "<p>Se les abrieron los ojos&hellip;Lc 24,31</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-19-04-iii-de-pascua/domingo-19-04-2026.pdf\" download>Domingo 19,04.2026</a>\n  \n</p>",
       "title": "Domingo 19.04.2026 III de PASCUA"
     },
     {
       "date": "2026-04-12",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-12-04-ii-de-pascua/26-04-12-pascua-ii-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-12-04-ii-de-pascua/",
-      "summary": "<p>El primer día de la semana&hellip; Jn. 20.1</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-12-04-ii-de-pascua/26-04-12-pascua-ii-a.pdf\" download>26-04-12 Pascua II- A</a>\n\n</p>",
+      "summary": "<p>El primer día de la semana&hellip; Jn. 20.1</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-12-04-ii-de-pascua/26-04-12-pascua-ii-a.pdf\" download>26-04-12 Pascua II- A</a>\n  \n</p>",
       "title": "Domingo 12.04.2026 II de Pascua"
     },
     {
       "date": "2026-04-05",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-05-04-pascua-de-resurreccion/26-04-05-pascua-i-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-05-04-pascua-de-resurreccion/",
-      "summary": "<p>El primer día de la semana&hellip; Jn 20.1</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-05-04-pascua-de-resurreccion/26-04-05-pascua-i-a.pdf\" download>26-04-05 Pascua I- A</a>\n\n</p>",
+      "summary": "<p>El primer día de la semana&hellip; Jn 20.1</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-05-04-pascua-de-resurreccion/26-04-05-pascua-i-a.pdf\" download>26-04-05 Pascua I- A</a>\n  \n</p>",
       "title": "Domingo 05.04.2026 PASCUA DE RESURRECCIÓN"
     },
     {
       "date": "2026-03-29",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-de-ramos-29-03/26-03-29-domingo-de-ramos-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-de-ramos-29-03/",
-      "summary": "<p>&hellip; Dios mio, ¿Por qué me has abandonado? Mt 27,46</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-de-ramos-29-03/26-03-29-domingo-de-ramos-a.pdf\" download>26-03-29 Domingo de Ramos- A</a>\n\n</p>",
+      "summary": "<p>&hellip; Dios mio, ¿Por qué me has abandonado? Mt 27,46</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-de-ramos-29-03/26-03-29-domingo-de-ramos-a.pdf\" download>26-03-29 Domingo de Ramos- A</a>\n  \n</p>",
       "title": "Domingo de Ramos 29.03.2026"
     },
     {
       "date": "2026-03-22",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-de-marzo-del-v-de-cuaresma/26-03-22-v-cuaresma-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-de-marzo-del-v-de-cuaresma/",
-      "summary": "<p>el que cree en mi, aunque haya muerto viviré J 11-25</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-de-marzo-del-v-de-cuaresma/26-03-22-v-cuaresma-a.pdf\" download>26-03-22 V Cuaresma- A</a>\n\n</p>",
+      "summary": "<p>el que cree en mi, aunque haya muerto viviré J 11-25</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-de-marzo-del-v-de-cuaresma/26-03-22-v-cuaresma-a.pdf\" download>26-03-22 V Cuaresma- A</a>\n  \n</p>",
       "title": "Domingo 22 de marzo del 2026 V de Cuaresma"
     },
     {
       "date": "2026-03-15",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-15-03-iv-cuaresma/26-03-15-cuaresma-iv-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-15-03-iv-cuaresma/",
-      "summary": "<p>¿Como te abrió los ojos? Jn 9 - 10-26</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-15-03-iv-cuaresma/26-03-15-cuaresma-iv-a.pdf\" download>26-03-15 Cuaresma IV-A</a>\n\n</p>",
+      "summary": "<p>¿Como te abrió los ojos? Jn 9 - 10-26</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-15-03-iv-cuaresma/26-03-15-cuaresma-iv-a.pdf\" download>26-03-15 Cuaresma IV-A</a>\n  \n</p>",
       "title": "Domingo 15.03.2026 IV Cuaresma"
     },
     {
       "date": "2026-03-08",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domiongo-08-03-iii-cuaresma/26-03-08-iii-cuaresma-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domiongo-08-03-iii-cuaresma/",
-      "summary": "<p>¿De dónde sacas el agua viva?</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domiongo-08-03-iii-cuaresma/26-03-08-iii-cuaresma-a.pdf\" download>26-03-08 III Cuaresma- A</a>\n\n</p>",
+      "summary": "<p>¿De dónde sacas el agua viva?</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domiongo-08-03-iii-cuaresma/26-03-08-iii-cuaresma-a.pdf\" download>26-03-08 III Cuaresma- A</a>\n  \n</p>",
       "title": "Domiongo 08.03.2026 III Cuaresma"
     },
     {
       "date": "2026-03-01",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-01-03-ii-de-cuaresma/26-03-01-ii-cuaresma-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-01-03-ii-de-cuaresma/",
-      "summary": "<p>su rostro resplandecia como el sol MT. 17.2</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-01-03-ii-de-cuaresma/26-03-01-ii-cuaresma-a.pdf\" download>26-03-01 II Cuaresma- A</a>\n\n</p>",
+      "summary": "<p>su rostro resplandecia como el sol MT. 17.2</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-01-03-ii-de-cuaresma/26-03-01-ii-cuaresma-a.pdf\" download>26-03-01 II Cuaresma- A</a>\n  \n</p>",
       "title": "Domingo 01.03.2026 II de Cuaresma"
     },
     {
       "date": "2026-02-22",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-22-02-2026-2/26-02-18-especial-cuaresma-a-1-2-2.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-22-02-2026-2/",
-      "summary": "<p>y entonces lo dejo el Diablo MT. 4-11</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-22-02-2026-2/26-02-18-especial-cuaresma-a-1-2-2.pdf\" download>26-02-18 Especial Cuaresma- A-1 (2-2)</a>\n\n</p>",
+      "summary": "<p>y entonces lo dejo el Diablo MT. 4-11</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-22-02-2026-2/26-02-18-especial-cuaresma-a-1-2-2.pdf\" download>26-02-18 Especial Cuaresma- A-1 (2-2)</a>\n  \n</p>",
       "title": "Domingo 22.02.2026 (2-2)"
     },
     {
@@ -433,70 +433,70 @@ export const initialContent = {
       "date": "2026-02-15",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-15-02/26-02-15-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-15-02/",
-      "summary": "<p>Habéis oído… pues yo os digo Mt 5,21-22; 27-28;31-34</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-15-02/26-02-15-tl-a.pdf\" download>26-02-15 TL- A</a>\n\n</p>",
+      "summary": "<p>Habéis oído… pues yo os digo Mt 5,21-22; 27-28;31-34</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-15-02/26-02-15-tl-a.pdf\" download>26-02-15 TL- A</a>\n  \n</p>",
       "title": "Domingo 15.02.2026"
     },
     {
       "date": "2026-02-08",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-08-02/26-02-08-v-to-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-08-02/",
-      "summary": "<p>Brille asi vuestra luz entre los hombres&hellip; Mt 5,16</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-08-02/26-02-08-v-to-a.pdf\" download>26-02-08 V TO- A</a>\n\n</p>",
+      "summary": "<p>Brille asi vuestra luz entre los hombres&hellip; Mt 5,16</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-08-02/26-02-08-v-to-a.pdf\" download>26-02-08 V TO- A</a>\n  \n</p>",
       "title": "Domingo 08.02.2026"
     },
     {
       "date": "2026-02-01",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-01-02/26-02-01-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-01-02/",
-      "summary": "<p>Lesenseñaba diciendo&hellip; Bienaventurados&hellip; MT 5,2</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-01-02/26-02-01-tl-a.pdf\" download>26-02-01 TL- A</a>\n\n</p>",
+      "summary": "<p>Lesenseñaba diciendo&hellip; Bienaventurados&hellip; MT 5,2</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-01-02/26-02-01-tl-a.pdf\" download>26-02-01 TL- A</a>\n  \n</p>",
       "title": "Domingo 01.02.2026"
     },
     {
       "date": "2026-01-25",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-01/26-01-25-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-26-01/",
-      "summary": "<p>Proclamando el Evangelio del Reino. Mt. 4,23</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-26-01/26-01-25-tl-a.pdf\" download>26-01-25 TL- A</a>\n\n</p>",
+      "summary": "<p>Proclamando el Evangelio del Reino. Mt. 4,23</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-26-01/26-01-25-tl-a.pdf\" download>26-01-25 TL- A</a>\n  \n</p>",
       "title": "Domingo 25.01.2026"
     },
     {
       "date": "2026-01-18",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-18-01/26-01-18-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-18-01/",
-      "summary": "<p>Este es el cordero de Dios&hellip; Jn 1.29</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-18-01/26-01-18-tl-a.pdf\" download>26-01-18 TL- A</a>\n\n</p>",
+      "summary": "<p>Este es el cordero de Dios&hellip; Jn 1.29</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-18-01/26-01-18-tl-a.pdf\" download>26-01-18 TL- A</a>\n  \n</p>",
       "title": "Domingo 18.01.2026"
     },
     {
       "date": "2026-01-11",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-11-01/26-01-11-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-11-01/",
-      "summary": "<p>Fué Jesús desde Galilea al Jordán&hellip; Mt 3.13</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-11-01/26-01-11-tl-a.pdf\" download>26-01-11 TL- A</a>\n\n</p>",
+      "summary": "<p>Fué Jesús desde Galilea al Jordán&hellip; Mt 3.13</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-11-01/26-01-11-tl-a.pdf\" download>26-01-11 TL- A</a>\n  \n</p>",
       "title": "Domingo 11.01.2026"
     },
     {
       "date": "2026-01-06",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-dia-de-reyes-06-01/06-01-2026-epifania.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-dia-de-reyes-06-01/",
-      "summary": "<p>Le ofrecieron regalos Mt. 1.18</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-dia-de-reyes-06-01/06-01-2026-epifania.pdf\" download>06.01.2026 EPIFANIA</a>\n\n</p>",
+      "summary": "<p>Le ofrecieron regalos Mt. 1.18</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-dia-de-reyes-06-01/06-01-2026-epifania.pdf\" download>06.01.2026 EPIFANIA</a>\n  \n</p>",
       "title": "DIA DE REYES 06.01.2026"
     },
     {
       "date": "2026-01-04",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-4-01/26-01-04-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-4-01/",
-      "summary": "<p>A Dios nadie le ha visto nunca&hellip; Jn 1.18</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-4-01/26-01-04-tl-a.pdf\" download>26-01-04 TL- A</a>\n\n</p>",
+      "summary": "<p>A Dios nadie le ha visto nunca&hellip; Jn 1.18</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-4-01/26-01-04-tl-a.pdf\" download>26-01-04 TL- A</a>\n  \n</p>",
       "title": "Domingo 4.01.2026"
     },
     {
       "date": "2026-01-01",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-ano-nuevo-01-01/26-01-01-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-ano-nuevo-01-01/",
-      "summary": "<p>Maria conservaba todas estas cosas&hellip; Lc. 2.19</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-ano-nuevo-01-01/26-01-01-tl-a.pdf\" download>26-01-01 TL- A</a>\n\n</p>",
+      "summary": "<p>Maria conservaba todas estas cosas&hellip; Lc. 2.19</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-ano-nuevo-01-01/26-01-01-tl-a.pdf\" download>26-01-01 TL- A</a>\n  \n</p>",
       "title": "Año Nuevo 01.01.2026"
     },
     {
       "date": "2025-12-28",
       "pdf": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-28-12/25-12-28-tl-a.pdf",
       "permalink": "https://la-vid.org/toma-y-lee/toma-y-lee-domingo-28-12/",
-      "summary": "<p>Un pueblo llamado Nazaret&hellip; Mt 2,23</p>\n<p>\n\n\n\n\n\n\n\n\n<a href=\"/toma-y-lee/toma-y-lee-domingo-28-12/25-12-28-tl-a.pdf\" download>25-12-28 TL- A</a>\n\n</p>",
+      "summary": "<p>Un pueblo llamado Nazaret&hellip; Mt 2,23</p>\n<p>\n\n\n\n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n  \n\n  \n    <a href=\"/toma-y-lee/toma-y-lee-domingo-28-12/25-12-28-tl-a.pdf\" download>25-12-28 TL- A</a>\n  \n</p>",
       "title": "Domingo 28.12.2025"
     }
   ]
