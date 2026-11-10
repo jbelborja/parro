@@ -4,7 +4,7 @@ draft: "false"
 ---
 ![](agape11.jpeg)
 
-[Actividades del grupo para esta semana](calenda.pdf)
+[Actividades del grupo para esta semana](agape.pdf)
 
 
 
