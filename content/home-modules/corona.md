@@ -1,6 +1,6 @@
 ---
 title: "Corona de Adviento."
-draft: "false"
+draft: "true"
 ---
 
 [![Corona de Adviento](../images/corona.png)](../noticias/corona)

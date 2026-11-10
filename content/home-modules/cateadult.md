@@ -1,5 +1,5 @@
 ---
 title: "catequesis de adultos"
-draft: "false"
+draft: "true"
 ---
 [![](../images/cateadult.jpg)](/noticias/cateadult)

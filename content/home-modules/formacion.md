@@ -1,6 +1,6 @@
 ---
 title: "Formacion."
-draft: "false"
+draft: "true"
 ---
 
 [![Formacion](../images/formacion.jpeg)](../noticias/formacion)

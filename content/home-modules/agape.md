@@ -1,11 +1,8 @@
- ---
-title: "AGAPE"
+---
+title: "Agape"
 draft: "false"
 ---
-![](agape11.jpeg)
+![](../images/agape.png)
 
-[Actividades del grupo para esta semana](agape.pdf)
-
-
-
+[Programación semanal del grupo](/home-modules/agape1.pdf)
 
