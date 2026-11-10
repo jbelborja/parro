@@ -94,6 +94,15 @@
                     {{ end }}
                     <div class="page-content">
                         {{ .Content }}
+                        {{ if and (not (strings.Contains .Content "<a ")) (.Resources.GetMatch "*.pdf") }}
+                            {{ with .Resources.GetMatch "*.pdf" }}
+                            <p style="margin-top: 10px;">
+                                <a href="{{ .RelPermalink }}" download style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--primary); text-decoration: none;">
+                                    📄 Descargar {{ .Name }}
+                                </a>
+                            </p>
+                            {{ end }}
+                        {{ end }}
                     </div>
                 </div>
                 {{ end }}

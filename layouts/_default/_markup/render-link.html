@@ -1,17 +1,62 @@
 {{ $destination := .Destination }}
 {{ $isPDF := strings.HasSuffix (lower $destination) ".pdf" }}
-{{ $isRemote := strings.HasPrefix (lower $destination) "http" }}
+{{ $isRemote := or (strings.HasPrefix (lower $destination) "http://") (strings.HasPrefix (lower $destination) "https://") (strings.HasPrefix $destination "//") (strings.HasPrefix (lower $destination) "mailto:") (strings.HasPrefix (lower $destination) "tel:") }}
 
 {{ if and $isPDF (not $isRemote) }}
-{{/* Intentamos obtener el PDF de los recursos del bundle */}}
-{{ $resource := .Page.Resources.GetMatch $destination }}
+  {{ $unescaped := replace (replace $destination "%20" " ") "+" " " }}
+  {{ $cleanDest := strings.TrimPrefix "./" $unescaped }}
 
-{{ if $resource }}
-<a href="{{ $resource.RelPermalink }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+  {{/* 1. Intentamos obtener el PDF con la ruta exacta tal cual se escribió */}}
+  {{ $resource := .Page.Resources.GetMatch $destination }}
+
+  {{/* 2. Intentamos con los espacios decodificados */}}
+  {{ if not $resource }}
+    {{ $resource = .Page.Resources.GetMatch $cleanDest }}
+  {{ end }}
+
+  {{/* 3. Intentamos solo con el nombre base del archivo */}}
+  {{ if not $resource }}
+    {{ $resource = .Page.Resources.GetMatch (path.Base $cleanDest) }}
+  {{ end }}
+
+  {{/* 4. Intentamos coincidencia con comodines alrededor del nombre base */}}
+  {{ if not $resource }}
+    {{ $resource = .Page.Resources.GetMatch (printf "*%s*" (path.Base $cleanDest)) }}
+  {{ end }}
+
+  {{/* 5. Si la página tiene un PDF en su bundle, lo usamos para que siempre lo encuentre */}}
+  {{ if not $resource }}
+    {{ $resource = .Page.Resources.GetMatch "*.pdf" }}
+  {{ end }}
+
+  {{/* 6. Intentamos en recursos globales (assets) */}}
+  {{ if not $resource }}
+    {{ $resource = resources.Get $cleanDest }}
+  {{ end }}
+
+  {{ if $resource }}
+    <a href="{{ $resource.RelPermalink }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+  {{ else }}
+    {{/* Fallback: si no es un recurso reconocido, garantizamos ruta absoluta anteponiendo RelPermalink de la página */}}
+    {{ $linkURL := $destination }}
+    {{ if not (strings.HasPrefix $linkURL "/") }}
+      {{ $linkURL = printf "%s%s" .Page.RelPermalink (strings.TrimPrefix "./" $destination) }}
+    {{ end }}
+    <a href="{{ $linkURL | safeURL }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+  {{ end }}
 {{ else }}
-<a href="{{ $destination | safeURL }}" download{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
-{{ end }}
-{{ else }}
-{{/* Para cualquier otro enlace que no sea PDF */}}
-<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+  {{/* Para cualquier otro enlace que no sea PDF */}}
+  {{ $linkURL := .Destination }}
+  {{ if and (not $isRemote) (not (strings.HasPrefix $linkURL "/")) (not (strings.HasPrefix $linkURL "#")) }}
+    {{ $resource := .Page.Resources.GetMatch $linkURL }}
+    {{ if not $resource }}
+      {{ $resource = .Page.Resources.GetMatch (replace $linkURL "%20" " ") }}
+    {{ end }}
+    {{ if $resource }}
+      {{ $linkURL = $resource.RelPermalink }}
+    {{ else }}
+      {{ $linkURL = printf "%s%s" .Page.RelPermalink (strings.TrimPrefix "./" $linkURL) }}
+    {{ end }}
+  {{ end }}
+  <a href="{{ $linkURL | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
 {{ end }}
