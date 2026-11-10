@@ -7,4 +7,4 @@ draft: false
 
 Amarás al Señor tu Dios   MT 22,37
 
-[26-11-01-domingo-a.pdf](26-11-01-domingo-a.pdf)
+[26-11-01-domingo-a.pdf](26-11-01%20XXXI%20domingo-a.pdf)

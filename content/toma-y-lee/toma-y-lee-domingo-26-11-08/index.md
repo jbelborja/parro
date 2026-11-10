@@ -7,4 +7,4 @@ draft: false
 
 Se pusieron a preparar las lámparas   Mt 25.7
 
-[26-11-08-domingo-a.pdf](26-11-08-domingo-a.pdf)
+[26-11-08-domingo-a.pdf](26-11-08%20XXXII%20domingo-a.pdf)
