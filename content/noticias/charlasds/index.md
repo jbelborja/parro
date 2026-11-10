@@ -1,10 +1,9 @@
 ---
 categories:
 - actual
-date: '2026-10-13'
+date: '2026-10-31'
 draft: false
-title: Charlas de formación sobre la Doctrina Social de la Iglesia
+title: Charlas de formación sobre la Doctrina Social de la Iglesia.
 ---
 ![](/images/ds.jpg)
-
-[![Ponentes y calendario]](calenda.pdf)
+[Charlas de formacion DSI](calenda.pdf)
