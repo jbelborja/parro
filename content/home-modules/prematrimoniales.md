@@ -1,5 +1,5 @@
  ---
-title: Cursillos PREMATRIMONIALES.
+title: Cursillos PREMATRIMONIALES
 draft: "false"
 ---
 

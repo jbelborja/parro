@@ -1,7 +1,8 @@
 ---
 title: "Misa de Familias"
-draft: false
+draft: "true"
 ---
-[![Misa de Familias](../images/misafam.png)](../noticias/misa-de-niños)
+[![Misa de Familias](../images/misafam.png)]
+
 
 
