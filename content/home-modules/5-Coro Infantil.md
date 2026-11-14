@@ -1,6 +1,6 @@
 ---
-title: "Coro Infantil"
+title: "coro infantil"
 draft: "false"
 ---
 
-[![Coro Infantil](../images/coro.png)](../noticias/coroinfantil)
+[![Coro infantil](../images/coro.png)](../noticias/coroinfantil)
