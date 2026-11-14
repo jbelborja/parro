@@ -52,6 +52,13 @@ export const initialContent = {
     {
       "date": "2026-10-11",
       "pdf": "",
+      "permalink": "https://la-vid.org/noticias/jornadapobres/",
+      "summary": "<p>\n\n\n\n\n  \n  \n  \n  <a href=\"https://www.conferenciaepiscopal.es/jornada-mundial-de-los-pobres-2026-materiales-y-nota-de-prensa/\">https://www.conferenciaepiscopal.es/jornada-mundial-de-los-pobres-2026-materiales-y-nota-de-prensa/</a>\n\n\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/jornadapobres/jornadapobres.png\" alt=\"jornada pobres\">\n</p>",
+      "title": "Jornada Mundial de los POBRES"
+    },
+    {
+      "date": "2026-10-11",
+      "pdf": "",
       "permalink": "https://la-vid.org/noticias/formacion/",
       "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/formacion/formacion.jpeg\" alt=\"\">\n</p>",
       "title": "Formación"
@@ -69,6 +76,13 @@ export const initialContent = {
       "permalink": "https://la-vid.org/noticias/coroinfantil/",
       "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/coroinfantil/coro.png\" alt=\"\">\n</p>",
       "title": "Coro Infantil"
+    },
+    {
+      "date": "2026-10-11",
+      "pdf": "",
+      "permalink": "https://la-vid.org/noticias/beatificacion/",
+      "summary": "<p>\n\n\n\n  \n  \n    \n  \n\n\n<img src=\"/noticias/beatificacion/../../images/beatificacion.png\" alt=\"beatificacion.png\">\n</p>",
+      "title": "Beatificación seminaristas"
     },
     {
       "date": "2026-06-16",
