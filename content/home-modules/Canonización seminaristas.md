@@ -3,4 +3,4 @@ title: "Canonización seminaristas"
 draft: false
 ---
 
-![beatificacion](../images/beatificacion.png)
+![beatificación](../images/beatificacion.png)
