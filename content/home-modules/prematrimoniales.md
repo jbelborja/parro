@@ -7,7 +7,7 @@ draft: "false"
 
 Pulsa para ver el programa de los cursillos PREMATRIMONIALES en nuestra parroquia.
                   Próximos cursillos: 
-	16-17 de Enero    2027                  
-	 3 -8 de Mayo 2027
+	9 y 10 de Enero    2027                  
+	del 3 al 8 de Mayo 2027
 		
 			

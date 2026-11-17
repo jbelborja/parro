@@ -1,6 +1,6 @@
 ---
 title: "Jornada Mundial de los pobres"
-draft: "false"
+draft: "true"
 ---
 
 

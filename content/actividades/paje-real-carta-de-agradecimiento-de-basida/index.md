@@ -2,7 +2,7 @@
 categories:
 - actividades
 date: '2026-01-20'
-draft: false
+draft: true
 title: LaVid - Paje Real. Carta de agradecimiento de BASIDA
 ---
 
